@@ -63,7 +63,7 @@ while (vcount(Gcopy) > 0) {
         for (ai in adj_v) {
             wi <- wi + edge_attr(Gcopy, "weight", get.edge.ids(Gcopy, c(ai, i)))
         }
-        ki <- (di**alpha) * (wi**beta)**(1/(alpha+beta))
+        ki <- ((di**alpha) * (wi**beta))**(1/(alpha+beta))
         if (k > ki) {
             nodes_to_delete <- c(nodes_to_delete, i)
         }
