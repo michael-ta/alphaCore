@@ -47,6 +47,9 @@ tokenGr<-delete_vertices((tokenGr), degree(tokenGr)==0)
 
 k <- 1
 
+alpha <- 1
+beta <- 1
+
 Gcopy <- tokenGr
 nodes_to_delete <- c()
 cores <- c()
@@ -60,7 +63,7 @@ while (vcount(Gcopy) > 0) {
         for (ai in adj_v) {
             wi <- wi + edge_attr(Gcopy, "weight", get.edge.ids(Gcopy, c(ai, i)))
         }
-        ki <- sqrt(di * wi)
+        ki <- (di**alpha) * (wi**beta)**(1/(alpha+beta))
         if (k > ki) {
             nodes_to_delete <- c(nodes_to_delete, i)
         }
