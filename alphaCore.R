@@ -7,7 +7,7 @@ library(car)
 source("helper.R")
 
 
-setwd("/mnt/gitalphaCore")
+setwd("/mnt/alphaCore")
 
 # set up graph if in list format
 data<-read.csv(file="./data/networkcitation.txt", sep="\t", header=F)
@@ -138,7 +138,7 @@ aCore<-function(tokenGr, alphaCoreMap,step=0.05){
     rownames(depthInputData)<-NULL
     updated=FALSE;
     if (is.null(level)) {
-        level <- sort(depthValue[vcount(tokenGr) * 0.95])
+        level <- sort(depthValue, decreasing=T)[vcount(tokenGr) * 0.2]
     }
 
     message("Alphacore is running for alpha:", alpha)
