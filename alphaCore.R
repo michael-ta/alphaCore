@@ -9,41 +9,33 @@ source("helper.R")
 
 
 setwd("/mnt/alphaCore")
+data.fn <- c("./data/networkcitation.txt",
+             "./data/US_airport_2010.txt",
+             "./data/4932.protein.links.v11.0.small.txt")
 
-# set up graph if in list format
-data<-read.csv(file="./data/networkcitation.txt", sep="\t", header=F)
-#data<-read.csv(file="./data/US_airport_2010.txt", sep=" ", header=F)
-#data<-read.csv(file="./data/4932.protein.links.v11.0.small.txt", sep=" ", header=F)
-#remove duplicates agfter april 2018, duplicates are due to a bug in java code.
+data<-read.csv(file=data.fn[1], sep=" ", header=F)
+
+# remove duplicates agfter april 2018, duplicates are due to a bug in java 
+# code.
 data<-distinct(data)
-#data=data[250:290,]#10 edges, 16 nodes
-colnames(data)<-c("from","to","time","weight")
-#colnames(data)<-c("from", "to", "weight")
-#create a directed multiple graph
+colnames(data)<-c("from", "to", "weight")
+# create a directed graph and store the initial node index in the vertex 
+# attribute idx
 tokenGr<-graph_from_edgelist(as.matrix(data[,1:2]),directed=TRUE) 
 tokenGr<-graph_from_edgelist(as.matrix(data[,1:2]),directed=TRUE)%>%
     set_vertex_attr("idx", value = as.character(seq(1,vcount(tokenGr))))
-#tokenGr2=network(data.frame(data[,1:2]),type="edgelist")#using "network" package, track node
-#create weights
+
+# add weights to each edge in the graph
 E(tokenGr)$weight<-data$weight
 
-
-#Vertex count:
-vcount(tokenGr)
-
-#Igraph expects sequential ides, but our edge list ids start from 7M, igraph will create the missing ids
-#We need to remove these artifical ids
-#tokenGr<-delete_vertices((tokenGr), degree(tokenGr)==0)%>%#track node from original network, add attribute of node, i.e. origional index
-#  set_vertex_attr("idx", value = as.character(seq(1,vcount(tokenGr))))
-
+# delete vertices that iGraph fills in, or any vertices that have 0 degrees 
+# i.e. not connected to the rest of the network
 tokenGr<-delete_vertices((tokenGr), degree(tokenGr)==0)
 
 vcount(tokenGr)
 ecount(tokenGr)
-idx_track=vertex_attr(tokenGr)
+
 pdf("before-alphacore.pdf") 
-#plot(tokenGr,vertex.size=2,vertex.label.cex=0.5,edge.arrow.size=0.3,rescale=FALSE,asp = 1.5)
-# plot without labels for now
 plot(tokenGr, vertex.size=2, vertex.label=NA, edge.arrow.size=0.1,rescale=TRUE)
 dev.off() 
 
@@ -59,9 +51,13 @@ write.csv(node, file = "node.csv")
 
 getEdgeWeights<-function(inputGr) {
     depthInputData<-data.frame();
+    # for each vertex in graph
     for(v in V(inputGr)) {
+        # count in degree
         inDegree<-length(unlist(adjacent_vertices(inputGr, v, mode="in")))
+        # count weight of incoming edges
         inWeight<-sum(as.numeric(incident(inputGr, v, mode="in")$weight))
+        # node index, in degree, in weight
         newRow<-c(v, inDegree, inWeight)
         depthInputData<-rbind(depthInputData, newRow)
     }
@@ -69,12 +65,14 @@ getEdgeWeights<-function(inputGr) {
 }
 
 
-#Below are the alpha core steps
-
-#when alpha>0, calculate depth value of each node and delete the nodes with depth value 
-#>=alpha, for each alpha, run the iteration until no node is deleted under this alpha
-#in each alpha, nodes are deleted;the update network is assigned with new depth value and comparred with the same alpha as before
-#aCore returns alphaCoreMap which contains a rank of nodes from core to less core.
+# Below are the alpha core steps
+#
+# when alpha>0, for mahalanobis depth 
+#   calculate depth value of each node w.r.t the origin and delete 20% 
+#   (parameter) of nodes with the highest depth value. If nodes were deleted 
+#   in the current iteration, re-run and delete nodes with 1 depth i.e. nodes
+#   without any ingoing edges. Returns alphaCoreMap which contains a rank of 
+#   nodes from core to less core.
 aCore<-function(tokenGr, alphaCoreMap,step=0.05){
   alphaCoreMap<-c();
   alpha<-1.0-step;
@@ -92,31 +90,9 @@ aCore<-function(tokenGr, alphaCoreMap,step=0.05){
       return(alphaCoreMap);
     }
     
-    depthInputData<-data.frame();
-    for(v in V(tokenGr)){#for each vertix in graph
-      inDegree<-length(unlist(adjacent_vertices(tokenGr, v, mode = "in")))#count in degree
-      inWeight<-sum(as.numeric(incident(tokenGr, v, mode = "in")$weight))#count weight of income edges
-      #message("Node neighbor:",inDegree,", weight:",inWeight)
-      newRow<-c(v,inDegree,inWeight)# node index, in degree, in weight
-      depthInputData<-rbind(depthInputData,newRow)
-    }
+    depthInputData<-getEdgeWeights(tokenGr);
 
-    # weight normalization
-    #idx <- NULL
-    #for (i in 1:max(depthInputData[,2])) {
-    #    idx = which(depthInputData[,2] == i)
-    #    if (is.null(min.weight)) {
-    #        min.weight = min(depthInputData[idx,3])
-    #    }
-    #    if (length(idx) == 0) {
-    #        next
-    #    }
-    #    depthInputData[idx,3] = depthInputData[idx, 3] - i * min.weight
-    #}
-
-    # transform data to be closer to normal
-    #depthInputData[, 3] = depthInputData[, 3] ** .05
-    #depthInputData[, 3] = depthInputData[, 3] ** .5
+    # perform a power transformation on the variables
     if (is.null(power.sample)) {
         bcmodel <- boxCox(depthInputData[,3]~1, family="yjPower", plotit=F)
         power.sample.weight = bcmodel$x[ which.max(bcmodel$y) ]
@@ -126,11 +102,7 @@ aCore<-function(tokenGr, alphaCoreMap,step=0.05){
     depthInputData[,3] = yjPower(depthInputData[,3], power.sample.weight)
     depthInputData[,2] = yjPower(depthInputData[,2], power.sample.degree)
 
-
     #This depth function should be implemented
-    #depthValue<-runif(nrow(depthInputData),0,1)
-    colnames(depthInputData)<-c("node","inDegree","inWeight")
-    write.csv(depthInputData, file = "depthInputData.csv")
     #calculate depth value of each node w.r.t. all other nodes
     #5 multivariate depth (Tukey(half space) depth, simplicial depth, Mahalanobis depth, random projeciton depth and likelihood depth)
     #2 functional depth will be used
@@ -139,9 +111,11 @@ aCore<-function(tokenGr, alphaCoreMap,step=0.05){
     #Simplicial depth
     #temp=mdepth.SD(depthInputData[,2:3])
     #MhD
-    # calculate the mahalanobis distance w.r.t. the origini using indegree and inweight
-    # keep sample variance consistent
-    temp=1/(1 + mahalanobis.origin(depthInputData[,2:3], cov(depthInputData[,2:3])))
+    # calculate the mahalanobis depth w.r.t. the origin using indegree and 
+    # inweight keep sample variance consistent
+    temp=1/(1 + mahalanobis.origin(
+                    depthInputData[,2:3], 
+                    cov(depthInputData[,2:3])))
     #Random projection
     #temp=mdepth.RP(depthInputData[,2:3])
     #Likelihood depth
@@ -153,10 +127,14 @@ aCore<-function(tokenGr, alphaCoreMap,step=0.05){
     #for functional depth
     #depthValue=as.matrix(temp$MBD)
     depthValue = temp
+    # add column for depth to dataframe
     depthInputData<-cbind(depthInputData, depthValue)
-    colnames(depthInputData)<-c("node","inDegree","inWeight","depth")#last col: depth value
+    colnames(depthInputData)<-c("node","inDegree","inWeight","depth")
     rownames(depthInputData)<-NULL
     updated=FALSE;
+
+    # get the depth value associated with the 20 percentile of all nodes in 
+    # the current graph
     if (is.null(level)) {
         level <- sort(depthValue, decreasing=T)[ floor(vcount(tokenGr) * 0.2)]
     }
@@ -166,38 +144,21 @@ aCore<-function(tokenGr, alphaCoreMap,step=0.05){
    
     if (length(nodesToBeDeleted) > 0) {
       updated=TRUE;
+      # record alpha level for deleted nodes prior to removing them
       alphaCoreMap <- rbind(alphaCoreMap, 
-                            cbind(vertex_attr(tokenGr)$idx[nodesToBeDeleted], matrix(alpha, 
-                                  length(nodesToBeDeleted))))
-
-      # get depth of ATL
-      atl_idx<-which(vertex_attr(tokenGr)$idx == 114)
-      if (vcount(tokenGr) < 50) {
-        print( cbind(vertex_attr(tokenGr)$idx,  depthInputData))
-      }
-      message("ATL depth: ", depthInputData[atl_idx,4])
-      message("Level: ", level)
-
+                            cbind(vertex_attr(tokenGr)$idx[nodesToBeDeleted],
+                                  matrix(alpha, length(nodesToBeDeleted))))
     }
     
-    #for( v in V(tokenGr)){
-      
-      #depth comparison
-    # if(depthInputData[depthInputData$node==v,]$depth>=alpha){
-        #record alpha value for the node
-        #alphaCoreMap<-rbind(alphaCoreMap,c(v,alpha))
-    #    alphaCoreMap<-rbind(alphaCoreMap,c(vertex_attr(tokenGr)$idx[v],alpha))#record node index in origional network
-    #    nodesToBeDeleted<-c(v, nodesToBeDeleted)
-    #   updated=TRUE;
-    #  }
-    #}
-    if(updated==FALSE){
+   if(updated==FALSE){
       message("Nothing was removed for alpha: ", alpha);
       alpha = alpha-step;
       level = NULL;
     }
     else {
-      message(length(nodesToBeDeleted), " nodes are deleted for alpha:",alpha,". Graph has ",vcount(tokenGr)," nodes.")
+      message(length(nodesToBeDeleted), 
+              " nodes are deleted for alpha:", alpha, 
+              ". Graph has ",vcount(tokenGr)," nodes.")
       tokenGr = delete_vertices(tokenGr, nodesToBeDeleted);
       level = 1;
     }
@@ -207,13 +168,8 @@ aCore<-function(tokenGr, alphaCoreMap,step=0.05){
 
   if (vcount(tokenGr) > 0) {
     for (v in V(tokenGr)) {
-        alphaCoreMap<-rbind(alphaCoreMap,c(vertex_attr(tokenGr)$idx[v], 0))#record node index in origional network
-        pdf("remaining-alphacore.pdf") 
-        # plot without labels for now
-        plot(tokenGr, vertex.size=2, vertex.label=NA, edge.arrow.size=0.1,rescale=TRUE)
-        dev.off() 
-
-    
+        alphaCoreMap<-rbind(alphaCoreMap,c(vertex_attr(tokenGr)$idx[v], 0))
+        #record node index in origional network
     }
   } 
 
@@ -241,10 +197,8 @@ alphaCoreMap<-aCore(tokenGr)
 alphaCoreMap=cbind(1:vcount(tokenGr),alphaCoreMap)
 colnames(alphaCoreMap)<-c("rank","node","alpha")
 
-# buggy
 vcolor <- c()
 count <- 0
-#print(sort(unique(as.numeric(alphaCoreMap[,3]))))
 pdf("degree_vs_weights.pdf")
 plot(initialNodeFeatures[,2:3], pch=".")
 
@@ -270,12 +224,6 @@ for (alpha in sort(unique(as.numeric(alphaCoreMap[,3])))) {
 }
 dev.off()
 
-#for (i in 1:vcount(tokenGr)) {
-#    alpha = as.numeric(alphaCoreMap[i, 3])
-#    idx = as.numeric(alphaCoreMap[i, 2]) 
-#    vcolor[idx] = rgb(1 - alpha, 0, alpha)
-#} 
-
 vertex_attr(tokenGr)$color = vcolor
 
 #dnodes <- as.numeric( alphaCoreMap[which(alphaCoreMap[,3] <= 0.05), 2] )
@@ -298,7 +246,3 @@ cor_indegree_rank=corr(temp[,2],temp[,4])
 cor_inweight_rank=corr(temp[,3],temp[,4])
 cor_indegree_alpha=corr(temp[,2],temp[,5])
 cor_inweight_alpha=corr(temp[,3],temp[,5])
-
-
-
-
