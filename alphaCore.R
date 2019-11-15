@@ -1,4 +1,5 @@
 library(igraph)
+library(qgraph)
 library(dplyr)
 library(fda.usc)
 library(depthTools)
@@ -11,10 +12,13 @@ setwd("/mnt/alphaCore")
 
 # set up graph if in list format
 data<-read.csv(file="./data/networkcitation.txt", sep="\t", header=F)
+#data<-read.csv(file="./data/US_airport_2010.txt", sep=" ", header=F)
+#data<-read.csv(file="./data/4932.protein.links.v11.0.small.txt", sep=" ", header=F)
 #remove duplicates agfter april 2018, duplicates are due to a bug in java code.
 data<-distinct(data)
 #data=data[250:290,]#10 edges, 16 nodes
 colnames(data)<-c("from","to","time","weight")
+#colnames(data)<-c("from", "to", "weight")
 #create a directed multiple graph
 tokenGr<-graph_from_edgelist(as.matrix(data[,1:2]),directed=TRUE) 
 tokenGr<-graph_from_edgelist(as.matrix(data[,1:2]),directed=TRUE)%>%
@@ -51,6 +55,19 @@ id=1:vcount(tokenGr)
 node=cbind(id, V(tokenGr)$idx, 1:vcount(tokenGr) * 0)
 colnames(node)<-c("Id","Label","group")
 write.csv(node, file = "node.csv")
+
+
+getEdgeWeights<-function(inputGr) {
+    depthInputData<-data.frame();
+    for(v in V(inputGr)) {
+        inDegree<-length(unlist(adjacent_vertices(inputGr, v, mode="in")))
+        inWeight<-sum(as.numeric(incident(inputGr, v, mode="in")$weight))
+        newRow<-c(v, inDegree, inWeight)
+        depthInputData<-rbind(depthInputData, newRow)
+    }
+    depthInputData
+}
+
 
 #Below are the alpha core steps
 
@@ -102,9 +119,12 @@ aCore<-function(tokenGr, alphaCoreMap,step=0.05){
     #depthInputData[, 3] = depthInputData[, 3] ** .5
     if (is.null(power.sample)) {
         bcmodel <- boxCox(depthInputData[,3]~1, family="yjPower", plotit=F)
-        power.sample = bcmodel$x[ which.max(bcmodel$y) ]
+        power.sample.weight = bcmodel$x[ which.max(bcmodel$y) ]
+        bcmodel <- boxCox(depthInputData[,2]~1, family="yjPower", plotit=F)
+        power.sample.degree = bcmodel$x[ which.max(bcmodel$y) ]
     }
-    depthInputData[,3] = yjPower(depthInputData[,3], power.sample)
+    depthInputData[,3] = yjPower(depthInputData[,3], power.sample.weight)
+    depthInputData[,2] = yjPower(depthInputData[,2], power.sample.degree)
 
 
     #This depth function should be implemented
@@ -138,18 +158,26 @@ aCore<-function(tokenGr, alphaCoreMap,step=0.05){
     rownames(depthInputData)<-NULL
     updated=FALSE;
     if (is.null(level)) {
-        level <- sort(depthValue, decreasing=T)[vcount(tokenGr) * 0.2]
+        level <- sort(depthValue, decreasing=T)[ floor(vcount(tokenGr) * 0.2)]
     }
 
     message("Alphacore is running for alpha:", alpha)
-    nodesToBeDeleted <- which(depthValue >= level)
+    nodesToBeDeleted <- which(depthInputData[,4] >= level)
    
     if (length(nodesToBeDeleted) > 0) {
       updated=TRUE;
-      message("Mean weight of deleted nodes: ", mean(depthInputData[nodesToBeDeleted,3]))
       alphaCoreMap <- rbind(alphaCoreMap, 
                             cbind(vertex_attr(tokenGr)$idx[nodesToBeDeleted], matrix(alpha, 
                                   length(nodesToBeDeleted))))
+
+      # get depth of ATL
+      atl_idx<-which(vertex_attr(tokenGr)$idx == 114)
+      if (vcount(tokenGr) < 50) {
+        print( cbind(vertex_attr(tokenGr)$idx,  depthInputData))
+      }
+      message("ATL depth: ", depthInputData[atl_idx,4])
+      message("Level: ", level)
+
     }
     
     #for( v in V(tokenGr)){
@@ -180,6 +208,12 @@ aCore<-function(tokenGr, alphaCoreMap,step=0.05){
   if (vcount(tokenGr) > 0) {
     for (v in V(tokenGr)) {
         alphaCoreMap<-rbind(alphaCoreMap,c(vertex_attr(tokenGr)$idx[v], 0))#record node index in origional network
+        pdf("remaining-alphacore.pdf") 
+        # plot without labels for now
+        plot(tokenGr, vertex.size=2, vertex.label=NA, edge.arrow.size=0.1,rescale=TRUE)
+        dev.off() 
+
+    
     }
   } 
 
@@ -220,14 +254,19 @@ total <- length(unique(as.numeric(alphaCoreMap[,3])))
 for (alpha in sort(unique(as.numeric(alphaCoreMap[,3])))) {
    level = level + 1
    idx  <- which(as.numeric(alphaCoreMap[,3]) == alpha)
-   if (first) {
-        print( initialNodeFeatures[ alphaCoreMap[idx,2], ] )
-        first <- FALSE
-   }
+
    count = count + length(idx)
    color <- rgb(1 - (count/vcount(tokenGr) * (level/total)), 0, count/vcount(tokenGr) * (level/total) )
-   points(initialNodeFeatures[ alphaCoreMap[idx,2]  ,2:3], col=color, pch=".")
-   vcolor[ alphaCoreMap[idx,2] ] = color
+   tidx <- which(as.numeric(vertex_attr(tokenGr, "idx")) %in% alphaCoreMap[idx,2])
+
+   if (first) {
+        print( cbind(alphaCoreMap[idx, 2], initialNodeFeatures[ tidx, 2:3 ]) )
+        color <- rgb(0, 1, 0)
+        first <- FALSE
+   }
+
+   points(initialNodeFeatures[ tidx  ,2:3], col=color, pch=".")
+   vcolor[ tidx ] = color
 }
 dev.off()
 
@@ -239,9 +278,14 @@ dev.off()
 
 vertex_attr(tokenGr)$color = vcolor
 
+#dnodes <- as.numeric( alphaCoreMap[which(alphaCoreMap[,3] <= 0.05), 2] )
+#sGr <- induced_subgraph(tokenGr, which(as.numeric(vertex_attr(tokenGr, "idx")) %in% dnodes))
 
-pdf("after-alphacore.pdf") 
-plot(tokenGr,vertex.size=2,vertex.label=NA,edge.arrow.size=0.1,rescale=T)
+
+pdf("after-alphacore.pdf", width=24, height=24)
+e <- get.edgelist(tokenGr)
+l <- qgraph.layout.fruchtermanreingold(e, vcount=vcount(tokenGr)) 
+plot(tokenGr, layout=l, vertex.size=2,vertex.label=NA,edge.arrow.size=0.1,rescale=T, asp=0)
 dev.off()
 
 write.csv(alphaCoreMap, "results.csv")
