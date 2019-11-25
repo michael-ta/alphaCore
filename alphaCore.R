@@ -9,11 +9,24 @@ source("helper.R")
 
 
 setwd("/mnt/alphaCore")
+data.idx <- 2
+
 data.fn <- c("./data/networkcitation.txt",
              "./data/US_airport_2010.txt",
              "./data/4932.protein.links.v11.0.small.txt")
 
-data<-read.csv(file=data.fn[1], sep=" ", header=F)
+data.labels.fn <- c("./data/authorList.txt",
+                    "./data/USairport_2010_codes.txt",
+                    NULL)
+
+data<-read.csv(file=data.fn[data.idx], sep=" ", header=F)
+
+if (is.null(data.labels.fn)) {
+    data.labels <- NULL
+} else {
+    data.labels<-read.csv(file=data.labels.fn[data.idx], header=F)
+    data.labels<-as.character(data.labels$V1)
+}
 
 # remove duplicates agfter april 2018, duplicates are due to a bug in java 
 # code.
@@ -32,6 +45,9 @@ E(tokenGr)$weight<-data$weight
 # i.e. not connected to the rest of the network
 tokenGr<-delete_vertices((tokenGr), degree(tokenGr)==0)
 
+# simplify graph to remove self loops
+#tokenGr<-simplify(tokenGr)
+
 vcount(tokenGr)
 ecount(tokenGr)
 
@@ -49,6 +65,7 @@ colnames(node)<-c("Id","Label","group")
 write.csv(node, file = "node.csv")
 
 
+# function to get edge weights
 getEdgeWeights<-function(inputGr) {
     depthInputData<-data.frame();
     # for each vertex in graph
@@ -64,6 +81,32 @@ getEdgeWeights<-function(inputGr) {
     depthInputData
 }
 
+# function to color nodes given the graph and alphaCoreMap output from 
+# alphaCore
+getVertexColors<-function(inputGr, aCM) {
+    vcolor <- c()
+    total <- length(unique(as.numeric(aCM[,3])))
+    level <- 0
+    count <- 0
+    first <- TRUE
+    for (alpha in sort(unique(as.numeric(aCM[,3])))) {
+        level = level + 1
+        idx  <- which(as.numeric(aCM[,3]) == alpha)
+        count = count + length(idx)
+        color <- rgb(1 - (count/vcount(inputGr) * (level/total)), 
+                     0,
+                     count/vcount(inputGr) * (level/total) )
+        tidx <- which(as.numeric(vertex_attr(inputGr, "idx")) %in% 
+                      as.numeric(aCM[idx,2]))
+
+        if (first) {
+            color <- rgb(0, 1, 0)
+            first <- FALSE
+        }
+        vcolor[ tidx ] = color
+    }
+    vcolor
+}
 
 # Below are the alpha core steps
 #
@@ -98,6 +141,8 @@ aCore<-function(tokenGr, alphaCoreMap,step=0.05){
         power.sample.weight = bcmodel$x[ which.max(bcmodel$y) ]
         bcmodel <- boxCox(depthInputData[,2]~1, family="yjPower", plotit=F)
         power.sample.degree = bcmodel$x[ which.max(bcmodel$y) ]
+        message("Using power.sample.degree: ", power.sample.degree)
+        message("Using power.sample.weight: ", power.sample.weight)
     }
     depthInputData[,3] = yjPower(depthInputData[,3], power.sample.weight)
     depthInputData[,2] = yjPower(depthInputData[,2], power.sample.degree)
@@ -136,7 +181,7 @@ aCore<-function(tokenGr, alphaCoreMap,step=0.05){
     # get the depth value associated with the 20 percentile of all nodes in 
     # the current graph
     if (is.null(level)) {
-        level <- sort(depthValue, decreasing=T)[ floor(vcount(tokenGr) * 0.2)]
+        level <- sort(depthValue, decreasing=T)[ floor(vcount(tokenGr) * 0.20)]
     }
 
     message("Alphacore is running for alpha:", alpha)
@@ -152,8 +197,11 @@ aCore<-function(tokenGr, alphaCoreMap,step=0.05){
     
    if(updated==FALSE){
       message("Nothing was removed for alpha: ", alpha);
-      alpha = alpha-step;
+      # fix rounding errors for decimal values after many iterations
+      alpha = signif(alpha-step, 2);
       level = NULL;
+      power.sample.weight = 0;
+      power.sample.degree = 0;
     }
     else {
       message(length(nodesToBeDeleted), 
@@ -190,10 +238,8 @@ colnames(initialNodeFeatures)<-c("node","inDegree","inWeight")
 #run alpha core
 alphaCoreMap<-aCore(tokenGr)
 
-#plot network, with color of node indicates order of being deleted from the network
-
-
-#correlation of core value and indegree and inweight
+# plot network, where the color of node indicates the order of being deleted 
+# from the network, from furthest to closest blue -> purple -> red -> green
 alphaCoreMap=cbind(1:vcount(tokenGr),alphaCoreMap)
 colnames(alphaCoreMap)<-c("rank","node","alpha")
 
@@ -205,13 +251,18 @@ plot(initialNodeFeatures[,2:3], pch=".")
 first <- TRUE
 level <- 0
 total <- length(unique(as.numeric(alphaCoreMap[,3])))
+alphaCoreMap.labels <- c()
+
 for (alpha in sort(unique(as.numeric(alphaCoreMap[,3])))) {
    level = level + 1
    idx  <- which(as.numeric(alphaCoreMap[,3]) == alpha)
 
    count = count + length(idx)
-   color <- rgb(1 - (count/vcount(tokenGr) * (level/total)), 0, count/vcount(tokenGr) * (level/total) )
-   tidx <- which(as.numeric(vertex_attr(tokenGr, "idx")) %in% alphaCoreMap[idx,2])
+   color <- rgb(1 - (count/vcount(tokenGr) * (level/total)), 
+                0,
+                count/vcount(tokenGr) * (level/total) )
+   # incorrect previously used tokenGr vertex attr
+   tidx <- which(as.numeric(vertex_attr(tokenGr, "idx")) %in% as.numeric(alphaCoreMap[idx,2]))
 
    if (first) {
         print( cbind(alphaCoreMap[idx, 2], initialNodeFeatures[ tidx, 2:3 ]) )
@@ -219,30 +270,77 @@ for (alpha in sort(unique(as.numeric(alphaCoreMap[,3])))) {
         first <- FALSE
    }
 
+   #alphaCoreMap.labels = c(as.matrix(
+   #                        data.labels)[as.numeric(alphaCoreMap[idx, 2])],
+   #                        alphaCoreMap.labels)
+
    points(initialNodeFeatures[ tidx  ,2:3], col=color, pch=".")
    vcolor[ tidx ] = color
 }
 dev.off()
 
 vertex_attr(tokenGr)$color = vcolor
+vertex_attr(tokenGr)$label.cex = c(rep(0.5, vcount(tokenGr)))
+vertex_attr(tokenGr)$label.dist = c(rep(.75, vcount(tokenGr)))
+vertex_attr(tokenGr)$label.degree = c(rep(-pi/6, vcount(tokenGr)))
+vertex_attr(tokenGr)$width = c(rep(0.5, vcount(tokenGr)))
+vertex_attr(tokenGr)$label.color = c(rep("black", vcount(tokenGr)))
 
-#dnodes <- as.numeric( alphaCoreMap[which(alphaCoreMap[,3] <= 0.05), 2] )
-#sGr <- induced_subgraph(tokenGr, which(as.numeric(vertex_attr(tokenGr, "idx")) %in% dnodes))
+tokenGr <- tokenGr %>% set_edge_attr("color", value=rgb(0.7, 0.7, 0.7, 0.25))
+
+didx <- which(alphaCoreMap[,3] <= 0.20)
+dnodes <- as.numeric( alphaCoreMap[didx, 2] )
+# get original node ids of dnodes for subgraph creation
+sidx <- which(as.numeric(vertex_attr(tokenGr)$idx) %in% dnodes)
+sGr <- induced_subgraph(tokenGr, sidx)
+
+
+
+pdf("remaining-alphacore.pdf", width=12, height=12)
+e <- get.edgelist(sGr)
+l <- qgraph.layout.fruchtermanreingold(e, vcount=vcount(sGr))
+if (is.null(data.labels)) {
+    labels=NA
+} else {
+    labels=data.labels[sort(dnodes)]
+}
+
+vertex_attr(sGr)$color = getVertexColors(sGr, alphaCoreMap[didx,])
+
+plot(sGr, 
+     layout=l, 
+     vertex.size=2,
+     label.dist=1,
+     label.cex=0.05, 
+     vertex.label=labels,
+     edge.arrow.size=0.1,
+     width=0.25,
+     rescale=T, asp=0)
+dev.off()
+
 
 
 pdf("after-alphacore.pdf", width=24, height=24)
 e <- get.edgelist(tokenGr)
 l <- qgraph.layout.fruchtermanreingold(e, vcount=vcount(tokenGr)) 
-plot(tokenGr, layout=l, vertex.size=2,vertex.label=NA,edge.arrow.size=0.1,rescale=T, asp=0)
+plot(tokenGr, 
+     layout=l,
+     vertex.size=2,
+     vertex.label=NA,
+     edge.arrow.size=0.1,
+     rescale=T, asp=0)
 dev.off()
 
-write.csv(alphaCoreMap, "results.csv")
+write.csv(cbind(alphaCoreMap, alphaCoreMap.labels), "results.csv")
 
 #sort matrix according to node index
 alphaCoreMap=alphaCoreMap[order(alphaCoreMap[,2]),]
 temp=cbind(initialNodeFeatures,alphaCoreMap[,1],alphaCoreMap[,3])
 colnames(temp)<-c("node","inDegree","inWeight","rank","alpha")
-cor_indegree_rank=corr(temp[,2],temp[,4])
-cor_inweight_rank=corr(temp[,3],temp[,4])
-cor_indegree_alpha=corr(temp[,2],temp[,5])
-cor_inweight_alpha=corr(temp[,3],temp[,5])
+
+# correlation of core value and indegree and inweight
+# find correlations (?)
+cor_indegree_rank=cor(temp[,2],temp[,4])
+cor_inweight_rank=cor(temp[,3],temp[,4])
+cor_indegree_alpha=cor(temp[,2],temp[,5])
+cor_inweight_alpha=cor(temp[,3],temp[,5])
