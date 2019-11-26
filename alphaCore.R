@@ -46,7 +46,7 @@ E(tokenGr)$weight<-data$weight
 tokenGr<-delete_vertices((tokenGr), degree(tokenGr)==0)
 
 # simplify graph to remove self loops
-#tokenGr<-simplify(tokenGr)
+tokenGr<-simplify(tokenGr)
 
 vcount(tokenGr)
 ecount(tokenGr)
@@ -116,7 +116,7 @@ getVertexColors<-function(inputGr, aCM) {
 #   in the current iteration, re-run and delete nodes with 1 depth i.e. nodes
 #   without any ingoing edges. Returns alphaCoreMap which contains a rank of 
 #   nodes from core to less core.
-aCore<-function(tokenGr, alphaCoreMap,step=0.05){
+aCore<-function(tokenGr, alphaCoreMap,step=0.01){
   alphaCoreMap<-c();
   alpha<-1.0-step;
   m<-matrix();
@@ -141,8 +141,8 @@ aCore<-function(tokenGr, alphaCoreMap,step=0.05){
         power.sample.weight = bcmodel$x[ which.max(bcmodel$y) ]
         bcmodel <- boxCox(depthInputData[,2]~1, family="yjPower", plotit=F)
         power.sample.degree = bcmodel$x[ which.max(bcmodel$y) ]
-        message("Using power.sample.degree: ", power.sample.degree)
-        message("Using power.sample.weight: ", power.sample.weight)
+        #message("Using power.sample.degree: ", power.sample.degree)
+        #message("Using power.sample.weight: ", power.sample.weight)
     }
     depthInputData[,3] = yjPower(depthInputData[,3], power.sample.weight)
     depthInputData[,2] = yjPower(depthInputData[,2], power.sample.degree)
@@ -181,7 +181,7 @@ aCore<-function(tokenGr, alphaCoreMap,step=0.05){
     # get the depth value associated with the 20 percentile of all nodes in 
     # the current graph
     if (is.null(level)) {
-        level <- sort(depthValue, decreasing=T)[ floor(vcount(tokenGr) * 0.20)]
+        level <- sort(depthValue, decreasing=T)[ ceiling(vcount(tokenGr) * 0.05)]
     }
 
     message("Alphacore is running for alpha:", alpha)
@@ -288,7 +288,7 @@ vertex_attr(tokenGr)$label.color = c(rep("black", vcount(tokenGr)))
 
 tokenGr <- tokenGr %>% set_edge_attr("color", value=rgb(0.7, 0.7, 0.7, 0.25))
 
-didx <- which(alphaCoreMap[,3] <= 0.20)
+didx <- which(alphaCoreMap[,3] <= 0.48)
 dnodes <- as.numeric( alphaCoreMap[didx, 2] )
 # get original node ids of dnodes for subgraph creation
 sidx <- which(as.numeric(vertex_attr(tokenGr)$idx) %in% dnodes)
