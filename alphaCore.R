@@ -89,7 +89,7 @@ getVertexColors<-function(inputGr, aCM) {
     level <- 0
     count <- 0
     first <- TRUE
-    for (alpha in sort(unique(as.numeric(aCM[,3])))) {
+    for (alpha in sort(unique(as.numeric(aCM[,3])), decreasing=T)) {
         level = level + 1
         idx  <- which(as.numeric(aCM[,3]) == alpha)
         count = count + length(idx)
@@ -118,15 +118,18 @@ getVertexColors<-function(inputGr, aCM) {
 #   nodes from core to less core.
 aCore<-function(tokenGr, alphaCoreMap,step=0.01){
   alphaCoreMap<-c();
-  alpha<-1.0-step;
+  #alpha<-1.0-step;
+  alpha<-1
   m<-matrix();
 
   updated<-TRUE;
   level <- NULL
   min.weight <- NULL
   power.sample <- NULL
+  step.est <- NULL
 
-  while(alpha>=0){
+  #while(alpha>=0){
+  while(TRUE){
     
     if(vcount(tokenGr)==0){
       message("Graph has no nodes left.")
@@ -134,6 +137,10 @@ aCore<-function(tokenGr, alphaCoreMap,step=0.01){
     }
     
     depthInputData<-getEdgeWeights(tokenGr);
+    g.density <- density(depthInputData[,2])
+    rmCount = max(which(g.density[[1]] <= 1))
+    plot(g.density)
+    points(g.density[[1]][rmCount], g.density[[2]][rmCount], col="red")
 
     # perform a power transformation on the variables
     if (is.null(power.sample)) {
@@ -146,6 +153,11 @@ aCore<-function(tokenGr, alphaCoreMap,step=0.01){
     }
     depthInputData[,3] = yjPower(depthInputData[,3], power.sample.weight)
     depthInputData[,2] = yjPower(depthInputData[,2], power.sample.degree)
+
+    if (is.null(step.est)) {
+        step.est = sum(depthInputData[,2] == min(depthInputData[,2])) / vcount(tokenGr) 
+        message("Using step size: ", step.est)
+    }
 
     #This depth function should be implemented
     #calculate depth value of each node w.r.t. all other nodes
@@ -181,7 +193,9 @@ aCore<-function(tokenGr, alphaCoreMap,step=0.01){
     # get the depth value associated with the 20 percentile of all nodes in 
     # the current graph
     if (is.null(level)) {
-        level <- sort(depthValue, decreasing=T)[ ceiling(vcount(tokenGr) * 0.05)]
+        level <- sort(depthValue, decreasing=T)[ ceiling(vcount(tokenGr) * step.est)]
+        level <- sort(depthValue, decreasing=T)[ ceiling(vcount(tokenGr) * .10)]
+        #level <- sort(depthValue, decreasing=T)[rmCount]
     }
 
     message("Alphacore is running for alpha:", alpha)
@@ -198,7 +212,11 @@ aCore<-function(tokenGr, alphaCoreMap,step=0.01){
    if(updated==FALSE){
       message("Nothing was removed for alpha: ", alpha);
       # fix rounding errors for decimal values after many iterations
-      alpha = signif(alpha-step, 2);
+      #alpha = signif(alpha-step, 2);
+      alpha = alpha + 1;
+      if (is.na(level) || level != 1) {
+          break
+      }
       level = NULL;
       power.sample.weight = 0;
       power.sample.degree = 0;
@@ -216,7 +234,7 @@ aCore<-function(tokenGr, alphaCoreMap,step=0.01){
 
   if (vcount(tokenGr) > 0) {
     for (v in V(tokenGr)) {
-        alphaCoreMap<-rbind(alphaCoreMap,c(vertex_attr(tokenGr)$idx[v], 0))
+        alphaCoreMap<-rbind(alphaCoreMap,c(vertex_attr(tokenGr)$idx[v], alpha))
         #record node index in origional network
     }
   } 
@@ -253,7 +271,7 @@ level <- 0
 total <- length(unique(as.numeric(alphaCoreMap[,3])))
 alphaCoreMap.labels <- c()
 
-for (alpha in sort(unique(as.numeric(alphaCoreMap[,3])))) {
+for (alpha in sort(unique(as.numeric(alphaCoreMap[,3])), decreasing=T)) {
    level = level + 1
    idx  <- which(as.numeric(alphaCoreMap[,3]) == alpha)
 
@@ -281,14 +299,14 @@ dev.off()
 
 vertex_attr(tokenGr)$color = vcolor
 vertex_attr(tokenGr)$label.cex = c(rep(0.5, vcount(tokenGr)))
-vertex_attr(tokenGr)$label.dist = c(rep(.75, vcount(tokenGr)))
+vertex_attr(tokenGr)$label.dist = c(rep(.5, vcount(tokenGr)))
 vertex_attr(tokenGr)$label.degree = c(rep(-pi/6, vcount(tokenGr)))
 vertex_attr(tokenGr)$width = c(rep(0.5, vcount(tokenGr)))
 vertex_attr(tokenGr)$label.color = c(rep("black", vcount(tokenGr)))
 
 tokenGr <- tokenGr %>% set_edge_attr("color", value=rgb(0.7, 0.7, 0.7, 0.25))
 
-didx <- which(alphaCoreMap[,3] <= 0.48)
+didx <- which(as.numeric(alphaCoreMap[,3]) >= max(as.numeric(alphaCoreMap[,3])) - 10)
 dnodes <- as.numeric( alphaCoreMap[didx, 2] )
 # get original node ids of dnodes for subgraph creation
 sidx <- which(as.numeric(vertex_attr(tokenGr)$idx) %in% dnodes)
@@ -310,7 +328,7 @@ vertex_attr(sGr)$color = getVertexColors(sGr, alphaCoreMap[didx,])
 plot(sGr, 
      layout=l, 
      vertex.size=2,
-     label.dist=1,
+     label.dist=.5,
      label.cex=0.05, 
      vertex.label=labels,
      edge.arrow.size=0.1,
