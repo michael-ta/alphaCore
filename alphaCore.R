@@ -10,6 +10,7 @@ source("helper.R")
 
 setwd("/mnt/alphaCore")
 data.idx <- 2
+step.size = 0.01
 
 data.fn <- c("./data/networkcitation.txt",
              "./data/US_airport_2010.txt",
@@ -137,10 +138,10 @@ aCore<-function(tokenGr, alphaCoreMap,step=0.01){
     }
     
     depthInputData<-getEdgeWeights(tokenGr);
-    g.density <- density(depthInputData[,2])
-    rmCount = max(which(g.density[[1]] <= 1))
-    plot(g.density)
-    points(g.density[[1]][rmCount], g.density[[2]][rmCount], col="red")
+    #g.density <- density(depthInputData[,2])
+    #rmCount = max(which(g.density[[1]] <= 1))
+    #plot(g.density)
+    #points(g.density[[1]][rmCount], g.density[[2]][rmCount], col="red")
 
     # perform a power transformation on the variables
     if (is.null(power.sample)) {
@@ -193,8 +194,7 @@ aCore<-function(tokenGr, alphaCoreMap,step=0.01){
     # get the depth value associated with the 20 percentile of all nodes in 
     # the current graph
     if (is.null(level)) {
-        level <- sort(depthValue, decreasing=T)[ ceiling(vcount(tokenGr) * step.est)]
-        level <- sort(depthValue, decreasing=T)[ ceiling(vcount(tokenGr) * .10)]
+        level <- sort(depthValue, decreasing=T)[ ceiling(vcount(tokenGr) * step)]
         #level <- sort(depthValue, decreasing=T)[rmCount]
     }
 
@@ -254,7 +254,7 @@ for(v in V(tokenGr)){
 colnames(initialNodeFeatures)<-c("node","inDegree","inWeight")
 
 #run alpha core
-alphaCoreMap<-aCore(tokenGr)
+alphaCoreMap<-aCore(tokenGr, step=step.size)
 
 # plot network, where the color of node indicates the order of being deleted 
 # from the network, from furthest to closest blue -> purple -> red -> green
@@ -349,7 +349,7 @@ plot(tokenGr,
      rescale=T, asp=0)
 dev.off()
 
-write.csv(cbind(alphaCoreMap, alphaCoreMap.labels), "results.csv")
+write.csv(cbind(alphaCoreMap, alphaCoreMap.labels), paste("results", step.size "csv", sep="."))
 
 #sort matrix according to node index
 alphaCoreMap=alphaCoreMap[order(alphaCoreMap[,2]),]
