@@ -10,7 +10,7 @@ source("helper.R")
 
 setwd("/mnt/alphaCore")
 data.idx <- 2
-step.size = 0.01
+step.size = 0.00005
 
 data.fn <- c("./data/networkcitation.txt",
              "./data/US_airport_2010.txt",
@@ -127,10 +127,9 @@ aCore<-function(tokenGr, alphaCoreMap,step=0.01){
   level <- NULL
   min.weight <- NULL
   power.sample <- NULL
-  step.est <- NULL
 
-  #while(alpha>=0){
-  while(TRUE){
+  while(alpha>=0){
+  #while(TRUE){
     
     if(vcount(tokenGr)==0){
       message("Graph has no nodes left.")
@@ -155,11 +154,6 @@ aCore<-function(tokenGr, alphaCoreMap,step=0.01){
     depthInputData[,3] = yjPower(depthInputData[,3], power.sample.weight)
     depthInputData[,2] = yjPower(depthInputData[,2], power.sample.degree)
 
-    if (is.null(step.est)) {
-        step.est = sum(depthInputData[,2] == min(depthInputData[,2])) / vcount(tokenGr) 
-        message("Using step size: ", step.est)
-    }
-
     #This depth function should be implemented
     #calculate depth value of each node w.r.t. all other nodes
     #5 multivariate depth (Tukey(half space) depth, simplicial depth, Mahalanobis depth, random projeciton depth and likelihood depth)
@@ -174,6 +168,8 @@ aCore<-function(tokenGr, alphaCoreMap,step=0.01){
     temp=1/(1 + mahalanobis.origin(
                     depthInputData[,2:3], 
                     cov(depthInputData[,2:3])))
+    plot(sort(temp))
+    abline(h=alpha, col="red")
     #Random projection
     #temp=mdepth.RP(depthInputData[,2:3])
     #Likelihood depth
@@ -194,8 +190,8 @@ aCore<-function(tokenGr, alphaCoreMap,step=0.01){
     # get the depth value associated with the 20 percentile of all nodes in 
     # the current graph
     if (is.null(level)) {
-        level <- sort(depthValue, decreasing=T)[ ceiling(vcount(tokenGr) * step)]
-        #level <- sort(depthValue, decreasing=T)[rmCount]
+        #level <- sort(depthValue, decreasing=T)[ ceiling(vcount(tokenGr) * step)]
+        level <- alpha 
     }
 
     message("Alphacore is running for alpha:", alpha)
@@ -212,11 +208,18 @@ aCore<-function(tokenGr, alphaCoreMap,step=0.01){
    if(updated==FALSE){
       message("Nothing was removed for alpha: ", alpha);
       # fix rounding errors for decimal values after many iterations
-      #alpha = signif(alpha-step, 2);
-      alpha = alpha + 1;
-      if (is.na(level) || level != 1) {
-          break
+      nodesCount <- 0
+      while (nodesCount < 1) {
+          alpha = signif(alpha-step, 5);
+          nodesCount <- sum(depthInputData[,4] >= alpha)
       }
+      abline(h=alpha, col="blue")
+      Sys.sleep(0.15) 
+      #alpha = alpha + 1;
+      # if level doesn't change we exit 
+      #if (is.na(level) || level != 1) {
+      #    break
+      #}
       level = NULL;
       power.sample.weight = 0;
       power.sample.degree = 0;
@@ -349,7 +352,7 @@ plot(tokenGr,
      rescale=T, asp=0)
 dev.off()
 
-write.csv(cbind(alphaCoreMap, alphaCoreMap.labels), paste("results", step.size "csv", sep="."))
+write.csv(cbind(alphaCoreMap, alphaCoreMap.labels), paste("results", step.size, "csv", sep="."))
 
 #sort matrix according to node index
 alphaCoreMap=alphaCoreMap[order(alphaCoreMap[,2]),]
