@@ -5,19 +5,24 @@ library(fda.usc)
 library(depthTools)
 library(network)
 library(car)
-source("helper.R")
 
 
 setwd("/mnt/alphaCore")
-data.idx <- 2
-step.size = 0.00005
+source("helper.R")
 
-data.fn <- c("./data/networkcitation.txt",
-             "./data/US_airport_2010.txt",
-             "./data/4932.protein.links.v11.0.small.txt")
+data.idx <- 5
+step.size = 0.0005
 
-data.labels.fn <- c("./data/authorList.txt",
-                    "./data/USairport_2010_codes.txt",
+data.fn <- c("./data/network.citation-statistics.txt",
+             "./data/network.airport-US2010.txt",
+             "./data/network.collaboration-netscience.txt",
+             "./data/network.protein-4932.small.txt",
+             "./data/network.blood-plasma.txt")
+
+data.labels.fn <- c("./data/label.citation-statistics.txt",
+                    "./data/label.airport-US2010.txt",
+                    "./data/label.collaboration-netscience.txt",
+                    NULL,
                     NULL)
 
 data<-read.csv(file=data.fn[data.idx], sep=" ", header=F)
@@ -90,7 +95,7 @@ getVertexColors<-function(inputGr, aCM) {
     level <- 0
     count <- 0
     first <- TRUE
-    for (alpha in sort(unique(as.numeric(aCM[,3])), decreasing=T)) {
+    for (alpha in sort(unique(as.numeric(aCM[,3])), decreasing=F)) {
         level = level + 1
         idx  <- which(as.numeric(aCM[,3]) == alpha)
         count = count + length(idx)
@@ -128,9 +133,9 @@ aCore<-function(tokenGr, alphaCoreMap,step=0.01){
   min.weight <- NULL
   power.sample <- NULL
 
-  while(alpha>=0){
+  
   #while(TRUE){
-    
+  while(alpha > 0){
     if(vcount(tokenGr)==0){
       message("Graph has no nodes left.")
       return(alphaCoreMap);
@@ -168,8 +173,6 @@ aCore<-function(tokenGr, alphaCoreMap,step=0.01){
     temp=1/(1 + mahalanobis.origin(
                     depthInputData[,2:3], 
                     cov(depthInputData[,2:3])))
-    plot(sort(temp))
-    abline(h=alpha, col="red")
     #Random projection
     #temp=mdepth.RP(depthInputData[,2:3])
     #Likelihood depth
@@ -208,13 +211,11 @@ aCore<-function(tokenGr, alphaCoreMap,step=0.01){
    if(updated==FALSE){
       message("Nothing was removed for alpha: ", alpha);
       # fix rounding errors for decimal values after many iterations
-      nodesCount <- 0
-      while (nodesCount < 1) {
-          alpha = signif(alpha-step, 5);
-          nodesCount <- sum(depthInputData[,4] >= alpha)
+      delta = (alpha - sort(depthInputData[,4], decreasing=T)[1]) / step
+      alpha = signif(alpha - (step * ceiling(delta)), 15)
+      if (is.na(alpha)) {
+          alpha = 0
       }
-      abline(h=alpha, col="blue")
-      Sys.sleep(0.15) 
       #alpha = alpha + 1;
       # if level doesn't change we exit 
       #if (is.na(level) || level != 1) {
@@ -237,7 +238,7 @@ aCore<-function(tokenGr, alphaCoreMap,step=0.01){
 
   if (vcount(tokenGr) > 0) {
     for (v in V(tokenGr)) {
-        alphaCoreMap<-rbind(alphaCoreMap,c(vertex_attr(tokenGr)$idx[v], alpha))
+        alphaCoreMap<-rbind(alphaCoreMap,c(vertex_attr(tokenGr)$idx[v], 0))
         #record node index in origional network
     }
   } 
@@ -274,7 +275,7 @@ level <- 0
 total <- length(unique(as.numeric(alphaCoreMap[,3])))
 alphaCoreMap.labels <- c()
 
-for (alpha in sort(unique(as.numeric(alphaCoreMap[,3])), decreasing=T)) {
+for (alpha in sort(unique(as.numeric(alphaCoreMap[,3])), decreasing=F)) {
    level = level + 1
    idx  <- which(as.numeric(alphaCoreMap[,3]) == alpha)
 
@@ -309,12 +310,11 @@ vertex_attr(tokenGr)$label.color = c(rep("black", vcount(tokenGr)))
 
 tokenGr <- tokenGr %>% set_edge_attr("color", value=rgb(0.7, 0.7, 0.7, 0.25))
 
-didx <- which(as.numeric(alphaCoreMap[,3]) >= max(as.numeric(alphaCoreMap[,3])) - 10)
+didx <- which( as.numeric(alphaCoreMap[,3]) <= min(as.numeric(alphaCoreMap[,3])) + step.size * 13 )
 dnodes <- as.numeric( alphaCoreMap[didx, 2] )
 # get original node ids of dnodes for subgraph creation
 sidx <- which(as.numeric(vertex_attr(tokenGr)$idx) %in% dnodes)
 sGr <- induced_subgraph(tokenGr, sidx)
-
 
 
 pdf("remaining-alphacore.pdf", width=12, height=12)
@@ -338,7 +338,6 @@ plot(sGr,
      width=0.25,
      rescale=T, asp=0)
 dev.off()
-
 
 
 pdf("after-alphacore.pdf", width=24, height=24)
