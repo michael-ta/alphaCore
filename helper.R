@@ -33,6 +33,46 @@ mahalanobis.origin <- function(data, sigma) {
     apply(data, 1, function(x) x %*% sigma.inv %*% matrix(x))
 }
 
+calculate.state_matrix <- function(nvar) {
+# calculate state probabilities
+    n = nrow(nvar)
+    states = c()
+    smatrix = c()
+    for (cidx in 1:ncol(nvar)) {
+        ftmp <- as.factor(nvar[,cidx])
+        stmp <- levels(ftmp)
+        mtmp <- matrix(0, n, length(stmp))
+        sidx = 1
+        for (s in stmp) {
+            mtmp[which(nvar[,cidx] == s), sidx] = 1
+            sidx = sidx + 1
+        }
+        states <- c(states, stmp)
+        smatrix = cbind(smatrix, mtmp)
+    }
+    smatrix = as.data.frame(smatrix)
+    colnames(smatrix) <- states
+    smatrix
+}
+
+calculate.state_probs <- function(smatrix) {
+    states = c()
+    counter = c()
+    for (ridx in 1:nrow(smatrix)) {
+        s <- paste(smatrix[ridx,], collapse="")
+        if (!(s %in% states)) {
+            states = c(states, s)
+            counter = c(counter, 1)
+        } else {
+            counter[which(states == s)] = counter[which(states == s)] + 1
+        }
+    }
+    names(counter) <- states
+    counter
+}
+
+
+
 ellipse <- function(center, sigma, n) {
 # generalized equation for ellipse centered at (0, 0)
     sigma.inv <- try(solve(sigma), silent = TRUE)
