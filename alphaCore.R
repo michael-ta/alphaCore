@@ -10,24 +10,24 @@ library(car)
 setwd("/mnt/alphaCore")
 source("helper.R")
 
-data.idx <- 5
-step.size = 0.0005
+data.idx <- 1
+step.size = 0.000000005
 
 data.fn <- c("./data/network.citation-statistics.txt",
              "./data/network.airport-US2010.txt",
              "./data/network.collaboration-netscience.txt",
              "./data/network.protein-4932.small.txt",
-             "./data/network.blood-plasma.txt")
+             "./data/network.blood-plasma.newid")
 
 data.labels.fn <- c("./data/label.citation-statistics.txt",
                     "./data/label.airport-US2010.txt",
                     "./data/label.collaboration-netscience.txt",
-                    NULL,
-                    NULL)
+                    NA,
+                    NA)
 
 data<-read.csv(file=data.fn[data.idx], sep=" ", header=F)
 
-if (is.null(data.labels.fn)) {
+if (is.na(data.labels.fn[data.idx])) {
     data.labels <- NULL
 } else {
     data.labels<-read.csv(file=data.labels.fn[data.idx], header=F)
@@ -41,7 +41,8 @@ colnames(data)<-c("from", "to", "weight")
 # create a directed graph and store the initial node index in the vertex 
 # attribute idx
 tokenGr<-graph_from_edgelist(as.matrix(data[,1:2]),directed=TRUE) 
-tokenGr<-graph_from_edgelist(as.matrix(data[,1:2]),directed=TRUE)%>%
+#tokenGr<-graph_from_edgelist(as.matrix(data[,1:2]),directed=TRUE)%>%
+tokenGr<-tokenGr%>%
     set_vertex_attr("idx", value = as.character(seq(1,vcount(tokenGr))))
 
 # add weights to each edge in the graph
@@ -122,18 +123,18 @@ getVertexColors<-function(inputGr, aCM) {
 #   in the current iteration, re-run and delete nodes with 1 depth i.e. nodes
 #   without any ingoing edges. Returns alphaCoreMap which contains a rank of 
 #   nodes from core to less core.
-aCore<-function(tokenGr, alphaCoreMap,step=0.01){
+aCore<-function(tokenGr, edgelist, depthInputData, alphaCoreMap,step=0.01){
   alphaCoreMap<-c();
   #alpha<-1.0-step;
   alpha<-1
-  m<-matrix();
+  #m<-matrix(); # not used?
 
   updated<-TRUE;
   level <- NULL
   min.weight <- NULL
   power.sample <- NULL
 
-  
+  depthInputData <- cbind(depthInputData, 0, 0, 1) 
   #while(TRUE){
   while(alpha > 0){
     if(vcount(tokenGr)==0){
@@ -141,7 +142,6 @@ aCore<-function(tokenGr, alphaCoreMap,step=0.01){
       return(alphaCoreMap);
     }
     
-    depthInputData<-getEdgeWeights(tokenGr);
     #g.density <- density(depthInputData[,2])
     #rmCount = max(which(g.density[[1]] <= 1))
     #plot(g.density)
@@ -156,8 +156,8 @@ aCore<-function(tokenGr, alphaCoreMap,step=0.01){
         #message("Using power.sample.degree: ", power.sample.degree)
         #message("Using power.sample.weight: ", power.sample.weight)
     }
-    depthInputData[,3] = yjPower(depthInputData[,3], power.sample.weight)
-    depthInputData[,2] = yjPower(depthInputData[,2], power.sample.degree)
+    depthInputData[,5] = yjPower(depthInputData[,3], power.sample.weight)
+    depthInputData[,4] = yjPower(depthInputData[,2], power.sample.degree)
 
     #This depth function should be implemented
     #calculate depth value of each node w.r.t. all other nodes
@@ -171,8 +171,8 @@ aCore<-function(tokenGr, alphaCoreMap,step=0.01){
     # calculate the mahalanobis depth w.r.t. the origin using indegree and 
     # inweight keep sample variance consistent
     temp=1/(1 + mahalanobis.origin(
-                    depthInputData[,2:3], 
-                    cov(depthInputData[,2:3])))
+                    depthInputData[,4:5], 
+                    cov(depthInputData[,4:5])))
     #Random projection
     #temp=mdepth.RP(depthInputData[,2:3])
     #Likelihood depth
@@ -185,33 +185,33 @@ aCore<-function(tokenGr, alphaCoreMap,step=0.01){
     #depthValue=as.matrix(temp$MBD)
     depthValue = temp
     # add column for depth to dataframe
-    depthInputData<-cbind(depthInputData, depthValue)
-    colnames(depthInputData)<-c("node","inDegree","inWeight","depth")
+    depthInputData[,6]<- depthValue
+    colnames(depthInputData)<-c("node","inDegree","inWeight", "tr_inDegree", "tr_inWeight", "depth")
     rownames(depthInputData)<-NULL
     updated=FALSE;
 
     # get the depth value associated with the 20 percentile of all nodes in 
     # the current graph
     if (is.null(level)) {
-        #level <- sort(depthValue, decreasing=T)[ ceiling(vcount(tokenGr) * step)]
         level <- alpha 
     }
 
     message("Alphacore is running for alpha:", alpha)
-    nodesToBeDeleted <- which(depthInputData[,4] >= level)
+    nodesToBeDeleted <- which(depthInputData[,6] >= level)
    
     if (length(nodesToBeDeleted) > 0) {
       updated=TRUE;
       # record alpha level for deleted nodes prior to removing them
+      nodesToBeDeleted <- depthInputData[nodesToBeDeleted, 1]
       alphaCoreMap <- rbind(alphaCoreMap, 
-                            cbind(vertex_attr(tokenGr)$idx[nodesToBeDeleted],
+                            cbind(nodesToBeDeleted,
                                   matrix(alpha, length(nodesToBeDeleted))))
     }
     
    if(updated==FALSE){
       message("Nothing was removed for alpha: ", alpha);
       # fix rounding errors for decimal values after many iterations
-      delta = (alpha - sort(depthInputData[,4], decreasing=T)[1]) / step
+      delta = (alpha - sort(depthInputData[,6], decreasing=T)[1]) / step
       alpha = signif(alpha - (step * ceiling(delta)), 15)
       if (is.na(alpha)) {
           alpha = 0
@@ -229,7 +229,29 @@ aCore<-function(tokenGr, alphaCoreMap,step=0.01){
       message(length(nodesToBeDeleted), 
               " nodes are deleted for alpha:", alpha, 
               ". Graph has ",vcount(tokenGr)," nodes.")
-      tokenGr = delete_vertices(tokenGr, nodesToBeDeleted);
+      # TODO:
+      # convert nodesToBeDeleted to match vertex id
+      # recalculate depthInputData degree and weights for deleted nodes
+      deleted_tmp = c()
+      for (v in nodesToBeDeleted) {
+        eidx <- which(edgelist[,1] == v)
+        if (!(is.null(nrow(depthInputData)))) {
+            didx <- which(depthInputData[,1] == v)
+            for (anode in edgelist[eidx,2]) {
+                aidx <- which(depthInputData[1,] == anode)
+                depthInputData[aidx,2] = depthInputData[aidx, 2] - 1
+                widx <- which(edgelist[eidx,2] == anode)
+                depthInputData[aidx,3] = depthInputData[aidx, 3] - edgelist[eidx,3][widx]
+            }
+            depthInputData = depthInputData[-didx,]
+        } else {
+            depthInputData = NULL
+            alpha = 0
+        }
+
+        deleted_tmp = c(deleted_tmp, which(as.integer(vertex_attr(tokenGr)$idx) == v))
+      }
+      tokenGr = delete_vertices(tokenGr, deleted_tmp);
       level = 1;
     }
   }
@@ -247,18 +269,30 @@ aCore<-function(tokenGr, alphaCoreMap,step=0.01){
 }
 
 #Store initial neighbor and weights as a record.
-initialNodeFeatures<-data.frame()
-for(v in V(tokenGr)){
-  inDegree<-length(unlist(adjacent_vertices(tokenGr, v, mode = "in")))#count in degree
-  inWeight<-sum(incident(tokenGr, v, mode = "in")$weight)
-  #message("Node neighbor:",inDegree,", weight:",inWeight)
-  newRow<-c(v,inDegree,inWeight)
-  initialNodeFeatures<-rbind(initialNodeFeatures,newRow)
-} 
+initialNodeFeatures<-matrix(0, vcount(tokenGr), 3)
+
+# should be faster to iterate though the dataset
+counter = 1
+for(v in as.integer(vertex_attr(tokenGr)$idx)) {
+    nidx <- which(data[,2] == v)
+    inDegree <- length(nidx)
+    inWeight <- sum(data[nidx, 3])
+    initialNodeFeatures[counter,] = c(v,inDegree, inWeight) 
+    counter = counter + 1
+}
+
+
+#for(v in V(tokenGr)){
+#  inDegree<-length(unlist(adjacent_vertices(tokenGr, v, mode = "in")))#count in degree
+#  inWeight<-sum(incident(tokenGr, v, mode = "in")$weight)
+#  #message("Node neighbor:",inDegree,", weight:",inWeight)
+#  newRow<-c(v,inDegree,inWeight)
+#  initialNodeFeatures<-rbind(initialNodeFeatures,newRow)
+#} 
 colnames(initialNodeFeatures)<-c("node","inDegree","inWeight")
 
 #run alpha core
-alphaCoreMap<-aCore(tokenGr, step=step.size)
+alphaCoreMap<-aCore(tokenGr, data, initialNodeFeatures, step=step.size)
 
 # plot network, where the color of node indicates the order of being deleted 
 # from the network, from furthest to closest blue -> purple -> red -> green
