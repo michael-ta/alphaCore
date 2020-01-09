@@ -10,8 +10,8 @@ library(car)
 setwd("/mnt/alphaCore")
 source("helper.R")
 
-data.idx <- 1
-step.size = 0.000000005
+data.idx <- 2
+step.size = 0.000005
 
 data.fn <- c("./data/network.citation-statistics.txt",
              "./data/network.airport-US2010.txt",
@@ -133,6 +133,7 @@ aCore<-function(tokenGr, edgelist, depthInputData, alphaCoreMap,step=0.01){
   level <- NULL
   min.weight <- NULL
   power.sample <- NULL
+  min.depth <- NULL
 
   depthInputData <- cbind(depthInputData, 0, 0, 1) 
   #while(TRUE){
@@ -211,6 +212,7 @@ aCore<-function(tokenGr, edgelist, depthInputData, alphaCoreMap,step=0.01){
    if(updated==FALSE){
       message("Nothing was removed for alpha: ", alpha);
       # fix rounding errors for decimal values after many iterations
+      #delta = (alpha - sort(depthInputData[which(depthInputData[,6] < alpha),6], decreasing=T)[1]) / step
       delta = (alpha - sort(depthInputData[,6], decreasing=T)[1]) / step
       alpha = signif(alpha - (step * ceiling(delta)), 15)
       if (is.na(alpha)) {
@@ -238,7 +240,7 @@ aCore<-function(tokenGr, edgelist, depthInputData, alphaCoreMap,step=0.01){
         if (!(is.null(nrow(depthInputData)))) {
             didx <- which(depthInputData[,1] == v)
             for (anode in edgelist[eidx,2]) {
-                aidx <- which(depthInputData[1,] == anode)
+                aidx <- which(depthInputData[,1] == anode)
                 depthInputData[aidx,2] = depthInputData[aidx, 2] - 1
                 widx <- which(edgelist[eidx,2] == anode)
                 depthInputData[aidx,3] = depthInputData[aidx, 3] - edgelist[eidx,3][widx]
@@ -298,7 +300,7 @@ alphaCoreMap<-aCore(tokenGr, data, initialNodeFeatures, step=step.size)
 # from the network, from furthest to closest blue -> purple -> red -> green
 alphaCoreMap=cbind(1:vcount(tokenGr),alphaCoreMap)
 colnames(alphaCoreMap)<-c("rank","node","alpha")
-
+rownames(alphaCoreMap)<-c()
 vcolor <- c()
 count <- 0
 pdf("degree_vs_weights.pdf")
@@ -344,7 +346,7 @@ vertex_attr(tokenGr)$label.color = c(rep("black", vcount(tokenGr)))
 
 tokenGr <- tokenGr %>% set_edge_attr("color", value=rgb(0.7, 0.7, 0.7, 0.25))
 
-didx <- which( as.numeric(alphaCoreMap[,3]) <= min(as.numeric(alphaCoreMap[,3])) + step.size * 13 )
+didx <- which( as.numeric(alphaCoreMap[,3]) <= sort(unique(alphaCoreMap[,3]))[5])
 dnodes <- as.numeric( alphaCoreMap[didx, 2] )
 # get original node ids of dnodes for subgraph creation
 sidx <- which(as.numeric(vertex_attr(tokenGr)$idx) %in% dnodes)
@@ -391,6 +393,10 @@ write.csv(cbind(alphaCoreMap, alphaCoreMap.labels), paste("results", step.size, 
 alphaCoreMap=alphaCoreMap[order(alphaCoreMap[,2]),]
 temp=cbind(initialNodeFeatures,alphaCoreMap[,1],alphaCoreMap[,3])
 colnames(temp)<-c("node","inDegree","inWeight","rank","alpha")
+
+
+alevels <- as.data.frame(alphaCoreMap) %>% group_by(alpha) %>% summarise(no_rows = length(alpha))
+plot(cumsum(rev(alevels$no_rows)) / sum(alevels$no_rows), rev(levels(alevels$alpha)), type="b", pch=5)
 
 # correlation of core value and indegree and inweight
 # find correlations (?)
