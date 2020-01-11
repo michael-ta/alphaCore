@@ -6,12 +6,13 @@ library(depthTools)
 library(network)
 library(car)
 
+#Version V.2
 
 setwd("/mnt/alphaCore")
 source("helper.R")
 
-data.idx <- 2
-step.size = 0.000005
+data.idx <- 1
+step.size = 0.05
 
 data.fn <- c("./data/network.citation-statistics.txt",
              "./data/network.airport-US2010.txt",
@@ -36,7 +37,12 @@ if (is.na(data.labels.fn[data.idx])) {
 
 # remove duplicates agfter april 2018, duplicates are due to a bug in java 
 # code.
-data<-distinct(data)
+data <- distinct(data)
+# remove self-loops
+duplicates <- which(data[,1] == data[,2])
+if (!(length(duplicates) == 0)) {
+  data = data[-duplicates,]
+}
 colnames(data)<-c("from", "to", "weight")
 # create a directed graph and store the initial node index in the vertex 
 # attribute idx
@@ -53,14 +59,14 @@ E(tokenGr)$weight<-data$weight
 tokenGr<-delete_vertices((tokenGr), degree(tokenGr)==0)
 
 # simplify graph to remove self loops
-tokenGr<-simplify(tokenGr)
+#tokenGr<-simplify(tokenGr)
 
 vcount(tokenGr)
 ecount(tokenGr)
 
-pdf("before-alphacore.pdf") 
-plot(tokenGr, vertex.size=2, vertex.label=NA, edge.arrow.size=0.1,rescale=TRUE)
-dev.off() 
+#pdf("before-alphacore.pdf") 
+#plot(tokenGr, vertex.size=2, vertex.label=NA, edge.arrow.size=0.1,rescale=TRUE)
+#dev.off() 
 
 edge=as_edgelist(tokenGr, names = TRUE)
 colnames(edge)<-c("Source","Target")
@@ -212,8 +218,8 @@ aCore<-function(tokenGr, edgelist, depthInputData, alphaCoreMap,step=0.01){
    if(updated==FALSE){
       message("Nothing was removed for alpha: ", alpha);
       # fix rounding errors for decimal values after many iterations
-      #delta = (alpha - sort(depthInputData[which(depthInputData[,6] < alpha),6], decreasing=T)[1]) / step
-      delta = (alpha - sort(depthInputData[,6], decreasing=T)[1]) / step
+      delta = (alpha - sort(depthInputData[which(depthInputData[,6] < alpha),6], decreasing=T)[1]) / step
+      #delta = (alpha - sort(depthInputData[,6], decreasing=T)[1]) / step
       alpha = signif(alpha - (step * ceiling(delta)), 15)
       if (is.na(alpha)) {
           alpha = 0
@@ -254,6 +260,9 @@ aCore<-function(tokenGr, edgelist, depthInputData, alphaCoreMap,step=0.01){
         deleted_tmp = c(deleted_tmp, which(as.integer(vertex_attr(tokenGr)$idx) == v))
       }
       tokenGr = delete_vertices(tokenGr, deleted_tmp);
+      if (vcount(tokenGr) == 1) {
+        alpha = 0
+      }
       level = 1;
     }
   }
@@ -303,7 +312,7 @@ colnames(alphaCoreMap)<-c("rank","node","alpha")
 rownames(alphaCoreMap)<-c()
 vcolor <- c()
 count <- 0
-pdf("degree_vs_weights.pdf")
+pdf(paste("degree_vs_weights", step.size, "pdf", sep="."))
 plot(initialNodeFeatures[,2:3], pch=".")
 
 first <- TRUE
@@ -353,7 +362,7 @@ sidx <- which(as.numeric(vertex_attr(tokenGr)$idx) %in% dnodes)
 sGr <- induced_subgraph(tokenGr, sidx)
 
 
-pdf("remaining-alphacore.pdf", width=12, height=12)
+pdf(paste("remaining-alphacore", step.size, "pdf", sep="."), width=12, height=12)
 e <- get.edgelist(sGr)
 l <- qgraph.layout.fruchtermanreingold(e, vcount=vcount(sGr))
 if (is.null(data.labels)) {
@@ -376,16 +385,16 @@ plot(sGr,
 dev.off()
 
 
-pdf("after-alphacore.pdf", width=24, height=24)
-e <- get.edgelist(tokenGr)
-l <- qgraph.layout.fruchtermanreingold(e, vcount=vcount(tokenGr)) 
-plot(tokenGr, 
-     layout=l,
-     vertex.size=2,
-     vertex.label=NA,
-     edge.arrow.size=0.1,
-     rescale=T, asp=0)
-dev.off()
+#pdf("after-alphacore.pdf", width=24, height=24)
+#e <- get.edgelist(tokenGr)
+#l <- qgraph.layout.fruchtermanreingold(e, vcount=vcount(tokenGr)) 
+#plot(tokenGr, 
+#     layout=l,
+#     vertex.size=2,
+#     vertex.label=NA,
+#     edge.arrow.size=0.1,
+#     rescale=T, asp=0)
+#dev.off()
 
 write.csv(cbind(alphaCoreMap, alphaCoreMap.labels), paste("results", step.size, "csv", sep="."))
 
