@@ -64,10 +64,10 @@ setwd("D:/repos/alphaCore/results/v.2-Results/")
 
 alpha <- c( "5e-02", "5e-03", "5e-04", "5e-05", "5e-06", "5e-07", "5e-08", "5e-09", "5e-10")
 
-for(d in alpha) {
+for(d in alpha[1:6]) {
 datalist.1 <- read.table("richClub.netscience.csv", header=T, sep=",")
 datalist.1 <- datalist.1[,2:4]
-datalist.2 <- read.table(paste("netscience/results.", d, ".csv", sep=""), header=T, sep=",")
+datalist.2 <- read.table(paste("netscience.reiterate/results.", d, ".csv", sep=""), header=T, sep=",")
 datalist.2 <- datalist.2[,2:4]
 
 #for rich club
@@ -84,4 +84,10 @@ datalist <- datalist[order(datalist$rank.x),]
 datalist <- datalist[,c("id.x", "node", "alpha.x", "alpha.y", "rank.x", "rank.y")]
 
 print(kendall.tau(datalist))
+plot(1:nrow(datalist.2)/nrow(datalist.2),datalist.2$alpha, pch=20, 
+     ylab="alpha / MhD", 
+     xlab="Percentage of Nodes", 
+     main=paste("alphaCore Map reiter. (airport ", d, " )", collapse=""))
 }
+
+

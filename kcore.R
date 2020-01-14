@@ -20,7 +20,7 @@ kCore <- function(inputGr) {
         } else {
             cores <- rbind(cores,
                            cbind(vertex_attr(inputGr)$idx[nodes_to_delete], k))
-            inputGr <- delete.vertices(inputGr, nodes_to_delete)
+            inputGr <- delete_vertices(inputGr, nodes_to_delete)
             nodes_to_delete <- c()
         }
     }
@@ -61,7 +61,7 @@ weightedkCore <- function(inputGr) {
             cores <- rbind(cores, 
                            cbind(vertex_attr(inputGr)$idx[nodes_to_delete], k))
 
-            inputGr <- delete.vertices(inputGr, nodes_to_delete)
+            inputGr <- delete_vertices(inputGr, nodes_to_delete)
             nodes_to_delete <- c()
         }
     }

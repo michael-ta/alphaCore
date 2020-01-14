@@ -3,7 +3,7 @@
 library(dplyr)
 
 
-setwd("/mnt/alphaCore")
+setwd("D:/repos/alphaCore")
 
 
 # parameters
@@ -15,7 +15,7 @@ param.richclub.iterations = 1000
 param.richclub.seed = 1
 param.richclub.reshuffle = "links"
 # valid options c("alphaCore", "kCore", "richClub") 
-param.analysis <- "richClub" 
+param.analysis <- "kCore" 
 
 
 data.network.fn <- c("./data/network.citation-statistics.txt",
@@ -111,6 +111,8 @@ if (param.analysis == "kCore") {
     if (!(is.null(data.labels))) {
         result <- merge(result, data.labels, all.x=T)
     } 
+    colnames(result)<-c("Id","Node","bin")
+    write.csv(result, file = "wkCore.csv")
 } else if (param.analysis == "richClub") {
     library(tnet)
     source("richClub.R")
