@@ -8,11 +8,11 @@
   
   #Version V.2
   
-  setwd("/mnt/alphaCore")
+  setwd("D:/repos/alphaCore_new")
   source("helper.R")
   
-  data.idx <- 8
-  step.size = 0.0005
+  data.idx <- 9
+  step.size = 0.0000000005
   
   data.fn <- c("./data/network.citation-statistics.txt",
                "./data/network.airport-US2010.txt",
@@ -21,8 +21,8 @@
                "./data/network.blood-plasma.newid",
                "./data/network.test-network.txt",
                "./data/network.metal-trade.txt",
-               "./data/network.BAT-reid.txt",
-               "./data/network.token636.txt")
+               "./data/network.BAT-small-reid.consolidated.txt",
+               "./data/network.token636.consolidated.txt")
   
   data.labels.fn <- c("./data/label.citation-statistics.txt",
                       "./data/label.airport-US2010.txt",
@@ -35,7 +35,7 @@
                       NA)
   
   data<-read.csv(file=data.fn[data.idx], sep=" ", header=F)
-  data[,3] <- data[,3] * 0.0000000001
+  data[,3] <- (data[,3] - min(data[,3])) / (max(data[,3]) - min(data[,3]))
   
   if (is.na(data.labels.fn[data.idx])) {
       data.labels <- NULL
@@ -56,7 +56,6 @@
   # create a directed graph and store the initial node index in the vertex 
   # attribute idx
   tokenGr<-graph_from_edgelist(as.matrix(data[,1:2]),directed=TRUE) 
-  #tokenGr<-graph_from_edgelist(as.matrix(data[,1:2]),directed=TRUE)%>%
   tokenGr<-tokenGr%>%
       set_vertex_attr("idx", value = as.character(seq(1,vcount(tokenGr))))
   
@@ -72,11 +71,7 @@
   
   vcount(tokenGr)
   ecount(tokenGr)
-  
-  #pdf("before-alphacore.pdf") 
-  #plot(tokenGr, vertex.size=2, vertex.label=NA, edge.arrow.size=0.1,rescale=TRUE)
-  #dev.off() 
-  
+
   edge=as_edgelist(tokenGr, names = TRUE)
   colnames(edge)<-c("Source","Target")
   write.csv(edge, file = "edgelist.csv")
@@ -140,40 +135,24 @@
   #   nodes from core to less core.
   aCore<-function(tokenGr, edgelist, depthInputData, alphaCoreMap,step=0.01){
     alphaCoreMap<-c();
-    #alpha<-1.0-step;
     alpha<-1
-    #m<-matrix(); # not used?
   
     updated<-TRUE;
     level <- NULL
     min.weight <- NULL
-    power.sample <- NULL
     min.depth <- NULL
-  
+    max.degree <- max(depthInputData[,2])
     depthInputData <- cbind(depthInputData, 0, 0, 1) 
-    #while(TRUE){
+    
     while(alpha > 0){
       if(vcount(tokenGr)==0){
         message("Graph has no nodes left.")
         return(alphaCoreMap);
       }
       
-      #g.density <- density(depthInputData[,2])
-      #rmCount = max(which(g.density[[1]] <= 1))
-      #plot(g.density)
-      #points(g.density[[1]][rmCount], g.density[[2]][rmCount], col="red")
-  
-      # perform a power transformation on the variables
-      if (is.null(power.sample)) {
-          bcmodel <- boxCox(depthInputData[,3]~1, family="yjPower", plotit=F)
-          power.sample.weight = bcmodel$x[ which.max(bcmodel$y) ]
-          bcmodel <- boxCox(depthInputData[,2]~1, family="yjPower", plotit=F)
-          power.sample.degree = bcmodel$x[ which.max(bcmodel$y) ]
-          #message("Using power.sample.degree: ", power.sample.degree)
-          #message("Using power.sample.weight: ", power.sample.weight)
-      }
-      depthInputData[,5] = yjPower(depthInputData[,3], power.sample.weight)
-      depthInputData[,4] = yjPower(depthInputData[,2], power.sample.degree)
+      # normalized the degree - we've already normalize the weights
+	    depthInputData[,5] = depthInputData[,3]
+	    depthInputData[,4] = depthInputData[,2] / max.degree
   
       #This depth function should be implemented
       #calculate depth value of each node w.r.t. all other nodes
@@ -206,8 +185,9 @@
       rownames(depthInputData)<-NULL
       updated=FALSE;
   
-      # get the depth value associated with the 20 percentile of all nodes in 
-      # the current graph
+      # get the depth value to remove if a new alpha level is reached 
+      # (otherwise we set to 1 from prior iteration after removing nodes 
+      # at prevoius alpha level)
       if (is.null(level)) {
           level <- alpha 
       }
@@ -239,11 +219,7 @@
           #  alpha = 0
           #}
         }
-        #alpha = alpha + 1;
-        # if level doesn't change we exit 
-        #if (is.na(level) || level != 1) {
-        #    break
-        #}
+
         level = NULL;
         power.sample.weight = 0;
         power.sample.degree = 0;
@@ -252,7 +228,7 @@
         message(length(nodesToBeDeleted), 
                 " nodes are deleted for alpha:", alpha, 
                 ". Graph has ",vcount(tokenGr)," nodes.")
-        # TODO:
+
         # convert nodesToBeDeleted to match vertex id
         # recalculate depthInputData degree and weights for deleted nodes
         deleted_tmp = c()
@@ -306,15 +282,7 @@
       initialNodeFeatures[counter,] = c(v,inDegree, inWeight) 
       counter = counter + 1
   }
-  
-  
-  #for(v in V(tokenGr)){
-  #  inDegree<-length(unlist(adjacent_vertices(tokenGr, v, mode = "in")))#count in degree
-  #  inWeight<-sum(incident(tokenGr, v, mode = "in")$weight)
-  #  #message("Node neighbor:",inDegree,", weight:",inWeight)
-  #  newRow<-c(v,inDegree,inWeight)
-  #  initialNodeFeatures<-rbind(initialNodeFeatures,newRow)
-  #} 
+
   colnames(initialNodeFeatures)<-c("node","inDegree","inWeight")
   
   #run alpha core
@@ -351,11 +319,6 @@
           color <- rgb(0, 1, 0)
           first <- FALSE
      }
-  
-     #alphaCoreMap.labels = c(as.matrix(
-     #                        data.labels)[as.numeric(alphaCoreMap[idx, 2])],
-     #                        alphaCoreMap.labels)
-  
      points(initialNodeFeatures[ tidx  ,2:3], col=color, pch=".")
      vcolor[ tidx ] = color
   }
@@ -380,7 +343,7 @@
       break
     }
   }
-  #didx <- which( as.numeric(alphaCoreMap[,3]) <= sort(as.numeric(unique(alphaCoreMap[,3])))[5])
+
   dnodes <- as.numeric( alphaCoreMap[didx, 2] )
   # get original node ids of dnodes for subgraph creation
   sidx <- which(as.numeric(vertex_attr(tokenGr)$idx) %in% dnodes)
@@ -408,18 +371,6 @@
        rescale=T, asp=0)
   dev.off()
   
-  
-  #pdf("after-alphacore.pdf", width=24, height=24)
-  #e <- get.edgelist(tokenGr)
-  #l <- qgraph.layout.fruchtermanreingold(e, vcount=vcount(tokenGr)) 
-  #plot(tokenGr, 
-  #     layout=l,
-  #     vertex.size=2,
-  #     vertex.label=NA,
-  #     edge.arrow.size=0.1,
-  #     rescale=T, asp=0)
-  #dev.off()
-  
   write.csv(cbind(alphaCoreMap, alphaCoreMap.labels), paste("results", step.size, "csv", sep="."))
   
   #sort matrix according to node index
@@ -429,16 +380,21 @@
   
   
   alevels <- as.data.frame(alphaCoreMap) %>% group_by(alpha) %>% summarise(no_rows = length(alpha))
-  plot(cumsum(rev(alevels$no_rows)) / sum(alevels$no_rows), rev(levels(alevels$alpha)), type="b", pch=5,
+  oidx <- order(as.numeric(levels(alevels$alpha)), decreasing=T)
+  alevels.core <- cbind(cumsum(alevels$no_rows[oidx]) / sum(alevels$no_rows),
+				levels(alevels$alpha)[oidx])
+  plot(alevels.core[,1], alevels.core[,2], type="b", pch=5,
        xlab="percentage of nodes", ylab="alpha level")
   
   # correlation of core value and indegree and inweight
   # find correlations (?)
 
-  top.nodes.idx <- which(initialNodeFeatures[,1] %in% alphaCoreMap[which(alphaCoreMap[,3] == 0), 2]
-  
+  top.nodes.idx <- which(initialNodeFeatures[,1] %in% alphaCoreMap[which(as.numeric(alphaCoreMap[,3]) == min(alphaCoreMap[,3])), 2])
+  sum(initialNodeFeatures[top.nodes.idx,3]) / sum(initialNodeFeatures[,3])
 
-  cor_indegree_rank=cor(temp[,2],temp[,4])
-  cor_inweight_rank=cor(temp[,3],temp[,4])
-  cor_indegree_alpha=cor(temp[,2],temp[,5])
-  cor_inweight_alpha=cor(temp[,3],temp[,5])
+  #sum(initialNodeFeatures[which(initialNodeFeatures[,1] %in% top.nodes.idx),3]) / sum(initialNodeFeatures[,3])
+
+  #cor_indegree_rank=cor(temp[,2],temp[,4])
+  #cor_inweight_rank=cor(temp[,3],temp[,4])
+  #cor_indegree_alpha=cor(temp[,2],temp[,5])
+  #cor_inweight_alpha=cor(temp[,3],temp[,5])
