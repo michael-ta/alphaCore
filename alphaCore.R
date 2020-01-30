@@ -8,25 +8,34 @@
   
   #Version V.2
   
-  setwd("D:/repos/alphaCore")
+  setwd("/mnt/alphaCore")
   source("helper.R")
   
-  data.idx <- 1
-  step.size = 0.0000005
+  data.idx <- 8
+  step.size = 0.0005
   
   data.fn <- c("./data/network.citation-statistics.txt",
                "./data/network.airport-US2010.txt",
                "./data/network.collaboration-netscience.txt",
                "./data/network.protein-4932.small.txt",
-               "./data/network.blood-plasma.newid")
+               "./data/network.blood-plasma.newid",
+               "./data/network.test-network.txt",
+               "./data/network.metal-trade.txt",
+               "./data/network.BAT-reid.txt",
+               "./data/network.token636.txt")
   
   data.labels.fn <- c("./data/label.citation-statistics.txt",
                       "./data/label.airport-US2010.txt",
                       "./data/label.collaboration-netscience.txt",
                       NA,
+                      NA,
+                      "./data/label.test-network.txt",
+                      "./data/label.metal-trade.txt",
+                      NA,
                       NA)
   
   data<-read.csv(file=data.fn[data.idx], sep=" ", header=F)
+  data[,3] <- data[,3] * 0.0000000001
   
   if (is.na(data.labels.fn[data.idx])) {
       data.labels <- NULL
@@ -255,7 +264,7 @@
                   aidx <- which(depthInputData[,1] == anode)
                   depthInputData[aidx,2] = depthInputData[aidx, 2] - 1
                   widx <- which(edgelist[eidx,2] == anode)
-                  depthInputData[aidx,3] = depthInputData[aidx, 3] - edgelist[eidx,3][widx]
+                  depthInputData[aidx,3] = depthInputData[aidx, 3] - sum(edgelist[eidx,3][widx])
               }
               depthInputData = depthInputData[-didx,]
           } else {
@@ -281,7 +290,7 @@
           #record node index in origional network
       }
     } 
-  
+
     return(alphaCoreMap)
   }
   
@@ -326,7 +335,7 @@
   total <- length(unique(as.numeric(alphaCoreMap[,3])))
   alphaCoreMap.labels <- c()
   
-  for (alpha in sort(unique(as.numeric(alphaCoreMap[,3])), decreasing=F)) {
+  for (alpha in sort(as.numeric(unique(as.numeric(alphaCoreMap[,3]))), decreasing=F)) {
      level = level + 1
      idx  <- which(as.numeric(alphaCoreMap[,3]) == alpha)
   
@@ -358,10 +367,20 @@
   vertex_attr(tokenGr)$label.degree = c(rep(-pi/6, vcount(tokenGr)))
   vertex_attr(tokenGr)$width = c(rep(0.5, vcount(tokenGr)))
   vertex_attr(tokenGr)$label.color = c(rep("black", vcount(tokenGr)))
+  vertex_attr(tokenGr)$size = 1 + ((initialNodeFeatures[,2] / max(initialNodeFeatures[,2])) * 3)
   
   tokenGr <- tokenGr %>% set_edge_attr("color", value=rgb(0.7, 0.7, 0.7, 0.25))
-  
-  didx <- which( as.numeric(alphaCoreMap[,3]) <= sort(unique(alphaCoreMap[,3]))[5])
+  didx <- c()
+  for (i in 1:10) {
+    new_didx <- which( as.numeric(alphaCoreMap[,3]) == sort(as.numeric(unique(alphaCoreMap[,3])))[i] )
+    if (length(new_didx) + length(didx) < 3500) {
+      didx = c(didx, new_didx)
+    } else {
+      didx = c(didx, new_didx[1:(3500 - length(didx))])
+      break
+    }
+  }
+  #didx <- which( as.numeric(alphaCoreMap[,3]) <= sort(as.numeric(unique(alphaCoreMap[,3])))[5])
   dnodes <- as.numeric( alphaCoreMap[didx, 2] )
   # get original node ids of dnodes for subgraph creation
   sidx <- which(as.numeric(vertex_attr(tokenGr)$idx) %in% dnodes)
@@ -381,7 +400,6 @@
   
   plot(sGr, 
        layout=l, 
-       vertex.size=2,
        label.dist=.5,
        label.cex=0.05, 
        vertex.label=labels,
@@ -411,10 +429,15 @@
   
   
   alevels <- as.data.frame(alphaCoreMap) %>% group_by(alpha) %>% summarise(no_rows = length(alpha))
-  plot(cumsum(rev(alevels$no_rows)) / sum(alevels$no_rows), rev(levels(alevels$alpha)), type="b", pch=5)
+  plot(cumsum(rev(alevels$no_rows)) / sum(alevels$no_rows), rev(levels(alevels$alpha)), type="b", pch=5,
+       xlab="percentage of nodes", ylab="alpha level")
   
   # correlation of core value and indegree and inweight
   # find correlations (?)
+
+  top.nodes.idx <- which(initialNodeFeatures[,1] %in% alphaCoreMap[which(alphaCoreMap[,3] == 0), 2]
+  
+
   cor_indegree_rank=cor(temp[,2],temp[,4])
   cor_inweight_rank=cor(temp[,3],temp[,4])
   cor_indegree_alpha=cor(temp[,2],temp[,5])
