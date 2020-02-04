@@ -35,6 +35,7 @@ mahalanobis.origin <- function(data, sigma) {
 
 calculate.state_matrix <- function(nvar) {
 # calculate state probabilities
+    
     n = nrow(nvar)
     states = c()
     smatrix = c()
@@ -68,7 +69,39 @@ calculate.state_probs <- function(smatrix) {
         }
     }
     names(counter) <- states
+    counter <- counter / sum(counter)
     counter
+}
+
+mahalanobis.nominal_origin <- function(data, sigma, states) {
+    
+}
+
+mahalanobis.factor <- function(features) {
+    #ctidx <- which(unlist(lapply(features, is.factor)) == F)
+    #faidx <- which(unlist(lapply(features, is.factor)) == T)
+    faidx <- grep("factor", colnames(features))
+    ctidx <- grep("count", colnames(features))  
+  
+    smatrix <- calculate.state_matrix(features[faidx])
+    sprob <- calculate.state_probs(smatrix)
+
+    gMhD <- matrix(0, nrow(features), 3)
+
+    for (sidx in 1:nrow(smatrix)) {
+        bstr <- paste(smatrix[sidx,], collapse="")
+        pidx <- which(names(sprob) == bstr)
+        d1gg <- c()
+        d2gg <- c()
+        for (prob in sprob) {
+            d1gg = c(d1gg, (sprob[bstr] - prob) * log(sprob[bstr] / prob, 10))
+            d2gg = c(d2gg, (sprob[bstr] + prob) / 2) 
+        }
+        # multiply d2gg with the computed MhD and add d1gg
+        gMhD[sidx ,2] = sum(d1gg)
+        gMhD[sidx ,3] = sum(d2gg)
+    }
+    gMhD
 }
 
 
