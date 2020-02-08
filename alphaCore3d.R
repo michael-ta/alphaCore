@@ -6,14 +6,14 @@
   library(network)
   library(car)
   
-# Version V.2.1
+# Version V.2.2
 # incorporation of generalized MhD for nominal data
   
   setwd("/mnt/alphaCore")
   source("helper.R")
   
   data.idx <- 3
-  step.size <- 0.005
+  step.size <- 0.000005
   
   data.fn <- c("./data/network.test-network.txt",
                "./data/network.metal-trade.txt",
@@ -233,7 +233,9 @@
       # for 3D alphaCore we need to additionally remove nodes that do not have
       # any incoming edges even though the depth value != 0. This is because
       # the node features are non-zero
-      nodesToBeDeleted <- which(depthInputData[,6] >= level)
+
+      nodesToBeDeleted <- which(depthInputData[,2] == 0)
+      nodesToBeDeleted <- union(nodesToBeDeleted, which(depthInputData[,6] >= level))
 
      
       if (length(nodesToBeDeleted) > 0) {
@@ -429,9 +431,9 @@
   
 
   alevels <- as.data.frame(alphaCoreMap) %>% group_by(alpha) %>% summarise(no_rows = length(alpha))
-  oidx <- order(as.numeric(levels(alevels$alpha)), decreasing=T)
+  oidx <- order(as.numeric(alevels$alpha), decreasing=T)
   alevels.core <- cbind(cumsum(alevels$no_rows[oidx]) / sum(alevels$no_rows),
-                                levels(alevels$alpha)[oidx])
+                        alevels$alpha[oidx])
   plot(alevels.core[,1], alevels.core[,2], type="b", pch=5,
        xlab="percentage of nodes", ylab="alpha level")
 
@@ -440,11 +442,9 @@
 
   #sum(initialNodeFeatures[which(initialNodeFeatures[,1] %in% top.nodes.idx),3]) / sum(initialNodeFeatures[,3])
 
-  
- 
   # correlation of core value and indegree and inweight
   # find correlations (?)
-  cor_indegree_rank=cor(temp[,2],temp[,4])
-  cor_inweight_rank=cor(temp[,3],temp[,4])
-  cor_indegree_alpha=cor(temp[,2],temp[,5])
-  cor_inweight_alpha=cor(temp[,3],temp[,5])
+  #cor_indegree_rank=cor(temp[,2],temp[,4])
+  #cor_inweight_rank=cor(temp[,3],temp[,4])
+  #cor_indegree_alpha=cor(temp[,2],temp[,5])
+  #cor_inweight_alpha=cor(temp[,3],temp[,5])
