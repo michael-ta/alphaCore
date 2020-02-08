@@ -295,102 +295,11 @@
   alphaCoreMap=cbind(1:vcount(tokenGr),alphaCoreMap)
   colnames(alphaCoreMap)<-c("rank","node","alpha")
   rownames(alphaCoreMap)<-c()
-  vcolor <- c()
-  count <- 0
-  pdf(paste("degree_vs_weights", step.size, "pdf", sep="."))
-  plot(initialNodeFeatures[,2:3], pch=".")
-  
-  first <- TRUE
-  level <- 0
-  total <- length(unique(as.numeric(alphaCoreMap[,3])))
   alphaCoreMap.labels <- c()
-  
-  for (alpha in sort(as.numeric(unique(as.numeric(alphaCoreMap[,3]))), decreasing=F)) {
-     level = level + 1
-     idx  <- which(as.numeric(alphaCoreMap[,3]) == alpha)
-  
-     count = count + length(idx)
-     color <- rgb(1 - (count/vcount(tokenGr) * (level/total)), 
-                  0,
-                  count/vcount(tokenGr) * (level/total) )
-     # incorrect previously used tokenGr vertex attr
-     tidx <- which(as.numeric(vertex_attr(tokenGr, "idx")) %in% as.numeric(alphaCoreMap[idx,2]))
-  
-     if (first) {
-          print( cbind(alphaCoreMap[idx, 2], initialNodeFeatures[ tidx, 2:3 ]) )
-          color <- rgb(0, 1, 0)
-          first <- FALSE
-     }
-     points(initialNodeFeatures[ tidx  ,2:3], col=color, pch=".")
-     vcolor[ tidx ] = color
-  }
-  dev.off()
-  
-  vertex_attr(tokenGr)$color = vcolor
-  vertex_attr(tokenGr)$label.cex = c(rep(0.5, vcount(tokenGr)))
-  vertex_attr(tokenGr)$label.dist = c(rep(.5, vcount(tokenGr)))
-  vertex_attr(tokenGr)$label.degree = c(rep(-pi/6, vcount(tokenGr)))
-  vertex_attr(tokenGr)$width = c(rep(0.5, vcount(tokenGr)))
-  vertex_attr(tokenGr)$label.color = c(rep("black", vcount(tokenGr)))
-  vertex_attr(tokenGr)$size = 1 + ((initialNodeFeatures[,2] / max(initialNodeFeatures[,2])) * 3)
-  
-  tokenGr <- tokenGr %>% set_edge_attr("color", value=rgb(0.7, 0.7, 0.7, 0.25))
-  didx <- c()
-  for (i in 1:10) {
-    new_didx <- which( as.numeric(alphaCoreMap[,3]) == sort(as.numeric(unique(alphaCoreMap[,3])))[i] )
-    if (length(new_didx) + length(didx) < 3500) {
-      didx = c(didx, new_didx)
-    } else {
-      didx = c(didx, new_didx[1:(3500 - length(didx))])
-      break
-    }
-  }
 
-  dnodes <- as.numeric( alphaCoreMap[didx, 2] )
-  # get original node ids of dnodes for subgraph creation
-  sidx <- which(as.numeric(vertex_attr(tokenGr)$idx) %in% dnodes)
-  sGr <- induced_subgraph(tokenGr, sidx)
-  
-  
-  pdf(paste("remaining-alphacore", step.size, "pdf", sep="."), width=12, height=12)
-  e <- get.edgelist(sGr)
-  l <- qgraph.layout.fruchtermanreingold(e, vcount=vcount(sGr))
-  if (is.null(data.labels)) {
-      labels=NA
-  } else {
-      labels=data.labels[sort(dnodes)]
-  }
-  
-  vertex_attr(sGr)$color = getVertexColors(sGr, alphaCoreMap[didx,])
-  
-  plot(sGr, 
-       layout=l, 
-       label.dist=.5,
-       label.cex=0.05, 
-       vertex.label=labels,
-       edge.arrow.size=0.1,
-       width=0.25,
-       rescale=T, asp=0)
-  dev.off()
-  
+
   write.csv(cbind(alphaCoreMap, alphaCoreMap.labels), paste("results", step.size, "csv", sep="."))
   
-  #sort matrix according to node index
-  alphaCoreMap=alphaCoreMap[order(alphaCoreMap[,2]),]
-  temp=cbind(initialNodeFeatures,alphaCoreMap[,1],alphaCoreMap[,3])
-  colnames(temp)<-c("node","inDegree","inWeight","rank","alpha")
-  
-  
-  alevels <- as.data.frame(alphaCoreMap) %>% group_by(alpha) %>% summarise(no_rows = length(alpha))
-  oidx <- order(as.numeric(levels(alevels$alpha)), decreasing=T)
-  alevels.core <- cbind(cumsum(alevels$no_rows[oidx]) / sum(alevels$no_rows),
-				levels(alevels$alpha)[oidx])
-  plot(alevels.core[,1], alevels.core[,2], type="b", pch=5,
-       xlab="percentage of nodes", ylab="alpha level")
-  
-  # correlation of core value and indegree and inweight
-  # find correlations (?)
-
   top.nodes.idx <- which(initialNodeFeatures[,1] %in% alphaCoreMap[which(as.numeric(alphaCoreMap[,3]) == min(alphaCoreMap[,3])), 2])
   sum(initialNodeFeatures[top.nodes.idx,3]) / sum(initialNodeFeatures[,3])
 
