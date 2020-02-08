@@ -11,8 +11,10 @@
   setwd("D:/repos/alphaCore_new")
   source("helper.R")
   
-  data.idx <- 9
-  step.size = 0.0000000005
+  args <- commandArgs(trailing=F)
+  
+  data.idx <- as.numeric(args[1])
+  step.size <- as.numeric(args[2])
   
   data.fn <- c("./data/network.citation-statistics.txt",
                "./data/network.airport-US2010.txt",
@@ -74,12 +76,12 @@
 
   edge=as_edgelist(tokenGr, names = TRUE)
   colnames(edge)<-c("Source","Target")
-  write.csv(edge, file = "edgelist.csv")
+  #write.csv(edge, file = "edgelist.csv")
   
   id=1:vcount(tokenGr)
   node=cbind(id, V(tokenGr)$idx, 1:vcount(tokenGr) * 0)
   colnames(node)<-c("Id","Label","group")
-  write.csv(node, file = "node.csv")
+  #write.csv(node, file = "node.csv")
   
   
   # function to get edge weights
