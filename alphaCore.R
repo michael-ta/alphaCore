@@ -18,8 +18,11 @@
   source("helper.R")
   
   args <- commandArgs(trailing=T)
-  data.network <- if (!is.na(args[1])) as.numeric(args[1]) else "airport-US2010"
-  step.size <- if (!is.na(args[2])) as.numeric(args[2]) else 0.05
+  # debug parameters
+  debug.network <- "airport-US2010"
+  debug.stepsize <- 0.05
+  data.network <- if (!is.na(args[1])) args[1] else debug.network
+  step.size <- if (!is.na(args[2])) as.numeric(args[2]) else debug.stepsize
   
   data.network.fn <- paste("./data/network", data.network, "txt", sep=".")
   data.labels.fn <- paste("./data/label", data.network, "txt", sep=".")
@@ -291,7 +294,9 @@
             paste("results", data.network, 
                   format(step.size, scientific=T), "csv", sep="."))
   
-  top.nodes.idx <- which(initialNodeFeatures[,1] %in% alphaCoreMap[which(as.numeric(alphaCoreMap[,3]) == min(alphaCoreMap[,3])), 2])
+  top.nodes.idx <- which(initialNodeFeatures[,1] %in% 
+                         alphaCoreMap[which(as.numeric(alphaCoreMap[,3]) == 
+                                            min(alphaCoreMap[,3])), 2])
   top.weights <- sum(initialNodeFeatures[top.nodes.idx,3]) / 
                     sum(initialNodeFeatures[,3])
   top.edges <- sum(initialNodeFeatures[top.nodes.idx, 2]) /
