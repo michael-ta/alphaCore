@@ -74,7 +74,14 @@
   node=cbind(id, V(tokenGr)$idx, 1:vcount(tokenGr) * 0)
   colnames(node)<-c("Id","Label","group")
   #write.csv(node, file = "node.csv")
-  
+ 
+  FindNextAlpha <- function(alpha, depths) {
+    aidx <- which(depths < alpha)
+    delta <- sort(depths[aidx], decreasing=T)[1]
+    delta <- (alpha - delta)
+    return(delta)
+  }
+ 
   # Below are the alpha core steps
   #
   # when alpha>0, for mahalanobis depth 
@@ -162,13 +169,13 @@
      if(updated==FALSE){
         message("Nothing was removed for alpha: ", alpha);
         # fix rounding errors for decimal values after many iterations
-        delta = (alpha - sort(depthInputData[which(depthInputData[,6] < alpha),6], decreasing=T)[1]) / step
+        delta <- FindNextAlpha(alpha, depthInputData[,6]) / step
         prev_alpha_tmp = alpha
         alpha = signif(alpha - (step * ceiling(delta)), 15)
         if (is.na(alpha)) {
           alpha = 0
           # alphaCore reiterate
-          #delta = (prev_alpha_tmp - sort(depthInputData[,6], decreasing=T)[1]) / step
+          #delta = FindNextAlpha(prev_alpha_tmp, depthInputData[,6]) / step
           #alpha = signif(prev_alpha_tmp - (step * ceiling(delta)), 15)
           #if (is.na(alpha)) {
           #  alpha = 0
