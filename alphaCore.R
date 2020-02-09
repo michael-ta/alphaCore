@@ -75,50 +75,6 @@
   colnames(node)<-c("Id","Label","group")
   #write.csv(node, file = "node.csv")
   
-  
-  # function to get edge weights
-  getEdgeWeights<-function(inputGr) {
-      depthInputData<-data.frame();
-      # for each vertex in graph
-      for(v in V(inputGr)) {
-          # count in degree
-          inDegree<-length(unlist(adjacent_vertices(inputGr, v, mode="in")))
-          # count weight of incoming edges
-          inWeight<-sum(as.numeric(incident(inputGr, v, mode="in")$weight))
-          # node index, in degree, in weight
-          newRow<-c(v, inDegree, inWeight)
-          depthInputData<-rbind(depthInputData, newRow)
-      }
-      depthInputData
-  }
-  
-  # function to color nodes given the graph and alphaCoreMap output from 
-  # alphaCore
-  getVertexColors<-function(inputGr, aCM) {
-      vcolor <- c()
-      total <- length(unique(as.numeric(aCM[,3])))
-      level <- 0
-      count <- 0
-      first <- TRUE
-      for (alpha in sort(unique(as.numeric(aCM[,3])), decreasing=F)) {
-          level = level + 1
-          idx  <- which(as.numeric(aCM[,3]) == alpha)
-          count = count + length(idx)
-          color <- rgb(1 - (count/vcount(inputGr) * (level/total)), 
-                       0,
-                       count/vcount(inputGr) * (level/total) )
-          tidx <- which(as.numeric(vertex_attr(inputGr, "idx")) %in% 
-                        as.numeric(aCM[idx,2]))
-  
-          if (first) {
-              color <- rgb(0, 1, 0)
-              first <- FALSE
-          }
-          vcolor[ tidx ] = color
-      }
-      vcolor
-  }
-  
   # Below are the alpha core steps
   #
   # when alpha>0, for mahalanobis depth 
@@ -175,7 +131,12 @@
       depthValue = temp
       # add column for depth to dataframe
       depthInputData[,6]<- depthValue
-      colnames(depthInputData)<-c("node","inDegree","inWeight", "tr_inDegree", "tr_inWeight", "depth")
+      colnames(depthInputData)<-c("node",
+                                  "inDegree",
+                                  "inWeight", 
+                                  "tr_inDegree", 
+                                  "tr_inWeight", 
+                                  "depth")
       rownames(depthInputData)<-NULL
       updated=FALSE;
   
@@ -234,7 +195,8 @@
                   aidx <- which(depthInputData[,1] == anode)
                   depthInputData[aidx,2] = depthInputData[aidx, 2] - 1
                   widx <- which(edgelist[eidx,2] == anode)
-                  depthInputData[aidx,3] = depthInputData[aidx, 3] - sum(edgelist[eidx,3][widx])
+                  depthInputData[aidx,3] = depthInputData[aidx, 3] - 
+                                             sum(edgelist[eidx,3][widx])
               }
               depthInputData = depthInputData[-didx,]
           } else {
@@ -242,7 +204,8 @@
               alpha = 0
           }
   
-          deleted_tmp = c(deleted_tmp, which(as.integer(vertex_attr(tokenGr)$idx) == v))
+          deleted_tmp = c(deleted_tmp, 
+                          which(as.integer(vertex_attr(tokenGr)$idx) == v))
         }
         tokenGr = delete_vertices(tokenGr, deleted_tmp);
         if (vcount(tokenGr) == 1) {
