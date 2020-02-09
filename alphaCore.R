@@ -286,8 +286,10 @@
   rownames(alphaCoreMap)<-c()
   alphaCoreMap.labels <- c()
 
-
-  write.csv(cbind(alphaCoreMap, alphaCoreMap.labels), paste("results", step.size, "csv", sep="."))
+  
+  write.csv(cbind(alphaCoreMap, alphaCoreMap.labels), 
+            paste("results", data.network, 
+                  format(step.size, scientific=T), "csv", sep="."))
   
   top.nodes.idx <- which(initialNodeFeatures[,1] %in% alphaCoreMap[which(as.numeric(alphaCoreMap[,3]) == min(alphaCoreMap[,3])), 2])
   sum(initialNodeFeatures[top.nodes.idx,3]) / sum(initialNodeFeatures[,3])
