@@ -6,43 +6,32 @@
   library(network)
   library(car)
   
-  #Version V.2
-  
-  setwd("D:/repos/alphaCore_new")
+  args <- commandArgs(trailing=F)
+  script.path <- sub("--file=", "", args[grep("--file=", args)])
+  if(!(identical(script.path, character(0)))) {
+    script.basename <-  dirname(script.path)
+  } else {
+    # for debug / rstudio purposes
+    script.basename <- "/mnt/alphaCore"
+  }
+  setwd(script.basename) 
   source("helper.R")
   
-  args <- commandArgs(trailing=F)
+  args <- commandArgs(trailing=T)
+  data.network <- if (!is.na(args[1])) as.numeric(args[1]) else "airport-US2010"
+  step.size <- if (!is.na(args[2])) as.numeric(args[2]) else 0.05
   
-  data.idx <- as.numeric(args[1])
-  step.size <- as.numeric(args[2])
-  
-  data.fn <- c("./data/network.citation-statistics.txt",
-               "./data/network.airport-US2010.txt",
-               "./data/network.collaboration-netscience.txt",
-               "./data/network.protein-4932.small.txt",
-               "./data/network.blood-plasma.newid",
-               "./data/network.test-network.txt",
-               "./data/network.metal-trade.txt",
-               "./data/network.BAT-small-reid.consolidated.txt",
-               "./data/network.token636.consolidated.txt")
-  
-  data.labels.fn <- c("./data/label.citation-statistics.txt",
-                      "./data/label.airport-US2010.txt",
-                      "./data/label.collaboration-netscience.txt",
-                      NA,
-                      NA,
-                      "./data/label.test-network.txt",
-                      "./data/label.metal-trade.txt",
-                      NA,
-                      NA)
-  
-  data<-read.csv(file=data.fn[data.idx], sep=" ", header=F)
+  data.network.fn <- paste("./data/network.", data.network, ".txt", sep="")
+  data.labels.fn <- paste("./data/label.", data.network, ".txt", sep="")
+  data.labels.fn <- if (!(file.exists(data.labels.fn))) NA else data.labels.fn
+ 
+  data<-read.csv(file=data.network.fn, sep=" ", header=F)
   data[,3] <- (data[,3] - min(data[,3])) / (max(data[,3]) - min(data[,3]))
   
-  if (is.na(data.labels.fn[data.idx])) {
+  if (is.na(data.labels.fn)) {
       data.labels <- NULL
   } else {
-      data.labels<-read.csv(file=data.labels.fn[data.idx], header=F)
+      data.labels<-read.csv(file=data.labels.fn, header=F)
       data.labels<-as.character(data.labels$V1)
   }
   
