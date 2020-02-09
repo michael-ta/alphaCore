@@ -8,7 +8,7 @@
   
   args <- commandArgs(trailing=F)
   script.path <- sub("--file=", "", args[grep("--file=", args)])
-  if(!(identical(script.path, character(0)))) {
+  if (!(identical(script.path, character(0)))) {
     script.basename <-  dirname(script.path)
   } else {
     # for debug / rstudio purposes
@@ -21,8 +21,8 @@
   data.network <- if (!is.na(args[1])) as.numeric(args[1]) else "airport-US2010"
   step.size <- if (!is.na(args[2])) as.numeric(args[2]) else 0.05
   
-  data.network.fn <- paste("./data/network.", data.network, ".txt", sep="")
-  data.labels.fn <- paste("./data/label.", data.network, ".txt", sep="")
+  data.network.fn <- paste("./data/network", data.network, "txt", sep=".")
+  data.labels.fn <- paste("./data/label", data.network, "txt", sep=".")
   data.labels.fn <- if (!(file.exists(data.labels.fn))) NA else data.labels.fn
  
   data<-read.csv(file=data.network.fn, sep=" ", header=F)
@@ -292,7 +292,19 @@
                   format(step.size, scientific=T), "csv", sep="."))
   
   top.nodes.idx <- which(initialNodeFeatures[,1] %in% alphaCoreMap[which(as.numeric(alphaCoreMap[,3]) == min(alphaCoreMap[,3])), 2])
-  sum(initialNodeFeatures[top.nodes.idx,3]) / sum(initialNodeFeatures[,3])
+  top.weights <- sum(initialNodeFeatures[top.nodes.idx,3]) / 
+                    sum(initialNodeFeatures[,3])
+  top.edges <- sum(initialNodeFeatures[top.nodes.idx, 2]) /
+                    sum(initialNodeFeatures[,2])
+
+  
+  message("\n\n----- Alphacore Identifies -----")
+  message("Top ", length(top.nodes.idx), " nodes account for ", 
+          sprintf("%.3f", top.weights * 100), "% of network weights")
+
+  message("Top ", length(top.nodes.idx), " nodes account for ", 
+          sprintf("%.3f", top.edges *100), "% of network edges")
+  message("---------------------------------")
 
   #sum(initialNodeFeatures[which(initialNodeFeatures[,1] %in% top.nodes.idx),3]) / sum(initialNodeFeatures[,3])
 
