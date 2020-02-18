@@ -3,7 +3,9 @@ filelist <- list.files(pattern="results.*.csv")
 
 datalist = lapply(filelist, function(x) read.table(x, header=T, sep=","))
 
+# these ids corresond to c("ATL", "LAX", "DFW", "SFO", "LAS", "PHX", "CLT", "MIA", "MSP")
 toplist <- c(114, 877, 391, 389, 1437, 875, 1255, 317, 1016, 1068)
+
 count = c()
 network.size <- c()
 
