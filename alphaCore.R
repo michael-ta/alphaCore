@@ -63,9 +63,6 @@
   # simplify graph to remove self loops
   #tokenGr<-simplify(tokenGr)
   
-  vcount(tokenGr)
-  ecount(tokenGr)
-
   edge=as_edgelist(tokenGr, names = TRUE)
   colnames(edge)<-c("Source","Target")
   #write.csv(edge, file = "edgelist.csv")
@@ -109,7 +106,9 @@
       
       # normalized the degree - we've already normalize the weights
 	    depthInputData[,5] = depthInputData[,3]
-	    depthInputData[,4] = depthInputData[,2] / max.degree
+         
+	    depthInputData[,4] = (depthInputData[,2] - min(depthInputData[,2])) / (max.degree - min(depthInputData[,2]))
+        #depthInputData[,4] = (depthInputData[,2]) / max.degree
   
       #This depth function should be implemented
       #calculate depth value of each node w.r.t. all other nodes
@@ -272,14 +271,23 @@
   top.edges <- sum(initialNodeFeatures[top.nodes.idx, 2]) /
                     sum(initialNodeFeatures[,2])
 
+  #top.edges <- sum(which(data[,1] %in% top.nodes.idx)) + 
+  #             sum(which(data[,2] %in% top.nodes.idx))
+
+  #top.edges = top.edges / nrow(data)
+
   
-  message("\n\n----- Alphacore Identifies -----")
-  message("Top ", length(top.nodes.idx), " nodes account for ", 
-          sprintf("%.3f", top.weights * 100), "% of network weights")
+  message("\n\n----- Alphacore Results for ", data.network, " -----")
+
+  message("Total vertices in network: ", vcount(tokenGr))
+  message("Total edges in edges: ", ecount(tokenGr))
 
   message("Top ", length(top.nodes.idx), " nodes account for ", 
           sprintf("%.3f", top.edges *100), "% of network edges")
-  message("---------------------------------")
+  message("Top ", length(top.nodes.idx), " nodes account for ", 
+          sprintf("%.3f", top.weights * 100), "% of network weights")
+
+  message("------------------------------------------------")
 
   #sum(initialNodeFeatures[which(initialNodeFeatures[,1] %in% top.nodes.idx),3]) / sum(initialNodeFeatures[,3])
 
