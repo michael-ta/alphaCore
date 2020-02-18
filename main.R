@@ -1,34 +1,30 @@
 # This script can be used to initiate the analysis for alphaCore, weighted 
 # k-Core, and rich club analysis for defined networks
 library(dplyr)
+library(igraph)
 
+#setwd("D:/repos/alphaCore")
 
-setwd("D:/repos/alphaCore")
+# command line params
+args <- commandArgs(trailing=F)
 
-
-# parameters
-param.data.idx <- 3 ; # index to select dataset from below
-param.alphaCore.stepsize <- 0.0005;
+# parameters / set value for debug purposes
+# valid options c("alphaCore", "kCore", "richClub") 
+param.analysis <- if (!is.na(args[2])) args[2] else "kCore"
+param.data.network <- if (!is.na(args[3])) args[3] else "BAT"
+#param.alphaCore.stepsize <- 0.0005;
 # valid options c("k", "s") for degress and weight
 param.richclub.type = "s"
 param.richclub.iterations = 1000
 param.richclub.seed = 1
 param.richclub.reshuffle = "links"
-# valid options c("alphaCore", "kCore", "richClub") 
-param.analysis <- "kCore" 
 
+data.network.fn <- paste("./data/network.",
+                         param.data.network, ".txt", sep="")
+data.labels.fn <- paste("./data/label.", 
+                        param.data.network, ".txt", sep="")
 
-data.network.fn <- c("./data/network.citation-statistics.txt",
-                     "./data/network.airport-US2010.txt",
-                     "./data/network.collaboration-netscience.txt",
-                     "./data/network.protein-4932.small.txt")
-
-data.labels.fn <- c("./data/label.citation-statistics.txt",
-                    "./data/label.airport-US2010.txt",
-                    "./data/label.collaboration-netscience.txt",
-                    NULL)
-
-data.network <- read.csv(file=data.network.fn[param.data.idx],
+data.network <- read.csv(file=data.network.fn,
                          sep=" ", header=F)
 data.network <- distinct(data.network)
 duplicates <- which(data.network[,1] == data.network[,2])
@@ -37,11 +33,11 @@ if (!(length(duplicates) == 0)) {
 }
 colnames(data.network) <- c("from", "to", "weight")
 
-data.labels <- NULL
+data.labels <- NA
 
 # load network vertex labels
-if (!(is.null(data.labels.fn[param.data.idx]))) {
-    data.labels <- read.csv(file=data.labels.fn[param.data.idx], header=F)
+if (file.exists(data.labels.fn)) {
+    data.labels <- read.csv(file=data.labels.fn, header=F)
     data.labels <- as.character(data.labels$V1)
     data.labels = cbind(seq.int(data.labels), data.labels)
     data.labels = as.data.frame(data.labels)
@@ -70,6 +66,7 @@ weightedkCore <- function(inputGr) {
   beta <- 1
   nodes_to_delete <- c()
   cores <- c()
+  min_k <- NA
   
   while (vcount(inputGr) > 0) {
     for (i in V(inputGr)) {
@@ -81,15 +78,36 @@ weightedkCore <- function(inputGr) {
         wi <- wi + edge_attr(inputGr, "weight", 
                              get.edge.ids(inputGr, c(ai, i)))
       }
+      # normalize node weight
+      if (di > 0) {
+          wi <- wi / di
+      } else {
+          wi <- 0
+      }
       ki <- ((di**alpha) * (wi**beta))**(1/(alpha+beta))
+      if (is.nan(ki)) {
+        browser()
+      }
       if (k > ki) {
         nodes_to_delete <- c(nodes_to_delete, i)
       }
+      if (is.na(min_k)) {
+        min_k = ki 
+      } else if (ki < min_k) {
+        min_k = ki
+      }
     }
     if (length(nodes_to_delete) == 0) {
-      k <- k + 1
+      if (min_k > k) {
+          k = floor(min_k) + 1
+      } else {
+          k = k + 1
+      }
+      message(k)
+      min_k = NA
     } else {
-      message("Number of nodes to be deleted: ", length(nodes_to_delete))
+      message("Number of nodes to be deleted: ", length(nodes_to_delete),
+              " for k=", k)
       cores <- rbind(cores, 
                      cbind(vertex_attr(inputGr)$idx[nodes_to_delete], k))
       
@@ -103,16 +121,15 @@ weightedkCore <- function(inputGr) {
   return (cores)
 }
 
-
 if (param.analysis == "kCore") {
     #source("kcore.R")
     data.graph <- load.graph(data.network)
     result <- weightedkCore(data.graph)
-    if (!(is.null(data.labels))) {
+    if (!(is.na(data.labels))) {
         result <- merge(result, data.labels, all.x=T)
     } 
     colnames(result)<-c("Id","Node","bin")
-    write.csv(result, file = "wkCore.csv")
+    write.table(result, file = "wkCore.csv", row.names=NA)
 } else if (param.analysis == "richClub") {
     library(tnet)
     source("richClub.R")
@@ -154,7 +171,7 @@ if (param.analysis == "kCore") {
     result[,1] = 1:vcount(data.graph)
     
     colnames(result)<-c("Id","Node","bin")
-    write.csv(result, file = "richClub.csv")
+    write.table(result, file = "richClub.csv", row.names=NA)
 }
 
 
