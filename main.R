@@ -6,12 +6,12 @@ library(igraph)
 #setwd("D:/repos/alphaCore")
 
 # command line params
-args <- commandArgs(trailing=F)
+args <- commandArgs(trailing=T)
 
 # parameters / set value for debug purposes
 # valid options c("alphaCore", "kCore", "richClub") 
-param.analysis <- if (!is.na(args[2])) args[2] else "kCore"
-param.data.network <- if (!is.na(args[3])) args[3] else "BAT"
+param.analysis <- if (!is.na(args[1])) args[1] else "kCore"
+param.data.network <- if (!is.na(args[2])) args[2] else "token636"
 #param.alphaCore.stepsize <- 0.0005;
 # valid options c("k", "s") for degress and weight
 param.richclub.type = "s"
@@ -51,7 +51,10 @@ load.graph <- function(d) {
     g <- graph_from_edgelist(as.matrix(d[,1:2]),
                                       directed=T)%>%
          set_vertex_attr("idx", value=as.character(seq(1, vcount(g))))
-    E(g)$weight <- data.network$weight
+
+    # normalize network weights prior to setting them
+    d$weight <- 1 + (9 * (d$weight - min(d$weight)) / (max(d$weight) - min(d$weight))) 
+    E(g)$weight <- 1 / d$weight
     g <- simplify(g)
     g<-g%>%
       set_vertex_attr("idx", value = as.character(seq(1,vcount(g))))
@@ -129,7 +132,7 @@ if (param.analysis == "kCore") {
         result <- merge(result, data.labels, all.x=T)
     } 
     colnames(result)<-c("Id","Node","bin")
-    write.table(result, file = "wkCore.csv", row.names=NA)
+    write.table(result, file = "wkCore.csv", row.names=F)
 } else if (param.analysis == "richClub") {
     library(tnet)
     source("richClub.R")
@@ -171,7 +174,7 @@ if (param.analysis == "kCore") {
     result[,1] = 1:vcount(data.graph)
     
     colnames(result)<-c("Id","Node","bin")
-    write.table(result, file = "richClub.csv", row.names=NA)
+    write.table(result, file = "richClub.csv", row.names=F)
 }
 
 
