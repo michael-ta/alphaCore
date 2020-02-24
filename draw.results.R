@@ -52,10 +52,11 @@ args <- commandArgs(trailing=T)
 network <- if (!(is.na(args[2]))) args[2] else "airport-US2010"
 debug.result.fn <- paste("results", network, "5e-02", "csv", sep=".")
 resultfn <- if (!(is.na(args[1]))) args[1] else debug.result.fn
-step.size <- sub( paste("results", network, "" ,sep="."), "", resultfn )
+step.size <- sub( paste("results", network, "" ,sep="."), "", 
+                  basename(resultfn) )
 step.size <- sub( ".csv", "", step.size )
 
-opt.max.node <- 3500
+opt.max.node <- 1500
 data.network <- read.csv(file=paste("./data/network", network, "txt",
                                     sep="."),
                          sep=" ", header=F)
@@ -66,6 +67,7 @@ if (! file.exists(labelfn)) {
 } else {
     data.labels <- read.csv(labelfn, header=F)
     data.labels <- as.character(data.labels$V1)
+    data.labels <- NA
 }
 
 # pre-process the data
@@ -108,7 +110,7 @@ data.result = data.result[,-1]
 
 didx <- c()
 alevels <- as.data.frame(data.result)
-for (i in 1:10) {
+for (i in 1:15) {
     new_didx <- which( alevels[,3] == sort(unique(alevels[,3]))[i] )
     if (length(new_didx) + length(didx) < opt.max.node ) {
         didx = c(didx, new_didx)
