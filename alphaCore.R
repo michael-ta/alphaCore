@@ -19,8 +19,8 @@
   
   args <- commandArgs(trailing=T)
   # debug parameters
-  debug.network <- "airport-US2010"
-  debug.stepsize <- 0.05
+  debug.network <- "aion"
+  debug.stepsize <- 0.0000000005
   data.network <- if (!is.na(args[1])) args[1] else debug.network
   step.size <- if (!is.na(args[2])) as.numeric(args[2]) else debug.stepsize
   
@@ -29,6 +29,7 @@
   data.labels.fn <- if (!(file.exists(data.labels.fn))) NA else data.labels.fn
  
   data<-read.csv(file=data.network.fn, sep=" ", header=F)
+  
   data[,3] <- (data[,3] - min(data[,3])) / (max(data[,3]) - min(data[,3]))
   
   if (is.na(data.labels.fn)) {
@@ -247,6 +248,14 @@
   }
 
   colnames(initialNodeFeatures)<-c("node","inDegree","inWeight")
+  if (min(initialNodeFeatures[,2]) == 0) {
+    scale.factor <- 1 / max(initialNodeFeatures[,2])
+  } else {
+    scale.factor <- min(initialNodeFeatures[,2]) / 
+                    max(initialNodeFeature[,2])
+  }
+  data[,3] <- (1 + (scale.factor^-1 - 1) * (1 - data[,3]))^-1
+  browser()
   
   #run alpha core
   alphaCoreMap<-aCore(tokenGr, data, initialNodeFeatures, step=step.size)
