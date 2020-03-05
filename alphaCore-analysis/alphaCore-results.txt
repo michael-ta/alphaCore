@@ -1,0 +1,2693 @@
+0.95	A Adam Ding	2	0	0
+0.95	A D Tsodikov	2	0	0
+0.95	A James OMalley	1	2	0
+0.95	A Kong	1	0	0
+0.95	A Philip Dawid	1	0	0
+0.95	A S Foulkes	1	0	0
+0.95	A Touati	1	0	0
+0.95	Abdelkader Mokkadem	1	1	0
+0.95	Adrian Baddeley	2	0	0
+0.95	Agostino Nobile	1	0	0
+0.95	Aidan McDermott	1	0	0
+0.95	Aiyi Liu	2	2	0
+0.95	Alan Agresti	1	1	0
+0.95	Alan Edelman	1	0	0
+0.95	Alan J Cohen	1	0	0
+0.95	Albert Cohen	1	0	0
+0.95	Albert Maydeu-Olivares	1	0	0
+0.95	Alberto Rodriguez-Casal	1	0	0
+0.95	Alex Kiss	1	0	0
+0.95	Alexander J McNeil	1	0	0
+0.95	Alexander Samarov	1	0	0
+0.95	Alexandra M Schmidt	1	0	0
+0.95	Alfredo Navarro	1	0	0
+0.95	Alice S Whittemore	1	0	0
+0.95	Allan Timmermann	2	6	0
+0.95	Amnon Neeman	2	0	0
+0.95	Anatoly Zhigljavsky	1	2	0
+0.95	Andre Lucas	1	0	0
+0.95	Andrea Hennerfeind	1	0	0
+0.95	Andreas Brezger	1	0	0
+0.95	Andrei Y Yakovlev	2	0	0
+0.95	Andrej Pazman	1	0	0
+0.95	Andrew J Patton	1	6	0
+0.95	Andrew R Barron	1	0	0
+0.95	Andriy Norets	1	0	0
+0.95	Angela Kempe	1	0	0
+0.95	Angela Winnett	2	0	0
+0.95	Anna Clara Monti	2	0	0
+0.95	Anthony Garratt	1	0	0
+0.95	Anthony R Olsen	1	0	0
+0.95	Antonietta Mira	1	0	0
+0.95	Antonio Cuevas	1	0	0
+0.95	Arkadi S Nemirovski	1	0	0
+0.95	Arthur L Dryver	1	0	0
+0.95	Arup Bose	1	0	0
+0.95	Ashutosh Tewari	1	0	0
+0.95	Avital Cnaan	1	0	0
+0.95	B Devlin	1	0	0
+0.95	B K Sinha	1	2	0
+0.95	B L De Stavola	1	0	0
+0.95	B M Brown	1	0	0
+0.95	Baiqi Miao	1	0	0
+0.95	Bakhodir Ergashev	1	0	0
+0.95	Barbara Bogacka	1	0	0
+0.95	Barbara Klein	1	0	0
+0.95	Barry I Graubard	2	0	0
+0.95	Beatrix Jones	1	0	0
+0.95	Bent Nielsen	3	0	0
+0.95	Bernd Sturmfels	1	0	0
+0.95	Boaz Nadler	1	0	0
+0.95	Bonnie Ghosh-Dastidar	1	0	0
+0.95	Borus Jungbacker	1	0	0
+0.95	Brett Presnell	1	0	0
+0.95	Bruce E Hansen	1	0	0
+0.95	Byron Schmuland	1	1	0
+0.95	C F Sirmans	2	0	0
+0.95	C G Wager	1	0	0
+0.95	C Hendricks Brown	1	1	0
+0.95	C Houdre	2	0	0
+0.95	C M Jack Wang	1	0	0
+0.95	C Messan Setodji	1	0	0
+0.95	C Paddy Farrington	3	4	0
+0.95	C Semadeni	1	0	0
+0.95	C Shane Reese	1	0	0
+0.95	C Thomas Agnan	1	0	0
+0.95	C Tommasi	1	2	0
+0.95	C Y Wang	1	0	0
+0.95	Chad J Gwaltney	1	0	0
+0.95	Chandan Saha	1	0	0
+0.95	Chen-Pin Wang	1	1	0
+0.95	Cheng Zhu	1	3	0
+0.95	Chengcheng Hu	1	0	0
+0.95	Ching-Ti Liu	1	0	0
+0.95	Ching-Zong Wei	1	0	0
+0.95	Chris Daly	1	0	0
+0.95	Christian Bressen Pipper	1	0	0
+0.95	Christian Genest	3	0	0
+0.95	Christian Hennig	1	0	0
+0.95	Christina Kendziorski	2	0	0
+0.95	Christine H Muller	2	0	0
+0.95	Christine Jacob	1	2	0
+0.95	Christine S Olver	1	0	0
+0.95	Christophe Andrieu	2	0	0
+0.95	Christopher A T Ferro	1	0	0
+0.95	Christopher B Forrest	1	3	0
+0.95	Christopher K Carter	1	0	0
+0.95	Christopher Meek	1	0	0
+0.95	Christopher Morrell	1	2	0
+0.95	Chunjie Wu	1	2	0
+0.95	Chunling Liu	2	2	0
+0.95	Clifford M Hurvich	4	0	0
+0.95	Craig J Johns	1	0	0
+0.95	Cyrus Mehta	1	0	0
+0.95	D Campbell	1	0	0
+0.95	D F Signorini	1	0	0
+0.95	D Kuang	2	0	0
+0.95	D Mikis Stasinopoulos	1	0	0
+0.95	D Nicolae	1	0	0
+0.95	D Sadykova	1	2	0
+0.95	D V Hinkley	1	0	0
+0.95	Dalho Kim	1	0	0
+0.95	Damaraju Raghavarao	2	0	0
+0.95	Dan Geiger	1	0	0
+0.95	Daniel Krewski	1	0	0
+0.95	Daniel Molefe	1	0	0
+0.95	Daniel Q Naiman	1	0	0
+0.95	Daniel Zantedeschi	1	2	0
+0.95	Dankmar Bohning	1	0	0
+0.95	Dariusz Ucinski	1	0	0
+0.95	David Daniel Smith	1	0	0
+0.95	David M Mason	2	0	0
+0.95	David V Glidden	2	0	0
+0.95	Dawei Xie	1	0	0
+0.95	Dawit Zerom	1	0	0
+0.95	Debashis Mondal	1	0	0
+0.95	Deborah Burr	1	0	0
+0.95	Deli Wang	1	0	0
+0.95	Deyuan Li	1	0	0
+0.95	Diane M Makuc	1	0	0
+0.95	Do-Hwan Park	1	0	0
+0.95	Dominique Chouaniere	1	0	0
+0.95	Don Alderson	1	0	0
+0.95	Don L Stevens Jr	1	0	0
+0.95	Donald Geman	1	0	0
+0.95	Dong Han	2	0	0
+0.95	Donna Neuberg	1	0	0
+0.95	Douglas E Schaubel	2	0	0
+0.95	Dursun A Bulutoglu	2	0	0
+0.95	E Benhin	1	0	0
+0.95	E R Williams	1	0	0
+0.95	Edward L Korn	1	0	0
+0.95	Elena Stanghellini	1	3	0
+0.95	Elizabeth A Stuart	1	0	0
+0.95	Emily C Martin	1	0	0
+0.95	Eric A Cator	1	0	0
+0.95	Eric D Kolaczyk	3	0	0
+0.95	Eric J Feuer	3	0	0
+0.95	Eric V Slud	1	0	0
+0.95	Euijung Ryu	1	1	0
+0.95	Eunsik Park	1	0	0
+0.95	F DuBois Bowman	1	0	0
+0.95	F Maaouia	1	0	0
+0.95	Fatemah Alqallaf	1	0	0
+0.95	Feike C Drost	1	0	0
+0.95	Fernando A Quintana	2	0	0
+0.95	Fernando Antonio Da Silva Moura	1	3	0
+0.95	Francesco Bravo	1	0	0
+0.95	Francis X Diebold	1	0	0
+0.95	Frank G Ball	1	0	0
+0.95	Frank Miller	2	0	0
+0.95	Frederick Wong	1	0	0
+0.95	Fugee Tsung	2	0	0
+0.95	Fulvio De Santis	1	0	0
+0.95	Fusheng Su	1	0	0
+0.95	G Hooker	1	0	0
+0.95	Gabriel A Rodriguez-Yam	1	0	0
+0.95	Gang Li	3	4	0
+0.95	Garrick L Wallstrom	1	0	0
+0.95	George C Tseng	1	0	0
+0.95	George R Terrell	1	0	0
+0.95	Gerard J van den Berg	1	0	0
+0.95	Gerhard Osius	1	0	0
+0.95	Gilbert Mackenzie	1	0	0
+0.95	Glenn Shafer	1	0	0
+0.95	Gong Tang	1	0	0
+0.95	Gordon W Pledger	1	0	0
+0.95	Grace E Kissling	1	0	0
+0.95	Grace Wahba	2	0	0
+0.95	Gregg E Dinse	1	0	0
+0.95	Guangyu Zhang	1	0	0
+0.95	Gudrun Freitag	1	0	0
+0.95	Gunter Ritter	1	0	0
+0.95	Guoying Li	1	0	0
+0.95	H Thijs	1	0	0
+0.95	Hae Kyung Im	1	0	0
+0.95	Haiyan Huang	1	0	0
+0.95	Halbert White	1	0	0
+0.95	Hammou El Barmi	2	0	0
+0.95	Hanfeng Chen	1	0	0
+0.95	Hanlee Ji	1	0	0
+0.95	Hans Arnfinn Karlsen	1	0	0
+0.95	Hao Yu	1	0	0
+0.95	Hari Mukerjee	2	0	0
+0.95	Heather J Whitaker	2	4	0
+0.95	Hee-Young Kim	1	0	0
+0.95	Helmut Schafer	1	2	0
+0.95	Heng-Hui Lue	1	0	0
+0.95	Hong-Bin Fang	1	0	0
+0.95	Hong-Tu Zhu	1	0	0
+0.95	Hongwen Guo	1	0	0
+0.95	Hsiao-Yun Huang	1	0	0
+0.95	Hyon-Jung Kim	1	0	0
+0.95	Hyoung-Moon Kim	1	0	0
+0.95	I D Currie	1	0	0
+0.95	Ian Douglas	1	4	0
+0.95	Ilenia Epifani	1	0	0
+0.95	Imre Csiszar	1	0	0
+0.95	Ingelin Steinsland	1	0	0
+0.95	Ingram Olkin	1	0	0
+0.95	Ion G Grama	3	0	0
+0.95	Isobel Claire Gormley	1	3	0
+0.95	Istvan Berkes	3	0	0
+0.95	J M C Santos Silva	1	0	0
+0.95	J R Lockwood	1	2	0
+0.95	J Simoens	1	0	0
+0.95	Jaap H Abbring	2	0	0
+0.95	Jack Cuzick	1	0	0
+0.95	Jacqueline J Meulman	1	0	0
+0.95	Jaeyong Lee	3	0	0
+0.95	Jake Bowers	1	0	0
+0.95	James A Mingo	1	0	0
+0.95	James R Schott	2	0	0
+0.95	James S Hodges	2	0	0
+0.95	Jan G De Gooijer	1	0	0
+0.95	Jan R Magnus	3	0	0
+0.95	Jason Roy	1	0	0
+0.95	Jean Jacob	1	0	0
+0.95	Jean-Claude Deville	1	0	0
+0.95	Jeanne Kowalski	1	0	0
+0.95	Jeff Racine	1	0	0
+0.95	Jeffrey Fagan	1	0	0
+0.95	Jeffrey Grogger	1	0	0
+0.95	Jeffrey S Spence	1	0	0
+0.95	Jennifer A Hoeting	1	0	0
+0.95	Jennifer L Hill	1	0	0
+0.95	Jerry W Tsai	1	0	0
+0.95	Jesus Lopez-Fidalgo	2	2	0
+0.95	Jiannong Liu	1	0	0
+0.95	Jiayang Sun	1	0	0
+0.95	Jimmy Ye	1	0	0
+0.95	Jiying Yin	1	0	0
+0.95	Joel A Dubin	1	0	0
+0.95	Johanna Neslehova	1	0	0
+0.95	John Barnard	1	0	0
+0.95	John D Kloke	1	0	0
+0.95	John P Klein	2	0	0
+0.95	John Robinson	3	3	0
+0.95	Jonathan Myles	1	0	0
+0.95	Jonathan Powell	1	0	0
+0.95	Jonathan Tyrer	1	0	0
+0.95	Jose A F Machado	1	0	0
+0.95	Jose M Bernardo	1	0	0
+0.95	Jose Manuel Pavia-Miralles	1	0	0
+0.95	Joseph B Kadane	3	0	0
+0.95	Joseph B Lang	2	0	0
+0.95	Joseph L Schafer	2	0	0
+0.95	Joseph W Hogan	2	0	0
+0.95	Joseph W McKean	1	0	0
+0.95	Joshua M Tebbs	3	0	0
+0.95	Judith J Lok	1	0	0
+0.95	Julian Besag	1	0	0
+0.95	Juliet Popper Shaffer	1	0	0
+0.95	Jun-Z Li	1	0	0
+0.95	Jung-Ying Tzeng	1	0	0
+0.95	Junqing Yuan	1	0	0
+0.95	Junyuan Wang	1	0	0
+0.95	Jurgen Dippon	1	0	0
+0.95	Jyh-Shyang Wu	2	0	0
+0.95	Ka Yee Yeung	1	1	0
+0.95	Kanta Naito	1	0	0
+0.95	Karen T Tashima	1	0	0
+0.95	Karim Anaya-Izquierdo	2	4	0
+0.95	Katsumi Shimotsu	2	0	0
+0.95	Kaushik Ghosh	1	0	0
+0.95	Kay F Pilz	1	0	0
+0.95	Ke Xu	1	0	0
+0.95	Kee-Hoon Kang	1	0	0
+0.95	Keith Knight	1	0	0
+0.95	Keming Yu	1	0	0
+0.95	Ker-Chau Li	2	0	0
+0.95	Kerby Shedden	1	0	0
+0.95	Kevin Lee	1	0	0
+0.95	Kevin W Dodd	1	0	0
+0.95	Khurram Nadeem	1	1	0
+0.95	Kirti R Shah	1	0	0
+0.95	Krista J Gile	1	1	0
+0.95	Kristin P Lennox	1	0	0
+0.95	L Cavalier	1	0	0
+0.95	L Reboul	1	0	0
+0.95	Lan Kong	1	0	0
+0.95	Lanh T Tran	1	0	0
+0.95	Laurent Bordes	1	0	0
+0.95	Leah J Welty	1	0	0
+0.95	Lei Nie	1	2	0
+0.95	Leif Boysen	1	0	0
+0.95	Leslie Cope	1	0	0
+0.95	Liam Smeeth	1	4	0
+0.95	Lihong Qi	1	0	0
+0.95	Lingzhi Zhou	1	0	0
+0.95	Liqun Wang	1	0	0
+0.95	Lop-Hing Ho	1	0	0
+0.95	Lorenzo Fattorini	1	0	0
+0.95	Lori E Dodd	2	0	0
+0.95	Loukia Meligkotsidou	1	0	0
+0.95	Lucrezia Reichlin	1	0	0
+0.95	Luis R Pericchi	1	0	0
+0.95	Luisa Scaccia	1	0	0
+0.95	Lynda D Lisabeth	1	0	0
+0.95	Lyudmila Sakhanenko	1	0	0
+0.95	M A Black	1	0	0
+0.95	M C Pun	1	0	0
+0.95	M Durban	1	0	0
+0.95	M Hashem Pesaran	2	0	0
+0.95	M Hazelton	1	0	0
+0.95	M J Faddy	1	0	0
+0.95	M Mushfiqur Rashid	1	0	0
+0.95	Magnar Lillegaard	1	0	0
+0.95	Magnus Ekstrom	1	0	0
+0.95	Maja Miloslavsky	1	0	0
+0.95	Manfred Jaeger	1	1	0
+0.95	Marc Fredette	1	0	0
+0.95	Marco Lippi	1	0	0
+0.95	Margaret R Karagas	1	0	0
+0.95	Maria Maddalena Barbieri	1	0	0
+0.95	Maria Teresa Gallegos	1	0	0
+0.95	Mariane Pelletier	1	1	0
+0.95	Marie-Pierre Preziosi	1	0	0
+0.95	Mario Forni	1	0	0
+0.95	Mark Fitzgerald	1	0	0
+0.95	Mark S Handcock	3	0	0
+0.95	Martin Kulldorff	2	0	0
+0.95	Mary Beth Landrum	1	0	0
+0.95	Mauro Piccioni	1	0	0
+0.95	Mausumi Bose	1	0	0
+0.95	Mei-Cheng Wang	5	0	0
+0.95	Meta Voelker	1	0	0
+0.95	Mi-Ja Woo	1	0	0
+0.95	Michael A Benjamin	1	0	0
+0.95	Michael A Fligner	1	0	0
+0.95	Michael C Minnotte	1	0	0
+0.95	Michael E Sobel	1	0	0
+0.95	Michael Ferris	1	0	0
+0.95	Michael P Jones	1	0	0
+0.95	Michael Pierrynowski	1	0	0
+0.95	Michael Saunders	1	0	0
+0.95	Michael Sorensen	1	0	0
+0.95	Michal Kulich	1	0	0
+0.95	Michel Grzebyk	1	0	0
+0.95	Michel Wedel	1	1	0
+0.95	Mikyoung Jun	1	0	0
+0.95	Min Tsao	1	0	0
+0.95	Ming Dai	2	0	0
+0.95	Ming T Lin	1	0	0
+0.95	Mingyuan Zhang	1	1	0
+0.95	Miro R Powojowski	1	0	0
+0.95	Mitchell J Small	1	2	0
+0.95	Mogens Bladt	1	0	0
+0.95	Mortaza Jamshidian	1	0	0
+0.95	Moshe Pollak	2	0	0
+0.95	Mounia N Hocine	1	4	0
+0.95	Murray K Clayton	1	0	0
+0.95	N Beerenwinkel	1	2	0
+0.95	N Lange	1	0	0
+0.95	N Papadatos	1	0	0
+0.95	N Raj Rao	1	0	0
+0.95	N Sartori	1	0	0
+0.95	Nader Ebrahimi	2	0	0
+0.95	Naijun Sha	1	0	0
+0.95	Natalie Neumeyer	4	0	0
+0.95	Nathaniel Schenker	3	0	0
+0.95	Neal O Jeffries	1	0	0
+0.95	Neil I Fox	1	0	0
+0.95	Nema Dean	1	0	0
+0.95	Niall M Adams	1	0	0
+0.95	Nicholas A Heard	1	0	0
+0.95	Nicole A Lazar	2	0	0
+0.95	Nicoleta Serban	1	0	0
+0.95	Nikolai Strigul	1	0	0
+0.95	Nikolaos Demiris	1	3	0
+0.95	Norman E Breslow	2	0	0
+0.95	Odile Pons	1	0	0
+0.95	Ofer Harel	1	0	0
+0.95	Olaf Wittich	1	0	0
+0.95	Ole E Barndorff-Nielsen	1	0	0
+0.95	Ole F Christensen	1	0	0
+0.95	Olga Y Savchuk	1	0	0
+0.95	Olivier Cappe	2	0	0
+0.95	Owen D Lyne	1	0	0
+0.95	P C Trandafir	1	2	0
+0.95	P G Blackwell	1	0	0
+0.95	P Giudici	1	0	0
+0.95	P H C Eilers	1	0	0
+0.95	P Y Lai	2	0	0
+0.95	Paolo Zaffaroni	1	0	0
+0.95	Pascal Wild	1	0	0
+0.95	Patrick L Gurian	1	2	0
+0.95	Patrick S Carmack	1	0	0
+0.95	Paul S Albert	2	2	0
+0.95	Paul Wiegert	1	0	0
+0.95	Paulo J Ribeiro Jr	1	0	0
+0.95	Pedro Luis do Nascimento Silva	1	3	0
+0.95	Pei-Lu Chiu	1	0	0
+0.95	Per Kragh Andersen	1	0	0
+0.95	Perry de Valpine	1	0	0
+0.95	Persi Diaconis	2	0	0
+0.95	Peter Clifford	1	0	0
+0.95	Peter D Sasieni	3	0	0
+0.95	Peter E Jupp	6	0	0
+0.95	Peter Guttorp	1	0	0
+0.95	Peter McCullagh	4	0	0
+0.95	Philip D ONeill	1	3	0
+0.95	Philippe Huber	1	0	0
+0.95	Pierre Priouret	1	0	0
+0.95	Pierre Vandekerkhove	1	0	0
+0.95	Pilar L Iglesias	1	0	0
+0.95	Qi Long	1	0	0
+0.95	Qiansheng Cheng	1	0	0
+0.95	Qing Liu	2	0	0
+0.95	R Averkamp	2	0	0
+0.95	R M Fewster	1	0	0
+0.95	R Turner	1	0	0
+0.95	Rabi Bhattacharya	2	0	0
+0.95	Radford M Neal	1	0	0
+0.95	Ralf van der Lans	1	1	0
+0.95	Ramon van den Akker	1	0	0
+0.95	Raphael Gottardo	1	1	0
+0.95	Recai M Yucel	1	0	0
+0.95	Reg Kulperger	1	0	0
+0.95	Remy Cottet	2	0	0
+0.95	Reto Knutti	1	0	0
+0.95	Reza Pakyari	1	0	0
+0.95	Richard A Levine	3	0	0
+0.95	Richard A Olshen	2	0	0
+0.95	Richard Charnigo	1	0	0
+0.95	Richard F Gunst	1	0	0
+0.95	Richard L Tweedie	1	0	0
+0.95	Richard Royall	1	0	0
+0.95	Richard Scheines	1	0	0
+0.95	Richard T Burnett	1	0	0
+0.95	Rik Pieters	1	1	0
+0.95	Robert A Rigby	1	0	0
+0.95	Robert A Rosenheck	2	0	0
+0.95	Robert E Kass	2	0	0
+0.95	Robert E Weiss	3	0	0
+0.95	Robert Greevy	1	0	0
+0.95	Robert Jarrow	1	0	0
+0.95	Robert M Elashoff	1	4	0
+0.95	Robert W Haley	1	0	0
+0.95	Roch Roy	1	0	0
+0.95	Roderick J A Little	4	0	0
+0.95	Roger E Bumgarner	1	1	0
+0.95	Roland Speicher	1	0	0
+0.95	Ronald A DeVore	1	0	0
+0.95	Ronald Christensen	1	2	0
+0.95	Ronald H Randles	1	0	0
+0.95	Ronald Klein	1	0	0
+0.95	Rongning Wu	1	3	0
+0.95	Rudolf Beran	1	0	0
+0.95	Rui Feng	1	0	0
+0.95	Rusty Tchernis	1	0	0
+0.95	Ruth Etzioni	1	2	0
+0.95	Ryan T Elmore	2	0	0
+0.95	S C Kou	4	1	0
+0.95	S Chen	1	1	0
+0.95	Sadanori Konishi	1	0	0
+0.95	Sam Behseta	1	0	0
+0.95	Samuel Copt	1	1	0
+0.95	Samuel Muller	1	0	0
+0.95	Sander Greenland	1	0	0
+0.95	Sandra Freitag-Wolf	1	0	0
+0.95	Sanjoy K Sinha	1	0	0
+0.95	Sara Geneletti	1	0	0
+0.95	Sara Sjostedt-de Luna	1	0	0
+0.95	Sara Taskinen	1	0	0
+0.95	Sarah B Streett	1	0	0
+0.95	Sarat C Dass	1	0	0
+0.95	Saul Shiffman	1	0	0
+0.95	Sean D Campbell	1	0	0
+0.95	Sebastian Irle	1	2	0
+0.95	Seiya Imoto	1	0	0
+0.95	Sharon-Lise T Normand	1	0	0
+0.95	Shaun R Seaman	1	0	0
+0.95	ShengLi Tzeng	1	0	0
+0.95	Shie-Shien Yang	1	0	0
+0.95	Siddhartha Chib	3	0	0
+0.95	Siem Jan Koopman	2	0	0
+0.95	Siew Leng Teng	1	0	0
+0.95	Silke W W Rolles	1	0	0
+0.95	Silvia Goncalves	1	0	0
+0.95	Silvia Shimakura	1	0	0
+0.95	Simon J Godsill	2	0	0
+0.95	Simon J Sheather	1	0	0
+0.95	Sin-Ho Jung	1	0	0
+0.95	Sioban D Harlow	1	0	0
+0.95	Siu Kei Sun	1	2	0
+0.95	Somnath Datta	1	0	0
+0.95	Songhe Cai	1	0	0
+0.95	Songnian Chen	2	0	0
+0.95	Sophie Baillargeon	1	0	0
+0.95	Sounak Chakraborty	1	0	0
+0.95	Stefanie Biedermann	3	0	0
+0.95	Stefanie Titoff	1	5	0
+0.95	Steinar Engen	1	0	0
+0.95	Stephane Mottelet	1	0	0
+0.95	Stephen L Rathbun	1	0	0
+0.95	Stephen Portnoy	1	0	0
+0.95	Steve Butler	1	0	0
+0.95	Steven K Thompson	2	0	0
+0.95	Steven L Scott	1	0	0
+0.95	Steven M Goodreau	1	0	0
+0.95	Stuart Barber	1	0	0
+0.95	Subhash R Lele	1	1	0
+0.95	Sunduz Kelecs	3	0	0
+0.95	Susan P Holmes	1	0	0
+0.95	Susanne Rosthoj	1	0	0
+0.95	Suzette Blanchard	1	0	0
+0.95	Sveinung Erland	1	0	0
+0.95	T D Downs	1	0	0
+0.95	T Schweder	1	2	0
+0.95	Takis Merkouris	3	3	0
+0.95	Tanya Henneman	1	0	0
+0.95	Teresa T Pereira	1	0	0
+0.95	Terje Myklebust	1	0	0
+0.95	Thierry Duchesne	1	0	0
+0.95	Thomas Brendan Murphy	1	3	0
+0.95	Thomas M Stoker	1	0	0
+0.95	Thomas Mathew	2	0	0
+0.95	Thomas P Hettmansperger	1	3	0
+0.95	Thomas S Shively	1	0	0
+0.95	Thomas W Sager	1	0	0
+0.95	Thorsten Wagner	1	0	0
+0.95	Tiejun Tong	2	0	0
+0.95	Tigran Markaryan	1	0	0
+0.95	Timothy G F Kittel	1	0	0
+0.95	Tobias Ryden	4	0	0
+0.95	Todd Graves	1	0	0
+0.95	Tom Britton	2	0	0
+0.95	Tor D Tosteson	1	0	0
+0.95	Tsung-Shan Tsou	1	0	0
+0.95	Tsz Ho Yim	1	0	0
+0.95	Tucker McElroy	2	0	0
+0.95	Tzee-Ming Huang	2	0	0
+0.95	Ulrike von Luxburg	1	0	0
+0.95	Uwe Einmahl	1	0	0
+0.95	V De Gruttola	1	0	0
+0.95	V Delouille	1	0	0
+0.95	Valentin Patilea	2	0	0
+0.95	Valentina Leucari	1	0	0
+0.95	Veronika Zarnitsyna	1	3	0
+0.95	Vic Patrangenaru	3	0	0
+0.95	Vijayan N Nair	3	0	0
+0.95	Viktor Tsyrennikov	1	0	0
+0.95	Vladimir Vovk	2	0	0
+0.95	Volkmar Liebscher	1	0	0
+0.95	W J Hall	1	0	0
+0.95	Wang Zhou	3	0	0
+0.95	Wayne A Woodward	1	0	0
+0.95	Wee-Jing Ng	1	0	0
+0.95	Wei Zhu	1	0	0
+0.95	Weixing Song	1	1	0
+0.95	Wenxin Mao	1	0	0
+0.95	Wenzhi Li	1	0	0
+0.95	Werner G Muller	1	0	0
+0.95	William Byerley	1	0	0
+0.95	William H Swallow	1	0	0
+0.95	William R Schucany	1	0	0
+0.95	William T M Dunsmuir	1	0	0
+0.95	William W Davis	1	0	0
+0.95	Wolfgang Bischoff	2	0	0
+0.95	Wolfgang Dahmen	1	0	0
+0.95	X Fang	1	0	0
+0.95	Xianzheng Huang	1	0	0
+0.95	Xiaogang Wang	2	0	0
+0.95	Xiaoping Jin	1	0	0
+0.95	Xuegong Zhang	1	0	0
+0.95	Xueli Liu	1	0	0
+0.95	Xueqin Wang	1	0	0
+0.95	Yan Zhang	1	3	0
+0.95	Yanan Fan	1	0	0
+0.95	Yannis Jemiai	1	0	0
+0.95	Yanqin Fan	2	0	0
+0.95	Yifan Huang	1	0	0
+0.95	Ying Zhou	1	4	0
+0.95	Yongcheol Shin	1	0	0
+0.95	Yongho Jeon	2	0	0
+0.95	Youlan Rao	1	2	0
+0.95	Young-Ju Kim	1	0	0
+0.95	Yousung Park	1	0	0
+0.95	Yu Golubev	1	0	0
+0.95	Yun Ju Sung	1	0	0
+0.95	Yunling Du	1	0	0
+0.95	Yunwei Cui	1	3	0
+0.95	Yuping Dong	1	2	0
+0.95	Yuri Golubev	1	2	0
+0.95	Yve Aragon	1	0	0
+0.95	Zbigniew Szkutnik	1	0	0
+0.95	Zhaohui Su	1	0	0
+0.95	Zhaohui Zou	1	0	0
+0.95	Zhengjun Zhang	1	0	0
+0.95	Zhengyuan Zhu	1	0	0
+0.95	Zhihong Cai	2	3	0
+0.95	Zhishen Ye	1	0	0
+0.95	Zhiwei Zhang	1	2	0
+0.95	Zsolt Talata	1	0	0
+0.95	elodie Nedelec	1	0	0
+0.95	eric Moulines	1	0	0
+0.9	A Galichon	1	2	0
+0.9	A Ruiz-Gazen	1	2	0
+0.9	Aaron King	1	1	0
+0.9	Adelchi Azzalini	1	2	0
+0.9	Adi F Gazdar	1	1	0
+0.9	Agus Sudjianto	2	1	0
+0.9	Agustin Mayo-Iscar	3	8	0
+0.9	Aiyou Chen	3	1	0
+0.9	Alan Huang	1	2	0
+0.9	Alan M Zaslavsky	3	9	0
+0.9	Alberto Abadie	1	1	0
+0.9	Alessandro Veneziani	1	2	0
+0.9	Alessio Farcomeni	2	3	0
+0.9	Alexander Aue	1	2	0
+0.9	Alexandra Ramos	1	2	0
+0.9	Alexandre Pintore	1	2	0
+0.9	Alexandre Rodrigues	1	1	0
+0.9	Alexis Diamond	1	1	0
+0.9	Alfio Marazzi	1	2	0
+0.9	Ali Ekici	1	2	0
+0.9	Ali M Mosammam	1	1	0
+0.9	Aliye Atay-Kayis	1	3	0
+0.9	Ana J Villar	1	2	0
+0.9	Anand N Vidyashankar	2	2	0
+0.9	Ananya Roy	1	3	0
+0.9	Anat Sakov	1	2	0
+0.9	Anders Rahbek	1	5	0
+0.9	Andrew S Allen	1	3	0
+0.9	Anestis Antoniadis	3	2	0
+0.9	Anindya Bhadra	2	1	0
+0.9	Anne-Catherine Favre	1	2	0
+0.9	Anouar El Ghouch	1	2	0
+0.9	Anthony C Atkinson	1	2	0
+0.9	Anthony W Ledford	2	2	0
+0.9	Antoine Chambaz	2	0	1
+0.9	Antonella Capitanio	1	2	0
+0.9	Anuj Srivastava	2	3	0
+0.9	Arleta Szkola	1	1	0
+0.9	Arnoldo Frigessi	1	2	0
+0.9	Arnost Komarek	1	4	0
+0.9	Arthur Yu Lu	2	3	0
+0.9	Athanasios C Micheas	1	3	0
+0.9	Atsushi Inoue	1	4	0
+0.9	Avishai Mandelbaum	1	2	0
+0.9	Axel Bucher	1	2	0
+0.9	B Clarke	1	4	0
+0.9	B T Knapik	1	1	0
+0.9	Bahjat F Qaqish	3	0	1
+0.9	Baibing Li	1	2	0
+0.9	Balgobin Nandram	1	2	0
+0.9	Beatriz Larraz	1	12	0
+0.9	Belkacem Abdous	1	3	0
+0.9	Ben B Hansen	3	2	0
+0.9	Benjamin Williams	1	2	0
+0.9	Beth Andrews	2	1	0
+0.9	Bichun Ouyang	1	4	0
+0.9	Birgit I Witte	1	3	0
+0.9	Bo Cai	1	1	0
+0.9	Boris Buchmann	2	1	0
+0.9	Bradley Jones	1	2	0
+0.9	Bradley S Peterson	3	3	0
+0.9	Brian H Reck	1	1	0
+0.9	Brian Williams	1	2	0
+0.9	Bruce W Turnbull	2	2	0
+0.9	Brunero Liseo	1	2	0
+0.9	Burkhardt Seifert	2	2	0
+0.9	Byron Ellis	1	3	0
+0.9	Byron J T Morgan	2	4	0
+0.9	C Goga	1	2	0
+0.9	Carlos Matran	4	8	0
+0.9	Carlos Vallarino	1	2	0
+0.9	Carmen Fernandez	1	3	0
+0.9	Caroline Beunckens	1	3	0
+0.9	Caterina May	1	2	0
+0.9	Catherine A Sugar	3	1	1
+0.9	Catherine Datto	1	4	0
+0.9	Catia Scricciolo	1	2	0
+0.9	Cecile Durot	1	3	0
+0.9	Chien-Jen Chen	1	2	0
+0.9	Chong Gu	2	1	1
+0.9	Chris Sherlock	1	5	0
+0.9	Christian Francq	3	2	1
+0.9	Christopher J Paciorek	1	2	0
+0.9	Christopher Jennison	1	2	0
+0.9	Chuanhai Liu	4	3	0
+0.9	Chun Li	2	1	1
+0.9	Chunlei Ke	1	3	0
+0.9	Claire E Pothier	1	2	0
+0.9	Clive G Bowsher	2	2	0
+0.9	Colin M Beale	1	4	0
+0.9	Constantine E Frangakis	2	3	1
+0.9	Cristina Sotto	1	3	0
+0.9	D M Farewell	1	3	0
+0.9	Dale L Zimmerman	1	1	0
+0.9	Daniel B Rowe	1	2	0
+0.9	Daniel Straumann	2	1	1
+0.9	Dave Higdon	1	2	0
+0.9	David A van Dyk	3	1	0
+0.9	David B Wolfson	3	1	1
+0.9	David Chan	1	3	0
+0.9	David Firth	4	1	1
+0.9	David M Kaziska	2	3	0
+0.9	David M Steinberg	2	4	0
+0.9	David Oakes	2	2	0
+0.9	David T Jacho-Chavez	1	3	0
+0.9	David Vlahov	1	4	0
+0.9	Dawn B Woodard	1	4	0
+0.9	Dennis D Boos	2	2	0
+0.9	Desislava Nedyalkova	1	2	0
+0.9	Diana M Sima	1	2	0
+0.9	Dietrich Braess	1	2	0
+0.9	Donald A Berry	3	2	1
+0.9	Donald A Pierce	2	2	0
+0.9	Donna P Ankerst	1	2	0
+0.9	E A Catchpole	1	4	0
+0.9	E Moulines	2	2	0
+0.9	E S Venkatraman	1	3	0
+0.9	Edgar Kublin	1	4	0
+0.9	Edward L Ionides	2	1	0
+0.9	Efang Kong	1	2	0
+0.9	Efi S Antoniou	1	3	0
+0.9	Elaine Zanutto	1	4	0
+0.9	Elizabeth S Allman	1	4	0
+0.9	Emmanuel Gobet	1	2	0
+0.9	Etienne Josserand	1	2	0
+0.9	Eugene H Blackstone	1	2	0
+0.9	F Gosselin	2	2	0
+0.9	F Zoe Moodie	1	2	0
+0.9	Fatima Salgueiro	1	1	0
+0.9	Francois Roueff	3	2	0
+0.9	Freda Cooner	1	3	0
+0.9	G E Tita	1	1	0
+0.9	G O Mohler	1	1	0
+0.9	G Tavecchia	1	4	0
+0.9	Gabriel Chandler	1	3	0
+0.9	Ganggang Xu	1	1	0
+0.9	Gary King	1	2	0
+0.9	Geert Molenberghs	4	2	1
+0.9	George G Judge	2	3	0
+0.9	Geurt Jongbloed	3	2	1
+0.9	Giorgio E Montanari	1	1	0
+0.9	Giuseppe Porro	1	2	0
+0.9	Glen A Satten	2	3	0
+0.9	Guadalupe Gomez	1	3	0
+0.9	Guenther Walther	1	2	0
+0.9	Guido Consonni	4	2	0
+0.9	Gunnar Taraldsen	2	3	1
+0.9	Guozhi Gao	1	2	0
+0.9	Haiqun Lin	2	1	0
+0.9	Haitao Chu	3	6	1
+0.9	Haobo Ren	1	2	0
+0.9	Harry Joe	3	1	0
+0.9	Helene Gehrmann	1	2	0
+0.9	Hendrik P Lopuhaa	3	1	1
+0.9	Hengjian Cui	5	1	0
+0.9	Herbert K H Lee	2	3	0
+0.9	Herve Cardot	1	2	0
+0.9	Holger Drees	1	2	0
+0.9	Holger Rootzen	1	2	0
+0.9	Holly Janes	1	2	0
+0.9	Hong Zhang	1	2	0
+0.9	Hongyu An	1	2	0
+0.9	Hovav A Dror	1	4	0
+0.9	Hua Chen	1	2	0
+0.9	Hyeyoung Lee	1	2	0
+0.9	I Fernandez-Val	1	2	0
+0.9	Ian H Dinwoodie	1	4	0
+0.9	Il Do Ha	1	3	0
+0.9	Ioannis Kosmidis	2	1	1
+0.9	Irini Moustaki	1	3	0
+0.9	J E Yukich	1	3	0
+0.9	J Kunert	2	2	0
+0.9	J P Gosling	1	2	0
+0.9	J-H Jeong	1	2	0
+0.9	Jai Won Choi	2	2	0
+0.9	James A Calvin	1	3	0
+0.9	James A Woods	1	1	0
+0.9	James Gattiker	1	2	0
+0.9	Jan Beyersmann	1	2	0
+0.9	Jan Draisma	1	3	0
+0.9	Jan Johannes	1	2	0
+0.9	Jason C Hsu	3	1	1
+0.9	Jason S McLachlan	1	2	0
+0.9	Javier Hidalgo	2	2	0
+0.9	Jayant V Deshpande	1	2	0
+0.9	Jayanta Pal	1	2	0
+0.9	Jean-Francois Angers	1	4	0
+0.9	Jean-Francois Coeurjolly	1	1	0
+0.9	Jean-Michel Zakoian	3	2	1
+0.9	Jeffrey Lieberman	1	5	0
+0.9	Jens Hainmueller	1	1	0
+0.9	Jerry M Davis	1	2	0
+0.9	Jesse Frey	1	2	0
+0.9	Ji-Ping Z Wang	2	1	1
+0.9	Jiancang Zhuang	1	4	0
+0.9	Jianqiang C Wang	1	2	0
+0.9	Jianrong Wu	1	2	0
+0.9	Jiazhu Pan	1	3	0
+0.9	Jim Kuelbs	1	2	0
+0.9	Jimmy Olsson	1	4	0
+0.9	Jin Cao	1	1	0
+0.9	Jin-Ting Zhang	2	0	1
+0.9	Jinglai Shen	1	2	0
+0.9	Jinnan Liu	1	2	0
+0.9	Jinzhu Jia	1	2	0
+0.9	Jochen Einbeck	1	2	0
+0.9	Johan Segers	4	3	0
+0.9	John A Rhodes	1	4	0
+0.9	John B Copas	3	7	0
+0.9	John C Liechty	1	3	0
+0.9	John J Hanfelt	4	3	0
+0.9	John W McDonald	1	1	0
+0.9	Jonathan Rougier	1	2	0
+0.9	Jordi Valero	1	1	0
+0.9	Jorg Breitung	1	4	0
+0.9	Jorn Tenhofen	1	4	0
+0.9	Jose Manuel Pavia	1	12	0
+0.9	Jose Maria Montero	1	12	0
+0.9	Josef Dick	2	2	0
+0.9	Joseph P Costantino	1	3	0
+0.9	Jouni Kuha	1	3	0
+0.9	Juan A Cuesta-Albertos	3	5	0
+0.9	Juan Romo	1	1	0
+0.9	Junyi Xie	1	2	0
+0.9	Jyoti Zalkikar	1	5	0
+0.9	K F Lam	2	2	1
+0.9	Kaoru Fueda	1	2	0
+0.9	Karim Oualkacha	1	5	0
+0.9	Karl Rohe	1	3	0
+0.9	Keith M Muller	1	3	0
+0.9	Kelli Talaska	1	3	0
+0.9	Kenneth Falconer	1	3	0
+0.9	Kenny Q Ye	2	0	1
+0.9	Kim P Huynh	1	3	0
+0.9	Klaus von Wilpert	1	4	0
+0.9	Knashawn H Morales	1	2	0
+0.9	Knut Heggland	1	2	0
+0.9	Konstantinos Fokianos	2	5	0
+0.9	Kung-Yee Liang	1	2	0
+0.9	Kyungchul Song	1	3	0
+0.9	Lajmi Lakhal Chaieb	1	3	0
+0.9	Lan Huang	2	4	1
+0.9	Larry Shepp	1	1	0
+0.9	Laura M Sangalli	1	2	0
+0.9	Lawrence C McCandless	1	3	0
+0.9	Lin S Chen	1	2	0
+0.9	Lincheng Zhao	1	2	0
+0.9	Linda H Zhao	2	1	1
+0.9	Lisa M Chung	1	2	0
+0.9	Longhai Li	1	3	0
+0.9	Loriano Mancini	2	1	0
+0.9	Luca La Rocca	1	2	0
+0.9	Lutz Kilian	1	4	0
+0.9	Lynn M R Ybarra	1	3	0
+0.9	M A Goldwasser	1	2	0
+0.9	M B Short	1	1	0
+0.9	M Blanca Palacios	1	1	0
+0.9	M Giovanna Ranalli	2	1	0
+0.9	M H Clark	2	3	0
+0.9	M Lina Martinez	1	2	0
+0.9	M Luz Calle	1	3	0
+0.9	M S Taqqu	2	2	0
+0.9	M Studer	1	2	0
+0.9	Mahboobeh Safaeian	1	4	0
+0.9	Man Yu Wong	3	2	0
+0.9	Manabu Kuroki	4	8	0
+0.9	Marc Coram	1	1	0
+0.9	Marcel Voia	1	3	0
+0.9	Marco Riani	1	2	0
+0.9	Maria Rightley	1	2	0
+0.9	Marian Grendar	1	3	0
+0.9	Marie Davidian	2	1	0
+0.9	Mario Mateo	1	2	0
+0.9	Marshall M Joffe	2	5	0
+0.9	Martin Styner	1	5	0
+0.9	Mary Sara McPeek	1	2	0
+0.9	Mary W Redman	1	2	0
+0.9	Masayuki Henmi	2	1	1
+0.9	Masoud Asgharian	3	1	1
+0.9	Matthew Calder	1	1	0
+0.9	Matthew Reimherr	1	2	0
+0.9	Matthew Walker	1	2	0
+0.9	Matthieu Lerasle	1	2	0
+0.9	Mayetri Gupta	2	3	0
+0.9	Mee Young Park	1	2	0
+0.9	Melissa A Bingham	1	3	0
+0.9	Merrill W Liechty	1	3	0
+0.9	Michael G Kenward	3	2	1
+0.9	Michael Goldstein	2	2	0
+0.9	Michael K Pitt	2	3	0
+0.9	Michael W Robbins	1	2	0
+0.9	Mikhail Belkin	2	2	1
+0.9	Ming Li	2	2	0
+0.9	Ming-Tien Tsai	1	5	0
+0.9	Mingjin Wang	1	2	0
+0.9	Mohsen Mohammadzadeh	1	1	0
+0.9	Moises Goldszmidt	1	4	0
+0.9	Molin Wang	2	3	0
+0.9	Monica Musio	1	4	0
+0.9	Murali Haran	1	2	0
+0.9	Myunghee Cho Paik	1	3	0
+0.9	N Balakrishnan	1	3	0
+0.9	N Chamandy	1	2	0
+0.9	N Ganesh	1	3	0
+0.9	N Rao Chaganty	2	1	0
+0.9	Nancy Flournoy	1	2	0
+0.9	Narayan Shivapurkar	1	1	0
+0.9	Natalie Shlomo	1	1	0
+0.9	Nicky Best	1	3	0
+0.9	Nicole H Augustin	1	4	0
+0.9	Noah Gans	1	2	0
+0.9	Ola Hossjer	3	0	1
+0.9	Oliver B Linton	4	2	0
+0.9	Omer Ozturk	1	2	0
+0.9	Ori Davidov	1	4	0
+0.9	P J Brantingham	1	1	0
+0.9	P McDonnell	1	2	0
+0.9	P V Larsen	1	2	0
+0.9	Paul Damien	2	3	0
+0.9	Paul L Speckman	2	1	1
+0.9	Paul Patterson	1	3	0
+0.9	Pavel Cizek	1	3	0
+0.9	Pedro Puig	2	0	1
+0.9	Pei Wang	1	2	0
+0.9	Peter D Hoff	6	0	1
+0.9	Peter Goos	1	2	0
+0.9	Peter Lenk	1	1	0
+0.9	Peter M Steiner	2	3	0
+0.9	Peter Spirtes	2	2	0
+0.9	Peter W F Smith	2	1	0
+0.9	Petruta C Caragea	1	2	0
+0.9	Philip W Davidson	1	2	0
+0.9	Phillip L Chapman	1	3	0
+0.9	Phillip S Kott	2	3	0
+0.9	Pi-Wen Tsai	1	1	0
+0.9	Piercesare Secchi	1	2	0
+0.9	Pierre-Jerome Bergeron	1	2	0
+0.9	Prakash V Bhave	1	2	0
+0.9	Pranab K Sen	2	5	0
+0.9	Qi Tang	1	1	0
+0.9	QiQi Lu	1	2	0
+0.9	R Ayesha Ali	1	2	0
+0.9	R M Dudley	1	2	0
+0.9	Ramon Oller	1	3	0
+0.9	Ramon van Handel	1	4	0
+0.9	Randall D Tobias	1	3	0
+0.9	Raul Jimenez	1	3	0
+0.9	Ravi Varadhan	1	4	0
+0.9	Rebecca A Betensky	3	2	0
+0.9	Renata Nemeth	1	2	0
+0.9	Renato Monteiro	1	2	0
+0.9	Richard A Davis	5	4	0
+0.9	Richard D Gill	3	3	1
+0.9	Richard J Rendleman Jr	1	1	0
+0.9	Richard M Bittman	1	2	0
+0.9	Richard N Ross	1	1	0
+0.9	Rina Foygel	1	1	0
+0.9	Robert A Connolly	1	1	0
+0.9	Robert B Lund	3	5	0
+0.9	Robert J Petrunia	1	3	0
+0.9	Robert L Paige	1	3	0
+0.9	Roger D Peng	1	1	0
+0.9	Rohit S Deo	2	2	0
+0.9	Roman Liska	1	4	0
+0.9	Ronald Neath	1	2	0
+0.9	Ronald S Brookmeyer	1	4	0
+0.9	Ronald W Butler	3	3	0
+0.9	Ruggero Bellio	1	2	0
+0.9	Ryo Yoshida	1	2	0
+0.9	S Conti	1	2	0
+0.9	S Kang	1	5	0
+0.9	Sabine Van Huffel	1	2	0
+0.9	Samir Soneji	1	2	0
+0.9	Sangjun Lee	1	3	0
+0.9	Sanjib Basu	2	1	1
+0.9	Sara Lopez-Pintado	1	1	0
+0.9	Sergey Zeltyn	1	2	0
+0.9	Sergiy Sidenko	1	2	0
+0.9	Seu Keow Cheng	4	1	1
+0.9	Shao-Wei Cheng	1	1	0
+0.9	Shogo Kato	2	2	0
+0.9	Shuheng Zhou	1	1	0
+0.9	Simone Vantini	1	2	0
+0.9	Sophie Dabo-Niang	1	3	0
+0.9	Stanislav Volgushev	2	2	0
+0.9	Stefano M Iacus	1	2	0
+0.9	Steffanie A Strathdee	1	4	0
+0.9	Stephen Bruce Vardeman	2	3	0
+0.9	Stephen E Fienberg	1	1	0
+0.9	Steve Hanneke	1	3	0
+0.9	Steven P Lalley	1	1	0
+0.9	Sujit K Ghosh	1	2	0
+0.9	Sung-Ho Kim	1	1	0
+0.9	Sungduk Kim	2	2	0
+0.9	Susanne M Schennach	2	1	1
+0.9	Sylvia Richardson	2	3	0
+0.9	Sylvie Goetgeluk	1	1	0
+0.9	Ta-Hsin Li	5	3	0
+0.9	Tamas Rudas	1	2	0
+0.9	Tao Lin	2	2	0
+0.9	Tao Shi	2	3	0
+0.9	Ted Chang	2	3	0
+0.9	Terence P Speed	1	2	0
+0.9	Terence Tao	1	2	0
+0.9	Thomas A Louis	4	5	0
+0.9	Thomas Lumley	1	2	0
+0.9	Thomas Mikosch	2	1	1
+0.9	Todd A Kuffner	1	2	0
+0.9	Tom M W Nye	1	2	0
+0.9	Tomohiro Ando	2	4	1
+0.9	Trevor J Sweeting	2	2	1
+0.9	Trevor Park	1	2	0
+0.9	Tristan Zajonc	1	2	0
+0.9	Tuan Nguyen	1	1	0
+0.9	Uta Pigorsch	1	2	0
+0.9	Valentine Genon-Catalot	1	2	0
+0.9	Vincent J Carey	2	1	1
+0.9	Vladimir N Kulikov	2	1	1
+0.9	Vladislav Kargin	1	3	0
+0.9	Wayne C Levy	1	2	0
+0.9	Wei Gao	1	2	0
+0.9	Wei Lin	1	2	0
+0.9	Wei-Liem Loh	4	1	0
+0.9	Weihua Cao	1	1	0
+0.9	Weijing Wang	4	0	1
+0.9	Wensheng Zhu	1	3	0
+0.9	Wicher P Bergsma	1	2	0
+0.9	Willa W Chen	5	1	1
+0.9	William F Rosenberger	3	1	1
+0.9	William R Shadish	2	3	0
+0.9	Xianchao Xie	1	2	0
+0.9	Xiaoming Huo	3	2	0
+0.9	Xin Qi	1	4	0
+0.9	Xingqiu Zhao	3	3	0
+0.9	Xiudong Lei	1	2	0
+0.9	Xu He	1	2	0
+0.9	Xuelei Ni	1	2	0
+0.9	Yan Lan	1	3	0
+0.9	Yan Yu	2	1	0
+0.9	Yashen Chen	1	2	0
+0.9	Yevgen Tymofyeyev	1	2	0
+0.9	Yi Liu	1	2	0
+0.9	Ying Chen	2	2	0
+0.9	Ying Huang	1	2	0
+0.9	Yong Chen	1	2	0
+0.9	Yong Wang	1	1	0
+0.9	Yongseok Park	1	3	0
+0.9	Yoonkyung Lee	2	2	1
+0.9	Youjuan Li	1	1	0
+0.9	Yu Chuan Tai	1	2	0
+0.9	Yu Tang	1	2	0
+0.9	Yueh-Yun Chi	1	3	0
+0.9	Yuh-Shan Jou	1	5	0
+0.9	Yujun Wu	1	2	0
+0.9	Yulia V Marchenko	1	2	0
+0.9	Yuwon Kim	1	3	0
+0.9	Yves F Atchade	2	1	0
+0.9	Zhaosong Lu	1	2	0
+0.9	Zheng Su	1	4	0
+0.9	Zheng Yuan	1	2	0
+0.9	Zhengyan Lin	1	2	0
+0.9	Zhihua Su	2	5	1
+0.9	Zhiyi Zhang	1	1	0
+0.9	Zhonghua Gu	1	2	0
+0.9	Ziding Feng	1	1	0
+0.9	Zongming Ma	1	2	0
+0.9	Zuoheng Wang	1	2	0
+0.9	Zuoqin Wang	1	2	0
+0.85	A J Hayter	2	4	0
+0.85	Abdus S Wahed	2	2	1
+0.85	Alessandra Giovagnoli	1	7	0
+0.85	Alessandro Tarozzi	1	4	0
+0.85	Alex Lewin	1	3	0
+0.85	Alexandros Beskos	2	3	0
+0.85	Alfonso Gordaliza	3	6	1
+0.85	Alvaro Sandroni	1	5	0
+0.85	Alysha M De Livera	1	3	0
+0.85	Andrea Bergesio	2	3	0
+0.85	Andrea Cerioli	2	4	1
+0.85	Andreas Buja	2	7	0
+0.85	Andrew Gelman	6	2	1
+0.85	Anne Gegout-Petit	1	5	0
+0.85	Arthur Pewsey	2	6	0
+0.85	Assaf Zeevi	3	2	1
+0.85	Beatrice Laurent	3	2	1
+0.85	Bee Leng Lee	2	2	1
+0.85	Bent Jorgensen	1	5	0
+0.85	C A Field	2	3	1
+0.85	C N Kuruwita	1	4	0
+0.85	Caspar M Ammann	1	3	0
+0.85	Ching-Kang Ing	4	2	2
+0.85	Chloe Friguet	1	3	0
+0.85	Chris Skinner	3	4	0
+0.85	Christophe Ambroise	1	5	0
+0.85	Christopher J Nachtsheim	1	3	0
+0.85	Chung-Ming Kuan	1	5	0
+0.85	Cindy Long Yu	2	5	0
+0.85	Colin Hall	1	4	0
+0.85	Cristiano Varin	1	4	0
+0.85	Cristina Butucea	2	8	0
+0.85	D Haziza	1	4	0
+0.85	D Pati	1	3	0
+0.85	D S Choi	1	3	0
+0.85	D Vogel	1	3	0
+0.85	Dandan Jiang	1	4	0
+0.85	Daniel Commenges	1	5	0
+0.85	Daniel E Ho	1	7	0
+0.85	Daniel Pena	4	5	0
+0.85	David Causeur	1	3	0
+0.85	David Conne	1	7	0
+0.85	David J Nott	3	5	0
+0.85	David M Holland	1	5	0
+0.85	David Wyncoll	1	4	0
+0.85	Dejun Tang	1	3	0
+0.85	Dennis Cook	2	7	0
+0.85	Dennis D Cox	2	4	0
+0.85	Derek A T Cummings	1	3	0
+0.85	Dimitris Rizopoulos	2	2	1
+0.85	Donald S Burke	1	3	0
+0.85	Donatello Telesca	1	4	0
+0.85	Dongchu Sun	3	3	0
+0.85	Dongsheng Tu	1	5	0
+0.85	Dragi Anevski	2	3	1
+0.85	E M Airoldi	1	3	0
+0.85	Edward H Ip	1	3	0
+0.85	Edwin S Iversen Jr	3	3	0
+0.85	Elena Kulinskaya	1	3	0
+0.85	Emmanuel Lesaffre	2	7	0
+0.85	Eva B Vedel Jensen	2	3	1
+0.85	F Jay Breidt	7	2	1
+0.85	Fang Fang	1	3	0
+0.85	Federico J OReilly	1	6	0
+0.85	Fengchang Lin	1	4	0
+0.85	Friedrich K Port	1	5	0
+0.85	G Chauvet	1	4	0
+0.85	Geert Verbeke	2	2	1
+0.85	Gerard Letac	3	6	0
+0.85	Gilbert J Cote	1	3	0
+0.85	Graciela Boente	1	3	0
+0.85	Hakbae Lee	1	3	0
+0.85	Han Hong	1	4	0
+0.85	Hannes Helgason	1	3	0
+0.85	Hans C van Houwelingen	2	2	1
+0.85	Heather Spencer Feigelson	1	5	0
+0.85	Helga Wagner	1	3	0
+0.85	Henghsiu Tsai	3	3	0
+0.85	Hongyuan Zha	1	3	0
+0.85	Hui Jin	1	5	0
+0.85	Hung Hung	1	3	0
+0.85	I Dattner	1	5	0
+0.85	Iping Tu	1	3	0
+0.85	Ira M Longini Jr	1	3	0
+0.85	Irene Gijbels	2	3	0
+0.85	Ivan Mizera	3	4	0
+0.85	J DArrigo	1	3	0
+0.85	J Q Shi	1	3	0
+0.85	J T Gene Hwang	2	4	0
+0.85	Jafar A Khan	1	4	0
+0.85	Jamie Perin	2	5	0
+0.85	Jean-Marc Bardet	1	4	0
+0.85	Ji Meng Loh	2	5	0
+0.85	Jian-Feng Yao	3	4	0
+0.85	Jing Qiu	1	4	0
+0.85	John S Preisser	2	5	0
+0.85	Jong Soo Lee	1	4	0
+0.85	Jose Pinheiro	1	7	0
+0.85	Juan-Juan Cai	1	3	0
+0.85	Julia Y Lin	1	11	0
+0.85	Junni L Zhang	2	5	0
+0.85	K K Berthelsen	1	5	0
+0.85	Kai-Tai Fang	3	6	1
+0.85	Karl-Anton Dorph-Petersen	2	3	1
+0.85	Kenneth M Rice	2	3	1
+0.85	Ker-Ai Lee	1	8	0
+0.85	Kerrie Mengersen	1	4	0
+0.85	Krzysztof Latuszynski	1	4	0
+0.85	Lajmi Lakhal-Chaieb	1	8	0
+0.85	Lan Zhang	2	2	1
+0.85	Lancelot F James	5	3	1
+0.85	Laura Ventura	1	6	0
+0.85	Laurens de Haan	5	3	0
+0.85	Lidong E	1	3	0
+0.85	Livio Finos	1	3	0
+0.85	Louis-Paul Rivest	3	7	1
+0.85	Luis A Garcia-Escudero	3	6	1
+0.85	Luis Artiles	2	8	1
+0.85	Lurdes Y T Inoue	3	6	0
+0.85	M Papathomas	1	4	0
+0.85	M Perone Pacifico	1	3	0
+0.85	Madalin Gutua	2	8	1
+0.85	Maela Kloareg	1	3	0
+0.85	Magalie Fromont	1	3	0
+0.85	Mahlet G Tadesse	2	4	1
+0.85	Majid Mojirsheibani	1	3	0
+0.85	Marco Perone-Pacifico	2	6	0
+0.85	Maria De Iorio	2	4	0
+0.85	Maria Dolores Martinez Miranda	1	5	0
+0.85	Marian Anghel	1	3	0
+0.85	Marina Vannucci	4	4	1
+0.85	Mark A Weaver	1	6	0
+0.85	Mark C K Yang	2	6	0
+0.85	Martin A Tanner	1	3	0
+0.85	Masashi Sugiyama	1	3	0
+0.85	Matthew J Salganik	2	3	1
+0.85	Matthew P S Gander	1	3	0
+0.85	Mevin B Hooten	1	3	0
+0.85	Michael A Stephens	1	6	0
+0.85	Michael Lavine	3	4	0
+0.85	Michael R Elliott	3	14	1
+0.85	Michael S Kramer	1	3	0
+0.85	Michail Sverchkov	1	5	0
+0.85	Mihaela Aslan	1	3	0
+0.85	Miroslav Siman	2	3	0
+0.85	Mitchell S V Elkind	1	2	0
+0.85	Mohammad Hosseini-Nasab	1	3	0
+0.85	Morris L Eaton	1	3	0
+0.85	Myriam Vimond	1	3	0
+0.85	N X Lin	1	3	0
+0.85	Nicole Kramer	1	3	0
+0.85	Nidhan Choudhuri	2	2	1
+0.85	Noelle I Samia	2	2	1
+0.85	Nora Muler	1	5	0
+0.85	Ofer Zeitouni	2	3	0
+0.85	Oleg V Lepski	2	3	0
+0.85	Olivier Wintenberger	1	4	0
+0.85	Paola Bortot	2	3	0
+0.85	Paolo Vidoni	1	4	0
+0.85	Patrick J Wolfe	2	3	0
+0.85	Paul J Rathouz	3	6	0
+0.85	Paul Marriott	3	5	1
+0.85	Pei-Sheng Lin	2	3	1
+0.85	Peishien Wu	1	3	0
+0.85	Pengjie Dai	1	3	0
+0.85	Peter M Robinson	4	5	0
+0.85	Philippe Soulier	2	4	0
+0.85	Pulak Ghosh	2	5	0
+0.85	Quan Hong	1	3	0
+0.85	R R Ramsahai	1	3	0
+0.85	Ralf Krahe	1	3	0
+0.85	Ralph D Snyder	1	3	0
+0.85	Ramani S Pilla	2	3	0
+0.85	Renjun Ma	2	4	1
+0.85	Richard A Lockhart	3	6	0
+0.85	Rob J Hyndman	2	3	0
+0.85	Robert A Wolfe	2	5	0
+0.85	Robert B Gramacy	2	4	1
+0.85	Robert J Kohn	4	4	2
+0.85	Robert W Platt	1	3	0
+0.85	Robin Henderson	2	3	0
+0.85	Runlong Tang	1	3	0
+0.85	Russ Hauser	1	3	0
+0.85	Ryan Lekivetz	1	3	0
+0.85	Sally W Thurston	1	3	0
+0.85	Samiran Sinha	2	5	0
+0.85	Samuel S Wu	2	6	0
+0.85	Sara A van de Geer	2	3	0
+0.85	Scotland C Leman	1	4	0
+0.85	Scott L Zeger	3	7	0
+0.85	Shibao Feng	1	5	0
+0.85	Shili Lin	1	4	0
+0.85	Shinto Eguchi	4	8	1
+0.85	Shurong Zheng	1	4	0
+0.85	Sinae Kim	1	5	0
+0.85	Soumik Pal	1	5	0
+0.85	Stefano Cabras	1	6	0
+0.85	Stephen E Feinberg	1	7	0
+0.85	Stephen M S Lee	7	4	0
+0.85	Stuart Coles	2	3	0
+0.85	Sujit K Sahu	1	5	0
+0.85	Suyun Huang	1	3	0
+0.85	Swati Biswas	1	4	0
+0.85	Sylvia Fruhwirth-Schnatter	1	3	0
+0.85	Thomas A Gerds	1	6	0
+0.85	Tian Zheng	2	3	1
+0.85	Tyler H McCormick	1	3	0
+0.85	Ursula Gather	2	3	1
+0.85	V G S Vasdekis	1	4	0
+0.85	Vivekananda Roy	1	4	0
+0.85	W Ryan Diver	1	5	0
+0.85	Walter F Mascarenhas	1	4	0
+0.85	Walter Racugno	1	6	0
+0.85	Wanli Min	1	6	0
+0.85	Wanzhu Tu	1	3	0
+0.85	Wei-Ming Lee	1	5	0
+0.85	Weizhen Wang	3	6	0
+0.85	Wen-Lin Lai	1	3	0
+0.85	Wentao Feng	1	3	0
+0.85	Werner Brannath	2	4	0
+0.85	Witold Bednorz	1	4	0
+0.85	Wojciech Olszewski	1	5	0
+0.85	Xiaoyan Shi	2	7	0
+0.85	Xu Xu	1	4	0
+0.85	XuanLong Nguyen	1	3	0
+0.85	Xue Wang	1	3	0
+0.85	Yajun Mei	2	3	1
+0.85	Yanbing Zheng	1	3	0
+0.85	Yang Yang	1	3	0
+0.85	Yanping Yi	1	6	0
+0.85	Yasheng Chen	1	4	0
+0.85	Yasuo Amemiya	4	6	0
+0.85	Ying Hung	3	7	1
+0.85	Yongcheng Qi	1	3	0
+0.85	Yuanyuan Lin	1	4	0
+0.85	Yuchung J Wang	2	3	0
+0.85	Yukun Liu	1	4	0
+0.85	Yves Tille	4	2	2
+0.85	Zahra Montazeri	1	3	0
+0.85	Zhen Pang	1	4	0
+0.85	Zhidong Bai	1	4	0
+0.85	Zhigen Zhao	1	4	0
+0.85	Zhijian Chen	1	3	0
+0.85	Zonghui Hu	3	4	0
+0.8	A Mallik	1	7	0
+0.8	Aarti Singh	1	4	0
+0.8	Abhishek Bhattacharya	1	6	0
+0.8	Alan F Karr	1	3	0
+0.8	Alan H Welsh	5	4	1
+0.8	Aleksandar Mijatovic	1	5	0
+0.8	Ana Justel	1	7	0
+0.8	Andrew P Robinson	1	4	0
+0.8	Ann B Lee	1	8	0
+0.8	Anthony OHagan	5	3	2
+0.8	Arkady B Khodursky	1	5	0
+0.8	Armelle Guillou	1	6	0
+0.8	Arnak Dalalyan	2	4	0
+0.8	Arseni Seregin	1	5	0
+0.8	Azeem M Shaikh	1	4	0
+0.8	Baojiang Chen	1	4	0
+0.8	Benedikt M Potscher	1	4	0
+0.8	Benoit R Masse	1	14	0
+0.8	Bernard Bercu	1	6	0
+0.8	Bess Marcus	1	4	0
+0.8	Brendan P M McCabe	1	6	0
+0.8	Brian H Aukema	2	6	0
+0.8	C D Barr	1	6	0
+0.8	C Kiss	1	6	0
+0.8	C Wang	1	10	0
+0.8	Carlos Velasco	2	7	1
+0.8	Catherine Matias	2	8	1
+0.8	Chang Xuan Mao	3	1	2
+0.8	Chao Yang	1	6	0
+0.8	Charles C Taylor	2	4	0
+0.8	Charles E McCulloch	2	4	1
+0.8	Christian Peter Klingenberg	1	9	0
+0.8	Christiana Kartsonaki	1	4	0
+0.8	Christopher K Wikle	3	5	1
+0.8	Ciprian A Tudor	1	4	0
+0.8	Clayton Scott	1	4	0
+0.8	Cynthia Rudin	1	4	0
+0.8	D Chauveau	1	13	0
+0.8	D Walsh	1	4	0
+0.8	Dacheng Xiu	1	5	0
+0.8	Dai Feng	1	4	0
+0.8	Dandan Liu	1	9	0
+0.8	Daniel J Sargent	1	7	0
+0.8	Daniel Scharfstein	4	10	0
+0.8	Daniell Toth	2	3	0
+0.8	David B Dahl	2	4	0
+0.8	David Harris	1	6	0
+0.8	David I Warton	1	4	0
+0.8	Denis Larocque	3	11	1
+0.8	Despina Vasileiou	1	4	0
+0.8	Dinggang Shen	1	6	0
+0.8	Dipak K Dey	3	5	0
+0.8	Dobrin Marchev	2	6	0
+0.8	Dominique Bontemps	1	5	0
+0.8	Dong Li	1	4	0
+0.8	Douglas P Wiens	2	7	0
+0.8	Emma F Eastoe	1	4	0
+0.8	Eric Aldrich	1	6	0
+0.8	Eric Moulines	5	6	0
+0.8	Erica E M Moodie	2	4	0
+0.8	F Ferraty	1	4	0
+0.8	F Liu	1	4	0
+0.8	Francesco Bartolucci	6	3	1
+0.8	Frederi G Viens	1	4	0
+0.8	Fumiyasu Komaki	2	3	1
+0.8	Gael M Martin	1	6	0
+0.8	Gareth Hughes	1	4	0
+0.8	Gilles Durrieu	1	4	0
+0.8	Giovanni Peccati	1	6	0
+0.8	Graham Kalton	1	3	0
+0.8	Greg Ridgeway	2	6	1
+0.8	Guanghua Xiao	1	5	0
+0.8	Gunther Walther	1	4	0
+0.8	Hans R Kunsch	1	7	0
+0.8	Hari K Iyer	3	4	2
+0.8	Huajun Ye	1	6	0
+0.8	Hyokyoung Grace Hong	1	6	0
+0.8	Hyunsoon Cho	1	4	0
+0.8	Ibrahim Ahmad	1	4	0
+0.8	Ilkka Porsti	1	10	0
+0.8	In Hong Chang	1	7	0
+0.8	Ingrid Daubechies	1	4	0
+0.8	Ingrid Van Keilegom	8	4	0
+0.8	J Michael Brick	2	3	0
+0.8	J Palomo	1	4	0
+0.8	J-C Deville	2	6	0
+0.8	Jaakko Nevalainen	2	11	1
+0.8	Jacob von Bornemann Hjelmborg	1	5	0
+0.8	Jakob G Rasmussen	2	6	0
+0.8	James Y Dai	1	14	0
+0.8	Jan De Neve	1	15	0
+0.8	Janet E Heffernan	1	4	0
+0.8	Jean Diebolt	1	6	0
+0.8	Jean-Pierre Ottoy	1	15	0
+0.8	Jeffrey S Rosenthal	3	6	0
+0.8	Jens-Peter Kreiss	2	7	0
+0.8	Jeremy E Oakley	3	4	1
+0.8	Jianguo Sun	3	8	1
+0.8	Jiguo Cao	2	5	1
+0.8	Jim Q Smith	1	7	0
+0.8	Jing Qian	1	6	0
+0.8	Johanna Ziegel	3	6	2
+0.8	John H Gilmore	1	6	0
+0.8	John M MacDonald	1	7	0
+0.8	John M Neuhaus	2	4	1
+0.8	John Thomas White	1	4	0
+0.8	Kam-Wah Tsui	1	10	0
+0.8	Kanti V Mardia	4	6	0
+0.8	Kenneth F Raffa	2	6	0
+0.8	Kenneth Westrick	1	6	0
+0.8	Kesar Singh	3	7	1
+0.8	Keunbaik Lee	1	7	0
+0.8	Kjell Doksum	1	10	0
+0.8	Kristin Larson	1	6	0
+0.8	L Garry Adams	1	4	0
+0.8	Laurent Briollais	1	4	0
+0.8	Leah Jager	1	4	0
+0.8	Leonardo Grilli	1	3	0
+0.8	Lianfen Qian	1	4	0
+0.8	Lieven Clement	1	15	0
+0.8	Lin Lu	1	4	0
+0.8	Ludwig Fahrmeir	3	4	0
+0.8	Luke Tierney	1	4	0
+0.8	Luping Zhao	1	6	0
+0.8	M Bevanda	1	6	0
+0.8	M Rosenblum	1	8	0
+0.8	M-O Boldi	1	4	0
+0.8	Maengseok Noh	1	6	0
+0.8	Mai Zhou	1	4	0
+0.8	Man-Wai Ho	1	3	0
+0.8	Marc Raimondo	3	3	1
+0.8	Marcela Svarc	1	7	0
+0.8	Maria Elvira Mancino	1	5	0
+0.8	Mariela Sued	1	5	0
+0.8	Mark Podolskij	1	5	0
+0.8	Mark V Bravington	1	5	0
+0.8	Mark van der Laan	4	10	0
+0.8	Martin Schumacher	2	6	0
+0.8	Matthew A Taddy	2	9	0
+0.8	Maxwell King	1	6	0
+0.8	Mei-Chiung Shih	4	5	1
+0.8	Mendel Fygenson	1	5	0
+0.8	Mette Gerster	1	5	0
+0.8	Michael D Perlman	2	5	0
+0.8	Michael G Akritas	6	8	1
+0.8	Michael L Anderson	1	4	0
+0.8	Michael Schweinberger	1	7	0
+0.8	Miguel A Delgado	2	7	1
+0.8	Min Hee Kim	1	6	0
+0.8	Min Zhu	1	6	0
+0.8	Mohamad A Khaled	1	7	0
+0.8	Nicholas P Jewell	5	6	0
+0.8	Olivier Thas	1	15	0
+0.8	P Druilhet	2	6	1
+0.8	P Vieu	1	4	0
+0.8	Paul E Anderson	1	7	0
+0.8	Paul Gustafson	2	7	1
+0.8	Paul Malliavin	1	5	0
+0.8	Paul Schneider	1	5	0
+0.8	Peter H Westfall	2	5	0
+0.8	Philippe Fraysse	1	6	0
+0.8	Pierpaolo De Blasi	1	6	0
+0.8	Ping Ma	2	10	1
+0.8	Qi Li	2	4	0
+0.8	Qiang Xu	2	7	0
+0.8	Qing Zhou	2	7	0
+0.8	Quanhong Lei	1	5	0
+0.8	R J Parthasarathy	1	4	0
+0.8	Radu V Craiu	3	6	1
+0.8	Rajita Sinha	1	4	0
+0.8	Ranjan Maitra	1	4	0
+0.8	Rasmus Waagepetersen	3	12	0
+0.8	Ricardo Fraiman	2	7	0
+0.8	Robert D Nowak	3	4	0
+0.8	Robert E Schapire	2	4	0
+0.8	Roland Fried	3	5	0
+0.8	Ross Iaci	1	9	0
+0.8	Ruben H Zamar	5	8	0
+0.8	S Correa	1	4	0
+0.8	S Land	1	10	0
+0.8	Sally Wood	1	7	0
+0.8	Sanford Weisberg	1	3	0
+0.8	Sangeeta Khare	1	4	0
+0.8	Sara D Lawhon	1	4	0
+0.8	Sharon L Hedley	1	5	0
+0.8	Shijie Tang	1	10	0
+0.8	Sijian Wang	1	4	0
+0.8	Silvia Liverani	1	7	0
+0.8	Sining Chen	3	8	0
+0.8	Sittisak Leelahanon	1	4	0
+0.8	Siu Hung Cheung	2	7	0
+0.8	Soma S Dhavala	1	4	0
+0.8	Soren Hojsgaard	1	4	0
+0.8	Sourav Chatterjee	3	7	0
+0.8	Steven E Stern	1	5	0
+0.8	Sujay Datta	1	4	0
+0.8	T N Sriram	2	9	0
+0.8	Theo Gasser	5	3	1
+0.8	Thomas A Severini	4	3	1
+0.8	Usha Govindarajulu	1	5	0
+0.8	Vincent Magnotta	1	4	0
+0.8	Vincent T Mule Jr	1	7	0
+0.8	Volodymyr Melnykov	1	4	0
+0.8	W L Xu	1	4	0
+0.8	W Tinsson	1	7	0
+0.8	Wai Sum Chan	3	7	0
+0.8	Wayne A Fuller	6	4	1
+0.8	Wenqing He	1	4	0
+0.8	Wenxuan Zhong	1	9	0
+0.8	Winfried Stute	4	3	1
+0.8	Xianyang Zhang	1	8	0
+0.8	Xiao Wang	3	3	1
+0.8	Xiao-Li Meng	4	7	1
+0.8	Xiaojing Wang	1	6	0
+0.8	Xinlei Wang	3	5	0
+0.8	Xuefeng Liu	1	4	0
+0.8	Ye Shen	1	6	0
+0.8	Yi Cheng	3	6	1
+0.8	Yijun Zuo	6	0	3
+0.8	Yimeng Lu	1	5	0
+0.8	Ying Kuen Cheung	3	0	3
+0.8	Yongwu Shao	1	3	0
+0.8	Youngjo Lee	3	9	0
+0.8	Yu Zhu	2	7	0
+0.8	Yuhyun Park	1	4	0
+0.8	Zhen Liu	1	5	0
+0.8	Zhiguo Li	1	4	0
+0.75	A Guillin	1	5	0
+0.75	A J Lee	2	6	1
+0.75	A J Scott	3	6	1
+0.75	Adarsh Joshi	1	6	0
+0.75	Adelmo I Bertolde	1	8	0
+0.75	Alan E Hubbard	2	6	1
+0.75	Alekh Agarwal	1	8	0
+0.75	Aleksey Min	1	15	0
+0.75	Alessandro Rinaldo	3	20	0
+0.75	Alfred Kume	3	6	1
+0.75	Amanda S Hering	1	11	0
+0.75	Anastasia Papavasiliou	1	8	0
+0.75	Andrew M Stuart	3	7	0
+0.75	Andrey Pepelyshev	6	13	0
+0.75	Andy J Minn	1	6	0
+0.75	Anthony Brockwell	1	6	0
+0.75	Anthony Y C Kuk	4	6	1
+0.75	Arne Kovac	2	5	0
+0.75	Azadeh Alimadad	1	6	0
+0.75	Ben Haaland	2	10	0
+0.75	Bradley P Carlin	4	9	0
+0.75	C J Wild	2	6	1
+0.75	C Lacour	1	6	0
+0.75	C Levy-Leduc	2	10	0
+0.75	Cari G Kaufman	1	9	0
+0.75	Carlos Almeida	1	15	0
+0.75	Celine Vial	4	5	0
+0.75	Changbao Wu	4	5	0
+0.75	Cheng-Der Fuh	5	3	3
+0.75	Christophe Giraud	1	7	0
+0.75	Christophe Ladroue	1	8	0
+0.75	Chuanhua Xing	1	6	0
+0.75	Chun-Shu Chen	1	6	0
+0.75	Claudia Czado	1	15	0
+0.75	Claudia Kirch	1	5	0
+0.75	Colin M Gallagher	2	6	0
+0.75	Conor Lawless	1	10	0
+0.75	D Azriel	1	7	0
+0.75	Daniel A Henderson	2	13	0
+0.75	Darren J Wilkinson	1	10	0
+0.75	David M Ruth	1	5	0
+0.75	David Neil Hayes	1	9	0
+0.75	David S Matteson	1	6	0
+0.75	Davide Ferrari	2	5	1
+0.75	Dmitry Panchenko	1	5	0
+0.75	Dong Wang	1	9	0
+0.75	Douglas G Simpson	2	5	0
+0.75	Eiran Z Gorodeski	1	6	0
+0.75	Eric B Laber	1	6	0
+0.75	Eric Johnson	1	5	0
+0.75	Estate V Khmaladze	2	6	1
+0.75	F Ballani	1	6	0
+0.75	Fabienne Comte	2	8	0
+0.75	Fabio Trojani	2	5	1
+0.75	Fei Wang	1	5	0
+0.75	Flavio Ziegelmann	1	7	0
+0.75	Francesco Audrino	1	6	0
+0.75	Francis R Bach	1	7	0
+0.75	Fredrik A Dahl	1	6	0
+0.75	Galit Shmueli	1	6	0
+0.75	Gavin Shaddick	1	6	0
+0.75	George Poyiadjis	1	8	0
+0.75	Georgi K Golubev	2	6	0
+0.75	Giovanni M Marchetti	1	4	0
+0.75	Glenn Heller	3	9	0
+0.75	Gunnhildur Hognadottir Steinbakk	1	6	0
+0.75	Guohua Zou	2	8	0
+0.75	H-S Oh	1	5	0
+0.75	Hajo Holzmann	3	8	0
+0.75	Hira L Koul	5	10	1
+0.75	Ingeborg Waernbaum	1	9	0
+0.75	Isabella Verdinelli	3	9	0
+0.75	J Sanderson	1	5	0
+0.75	J-M Marin	1	5	0
+0.75	James M Flegal	1	10	0
+0.75	James O Ramsay	3	9	1
+0.75	James V Zidek	2	6	0
+0.75	Jeff Gill	2	9	1
+0.75	Jianwei Chen	3	6	0
+0.75	Jiming Jiang	6	7	0
+0.75	Joanne R Lupton	1	7	0
+0.75	John Ehrlinger	1	5	0
+0.75	John Rice	1	6	0
+0.75	John Stufken	5	9	0
+0.75	John T Kent	3	7	0
+0.75	Jonathan Weinberg	1	10	0
+0.75	Jorg Drechsler	1	4	0
+0.75	Juan Du	1	7	0
+0.75	Julian Wolfson	1	7	0
+0.75	Jun Li	2	9	0
+0.75	K B Kulasekera	2	5	1
+0.75	Kaspar Rufibach	1	7	0
+0.75	Keith J Worsley	5	2	2
+0.75	Kenji Fukumizu	2	7	0
+0.75	Kim J Krishnan	1	10	0
+0.75	Kosuke Imai	4	9	1
+0.75	Li-Shan Huang	2	4	1
+0.75	Lijian Yang	4	5	1
+0.75	Linxu Liu	1	14	0
+0.75	Lue Ping Zhao	1	7	0
+0.75	Luke Bornn	1	6	0
+0.75	M C Jones	8	10	3
+0.75	M Elizabeth Halloran	4	10	1
+0.75	M Meise	1	5	0
+0.75	M W Jones	1	5	0
+0.75	Margaret Sullivan Pepe	4	6	0
+0.75	Mark J Schervish	2	11	0
+0.75	Mark J van der Laan	5	6	1
+0.75	Mary E Thompson	1	9	0
+0.75	Meeyoung Hong	1	7	0
+0.75	Micha Mandel	3	7	0
+0.75	Michael A Newton	3	6	0
+0.75	Michael G B Blum	1	7	0
+0.75	Michael Nussbaum	2	7	0
+0.75	Michael Woodroofe	3	4	2
+0.75	Ming Lin	2	7	0
+0.75	Ming Zhou	1	11	0
+0.75	Minge Xie	5	12	1
+0.75	Minggen Lu	2	4	1
+0.75	Minjung Kyung	1	10	0
+0.75	Myron Katzoff	1	7	0
+0.75	Naiping Liu	1	14	0
+0.75	Nan Hu	1	7	0
+0.75	Nancy D Turner	1	7	0
+0.75	Ngai Hang Chan	5	8	0
+0.75	Nicolai Bissantz	4	7	1
+0.75	Nicolas Vayatis	2	6	0
+0.75	Nivedita V Nadkarni	1	5	0
+0.75	P Laurie Davies	3	7	0
+0.75	Paul Kabaila	1	6	0
+0.75	Paul Smith	1	6	0
+0.75	Peng Ding	1	6	0
+0.75	Peng Wang	1	6	0
+0.75	Peter B Gilbert	4	16	0
+0.75	Peter C B Phillips	3	9	0
+0.75	Philip Preuss	1	5	0
+0.75	Philippa Musoke	1	7	0
+0.75	Pierre Del Moral	2	9	1
+0.75	Pradeep Ravikumar	2	8	0
+0.75	Qian M Zhou	1	9	0
+0.75	Qiying Wang	3	9	0
+0.75	R J Buchanan	1	5	0
+0.75	R L Eubank	1	5	0
+0.75	Regina Y Liu	2	9	0
+0.75	Ricardo T Lemos	2	9	0
+0.75	Richard C Steed	1	8	0
+0.75	Richard E Chandler	1	12	0
+0.75	Richard J Boys	1	10	0
+0.75	Robert A Koyak	1	5	0
+0.75	Rong Chen	4	7	0
+0.75	Rong Tang	1	6	0
+0.75	Ruey S Tsay	3	6	0
+0.75	Ruoqing Zhu	1	7	0
+0.75	S S J Wang	1	6	0
+0.75	Sandy Clarke	1	7	0
+0.75	Scott L Schwartz	1	6	0
+0.75	Seth Sullivant	4	10	0
+0.75	Shanshan Wang	1	6	0
+0.75	Sharon L Lohr	4	6	0
+0.75	Sikyum Lee	1	6	0
+0.75	Stephan Clemencon	1	6	0
+0.75	Steven Bate	1	12	0
+0.75	Su-Chun Cheng	1	7	0
+0.75	Sumeetpal S Singh	1	8	0
+0.75	Sylvie Huet	3	7	0
+0.75	T J Heaton	1	4	0
+0.75	Thuan Nguyen	2	7	0
+0.75	Udaya B Kogalur	1	6	0
+0.75	V S Mandrekar	1	7	0
+0.75	Van L Parsons	2	7	0
+0.75	Vanja Dukic	2	4	0
+0.75	Veronica J Berrocal	2	8	0
+0.75	Victor J Yohai	6	10	0
+0.75	Wei Yan	1	6	0
+0.75	William E Strawderman	5	7	1
+0.75	Wolfgang S Jank	3	6	0
+0.75	Xavier de Luna	1	9	0
+0.75	Xiaodong Luo	4	12	0
+0.75	Xiaohui Wang	1	9	0
+0.75	Xinyi Xu	2	6	1
+0.75	Y Munoz Maldonado	1	5	0
+0.75	Y Rinott	1	7	0
+0.75	Yan Li	3	7	0
+0.75	Yannick Baraud	4	7	0
+0.75	Yasumasa Matsuda	3	10	1
+0.75	Yingqi Zhao	1	5	0
+0.75	Yoshihiro Yajima	2	11	0
+0.75	You-Gan Wang	5	5	3
+0.75	Yu-Jen Cheng	1	9	0
+0.75	Yuguo Chen	4	9	1
+0.75	Yunming Mu	1	5	0
+0.75	Yuzhi Cai	1	4	0
+0.75	Yvo Pokern	2	7	0
+0.75	Z Harchaoui	1	10	0
+0.75	Zehua Chen	1	5	0
+0.75	Zhangsheng Yu	1	5	0
+0.75	Zhijie Xiao	5	2	2
+0.7	A Chatterjee	1	8	0
+0.7	Aimee Zaas	1	9	0
+0.7	Ajay Jasra	2	15	1
+0.7	Aldo Solari	1	5	0
+0.7	Alejandro Cruz-Marcelo	1	9	0
+0.7	Arash A Amini	1	9	0
+0.7	Bernd Fitzenberger	1	10	0
+0.7	Bin Zhu	1	11	0
+0.7	Bo Henry Lindqvist	3	12	1
+0.7	Bob Zhong	1	7	0
+0.7	Bruce G Lindsay	12	16	1
+0.7	Bruno Sanso	4	13	0
+0.7	Bryan E Shepherd	5	5	1
+0.7	C Yau	1	9	0
+0.7	Cassandra Arroyo	1	6	0
+0.7	Chin-Hsu Lin	1	17	0
+0.7	Christopher Woods	1	9	0
+0.7	Chunfeng Huang	2	12	0
+0.7	Claudia Tebaldi	1	6	0
+0.7	Clint Scovel	1	6	0
+0.7	Dag Tjostheim	5	12	2
+0.7	Daniel J Nordman	7	10	2
+0.7	Danny Pfeffermann	4	11	1
+0.7	David Bo Shen	1	7	0
+0.7	David E Tyler	2	5	0
+0.7	David M Blei	1	9	0
+0.7	David R Hunter	5	19	1
+0.7	David S Stoffer	3	11	0
+0.7	Davide La Vecchia	2	8	0
+0.7	Dominic Schuhmacher	1	10	0
+0.7	Donald B Rubin	6	7	3
+0.7	Doug Nychka	1	6	0
+0.7	E L Lehmann	2	6	0
+0.7	Efstathios Paparoditis	6	13	0
+0.7	Egil Ferkingstad	1	9	0
+0.7	Elizabeth H Slate	1	6	0
+0.7	Els Goetghebeur	4	7	0
+0.7	Ethan B Anderes	3	9	2
+0.7	Eva Petkova	2	8	1
+0.7	Fadoua Balabdaoui	4	17	1
+0.7	Francesca Dominici	4	5	2
+0.7	Frank Critchley	2	6	0
+0.7	Frederic P Schoenberg	5	6	2
+0.7	Galin L Jones	5	14	1
+0.7	Gary L Rosner	3	9	0
+0.7	Geoffrey S Ginsburg	1	9	0
+0.7	George Tauchen	1	9	0
+0.7	German Molina	1	11	0
+0.7	Gert Willems	2	8	1
+0.7	Getulio J A Amaral	2	10	1
+0.7	Haakon Tjelmeland	3	5	0
+0.7	Hao Purdue Zhang	3	5	3
+0.7	Hao Wang	1	9	0
+0.7	Hegang H Chen	2	5	1
+0.7	Hongjian Zhu	1	10	0
+0.7	Hongyu Miao	1	14	0
+0.7	Hugh Miller	3	8	2
+0.7	J Jack Lee	1	12	0
+0.7	James P Shine	1	11	0
+0.7	Jean-Marie Cornuet	1	10	0
+0.7	Jelle J Goeman	3	7	1
+0.7	Jerald F Lawless	4	12	0
+0.7	Jeremy M G Taylor	3	14	0
+0.7	Jesper Moller	4	10	1
+0.7	Jian Tu	1	17	0
+0.7	Jing Cheng	3	9	1
+0.7	Junzhou Huang	1	7	0
+0.7	Karen Bandeen-Roche	2	6	0
+0.7	Katherine B Ensor	1	9	0
+0.7	Keyur H Desai	1	10	0
+0.7	Kim Kenobi	1	6	0
+0.7	Leen Slaets	1	11	0
+0.7	Linda O Mearns	1	6	0
+0.7	Lingzhou Xue	1	6	0
+0.7	M Brent McHenry	1	6	0
+0.7	M P Wand	4	9	0
+0.7	M Ribatet	1	13	0
+0.7	Marc C Kennedy	1	17	0
+0.7	Maria Jose Lombardia	1	6	0
+0.7	Mark A Beaumont	1	10	0
+0.7	Martin A Lindquist	1	6	0
+0.7	Matias Salibian-Barrera	4	8	0
+0.7	Matthew J Beal	1	9	0
+0.7	Meng Mao	1	8	0
+0.7	Mette Langaas	1	9	0
+0.7	Michael L Stein	7	4	3
+0.7	Michael Levine	3	28	0
+0.7	Michael S Lauer	2	8	0
+0.7	Michael S Smith	4	20	2
+0.7	Minhua Chen	1	9	0
+0.7	Mohsen Pourahmadi	3	17	1
+0.7	Myung Hwan Seo	1	6	0
+0.7	Neil A Butler	5	0	5
+0.7	Ori Rosen	2	11	0
+0.7	R King	3	7	1
+0.7	R Reeves	3	6	2
+0.7	Randal Douc	5	11	2
+0.7	Reinhard Furrer	1	10	0
+0.7	Richard Herrick	1	6	0
+0.7	Richard J Cook	3	12	0
+0.7	Richard L Smith	1	6	0
+0.7	Robert B Scharpf	2	5	0
+0.7	Robert L Winkler	1	12	0
+0.7	Roger Koenker	6	6	2
+0.7	Runchu Zhang	1	7	0
+0.7	S A Padoan	1	13	0
+0.7	S P Preston	1	9	0
+0.7	Saharon Rosset	2	10	1
+0.7	Sanjay Chaudhuri	3	18	0
+0.7	Sebastien Van Bellegem	2	13	0
+0.7	Shaoli Wang	2	12	0
+0.7	Shulamith T Gross	1	7	0
+0.7	Sonja Greven	2	11	0
+0.7	Stefan Van Aelst	5	16	1
+0.7	Steve Brooks	5	5	3
+0.7	Steven L Gortmaker	1	6	0
+0.7	Steven N MacEachern	6	14	1
+0.7	Suhasini Subba Rao	4	5	2
+0.7	Szymon Borak	1	9	0
+0.7	Thaddeus Tarpey	2	8	1
+0.7	Tracy L Nolen	1	11	0
+0.7	Trivellore E Raghunathan	5	19	1
+0.7	Tyler J Vanderweele	2	5	1
+0.7	Viktor Todorov	2	9	0
+0.7	Vladimir Spokoiny	7	8	1
+0.7	Weng Kee Wong	1	9	0
+0.7	Wolfgang Polonik	2	8	1
+0.7	Xiaowei Wang	2	6	1
+0.7	Xinxin Yu	1	7	0
+0.7	Xinyuan Song	1	7	0
+0.7	Yaacov Ritov	3	10	0
+0.7	Yee Whye Teh	1	9	0
+0.7	YingQing Chen	5	12	1
+0.7	Yingxing Li	2	11	0
+0.7	Yingye Zheng	3	9	1
+0.7	Yiyuan She	2	12	0
+0.7	Youngki Shin	1	6	0
+0.7	Yun Sam Chong	1	10	0
+0.7	Yuzo Maruyama	2	7	1
+0.7	Yves G Berger	3	5	3
+0.7	Zhiliang Ying	8	8	2
+0.7	Zudi Lu	4	7	2
+0.65	A N Pettitt	4	14	3
+0.65	Abbas Khalili	3	18	0
+0.65	Alan T K Wan	2	12	0
+0.65	Alessandra Mattei	1	19	0
+0.65	Ali Shojaie	1	11	0
+0.65	Anastasios A Tsiatis	10	10	1
+0.65	Barry Rowlingson	2	9	0
+0.65	Bas J M Werker	3	7	1
+0.65	Benjamin Yakir	5	10	0
+0.65	Bitao Liu	1	16	0
+0.65	C F Jeff Wu	8	21	0
+0.65	C J Brien	3	3	3
+0.65	Carlo Gaetan	2	16	0
+0.65	Catherine Vermandele	2	7	1
+0.65	Ching-Shui Cheng	7	8	3
+0.65	Chiung-Yu Huang	5	12	0
+0.65	D Mastropietro	1	9	0
+0.65	Daniel Cooley	2	11	0
+0.65	David A Stephens	4	14	1
+0.65	Dean A Follmann	4	11	0
+0.65	Denis Belomestny	3	10	2
+0.65	Dimitris N Politis	5	10	2
+0.65	Dong Chen	1	9	0
+0.65	Emilio Porcu	1	16	0
+0.65	Eric Bair	2	8	1
+0.65	Eugenia Buta	1	15	0
+0.65	Fabrizia Mealli	3	29	1
+0.65	Feng Liang	2	15	0
+0.65	Florin Vaida	2	11	1
+0.65	Francesca Chiaromonte	3	6	1
+0.65	G Alastair Young	6	5	2
+0.65	Gonzalo Garcia-Donato	3	12	1
+0.65	Hani Doss	2	14	1
+0.65	Hua Yun Chen	3	5	3
+0.65	Jeffrey Chang	1	7	0
+0.65	Jennifer L Wadsworth	2	14	0
+0.65	Jeremie Bigot	2	15	0
+0.65	Jichun Xie	1	7	0
+0.65	Jiti Gao	5	16	1
+0.65	John D Kalbfleisch	5	11	1
+0.65	John D Lafferty	3	16	0
+0.65	John H J Einmahl	6	12	4
+0.65	John P Morgan	4	5	3
+0.65	Jon D McAuliffe	2	11	0
+0.65	Jonathan R Stroud	4	15	1
+0.65	Jorge Mateu	1	16	0
+0.65	Joseph Neeman	1	9	0
+0.65	Joseph R Nevins	1	7	0
+0.65	Jun Yan	3	6	2
+0.65	Karine Tribouley	1	13	0
+0.65	Li Hsu	3	8	1
+0.65	Li Ma	2	14	1
+0.65	Liang Peng	8	12	2
+0.65	Liliana Forzani	2	13	0
+0.65	Lionel Cucala	1	10	0
+0.65	Liuquan Sun	5	21	2
+0.65	Lorenzo Trippa	1	10	0
+0.65	Lu Ren	1	9	0
+0.65	Lynn M Johnson	1	11	0
+0.65	M C Donohue	1	12	0
+0.65	M Zagoraiou	1	14	0
+0.65	Madeleine Cule	1	20	0
+0.65	Malka Gorfine	3	8	1
+0.65	Marco A R Ferreira	3	11	0
+0.65	Markus Reiss	4	9	0
+0.65	Mathias Vetter	2	10	0
+0.65	Mathilde Mougeot	1	13	0
+0.65	Mechelle Lewis	1	16	0
+0.65	Menggang Yu	3	8	1
+0.65	Michael J Daniels	5	24	0
+0.65	Michael Stewart	1	20	0
+0.65	Michal Benko	1	8	0
+0.65	Moreno Bevilacqua	1	16	0
+0.65	Natesh Pillai	1	12	0
+0.65	Nial Friel	5	20	0
+0.65	Peide Shi	2	17	0
+0.65	Per Aslak Mykland	5	8	2
+0.65	Peter D Grunwald	3	9	0
+0.65	Peter J Diggle	6	10	0
+0.65	Philip T Reiss	3	8	1
+0.65	Philippe Naveau	2	11	0
+0.65	Piet Groeneboom	4	13	2
+0.65	Qi-Man Shao	6	10	0
+0.65	Quanli Wang	1	7	0
+0.65	R A Bailey	6	3	3
+0.65	R Overholser	1	12	0
+0.65	R Xu	1	12	0
+0.65	Rainer Dahlhaus	3	15	0
+0.65	Rajesh Talluri	1	10	0
+0.65	Randy R Sitter	3	10	1
+0.65	Ricardo Olea	1	11	0
+0.65	Scott H Holan	2	11	0
+0.65	Scott Lindroth	1	9	0
+0.65	Sebastien Gadat	1	15	0
+0.65	Seonjoo Lee	1	16	0
+0.65	Shubhankar Ray	2	19	0
+0.65	Steffen L Lauritzen	3	8	1
+0.65	Stephanie M Engel	1	15	0
+0.65	Stephen H Shore	1	11	0
+0.65	Steven de Rooij	1	8	0
+0.65	Thanh Mai Pham Ngoc	1	8	0
+0.65	Thomas J DiCiccio	5	5	2
+0.65	Thomas R Ten Have	4	22	2
+0.65	Tim Holland-Letz	2	13	1
+0.65	Tim van Erven	1	8	0
+0.65	Venkata K Jandhyala	1	8	0
+0.65	Wei Yann Tsai	5	15	3
+0.65	Wei Zheng	1	7	0
+0.65	Wenwen Tao	1	16	0
+0.65	Wesley O Johnson	2	10	0
+0.65	Wilfredo Palma	1	11	0
+0.65	Xiao-Hua Zhou	4	17	0
+0.65	Xuemei Huang	1	16	0
+0.65	Yi Chai	1	13	0
+0.65	Ying Zhang	6	7	3
+0.65	Young Truong	1	16	0
+0.65	Yuan Ji	1	10	0
+0.65	Yuedong Wang	5	9	1
+0.65	Zhi Geng	5	10	0
+0.65	Zhibiao Zhao	3	7	2
+0.65	Zhigang Zhang	2	11	1
+0.6	A Jara	1	15	0
+0.6	Aad van der Vaart	3	12	0
+0.6	Abba M Krieger	2	11	0
+0.6	Alfred Hero	1	9	0
+0.6	Anil Aswani	1	12	0
+0.6	Anna Maria Siega-Riz	2	21	0
+0.6	Ao Yuan	2	14	0
+0.6	Arnaud Doucet	5	17	1
+0.6	Athanasios Kottas	2	28	0
+0.6	Chris C Holmes	7	22	1
+0.6	Chris Hans	3	17	1
+0.6	Claire Tomlin	1	12	0
+0.6	D M Titterington	3	16	0
+0.6	Daniel Gervini	4	10	2
+0.6	David W MacFarlane	1	15	0
+0.6	Dennis K J Lin	4	11	1
+0.6	Dennis Prangle	1	23	0
+0.6	Derek Bingham	4	11	1
+0.6	Duchwan Ryu	1	11	0
+0.6	Edward I George	4	14	1
+0.6	Eitan Greenshtein	2	9	0
+0.6	Emilio Seijo	2	16	0
+0.6	Emily L Kang	1	8	0
+0.6	Evarist Gine	2	12	0
+0.6	Fasheng Sun	2	10	0
+0.6	Frank Bretz	3	16	1
+0.6	Frederick K H Phoa	2	14	1
+0.6	Giovanni Parmigiani	7	11	0
+0.6	Guodong Li	4	7	1
+0.6	Haipeng Shen	3	24	1
+0.6	Heng Peng	4	13	0
+0.6	Hongqi Xue	3	15	2
+0.6	Huilin Li	1	11	0
+0.6	Huiling Le	4	12	1
+0.6	Ingo Steinwart	2	9	0
+0.6	J E Griffin	2	18	0
+0.6	James P Hobert	7	17	3
+0.6	Jason A Duan	1	14	0
+0.6	Jean-Michel Marin	2	20	0
+0.6	Jean-Yves Audibert	3	12	1
+0.6	Jerry Sacks	2	20	1
+0.6	Jianwen Cai	11	17	0
+0.6	John A Cafeo	2	20	1
+0.6	John P Buonaccorsi	2	9	0
+0.6	John Staudenmayer	3	8	1
+0.6	Ke Zhu	1	9	0
+0.6	Leonard A Stefanski	4	9	0
+0.6	Lu Wang	2	10	0
+0.6	Luis E Nieto-Barajas	2	13	0
+0.6	Martin Posch	3	13	0
+0.6	Mi-Ok Kim	2	16	0
+0.6	Michael G Hudgens	5	30	1
+0.6	Michael Sherman	4	10	3
+0.6	Michele Guindani	3	14	0
+0.6	Min-Qian Liu	2	10	0
+0.6	Mingyao Ai	3	23	1
+0.6	Moulinath Banerjee	7	20	2
+0.6	Niansheng Tang	3	15	0
+0.6	Noel Cressie	4	15	0
+0.6	Olivier Ledoit	1	10	0
+0.6	P Baldi	2	13	1
+0.6	Patrik Waldmann	1	21	0
+0.6	Pauliina Ilmonen	1	10	0
+0.6	Peng Zhao	1	10	0
+0.6	Peter Bauer	1	13	0
+0.6	Prasad A Naik	2	23	0
+0.6	R Todd Ogden	3	12	1
+0.6	Richard Huggins	2	8	0
+0.6	Robert F Dougherty	1	11	0
+0.6	Rongling Wu	2	12	0
+0.6	Ross L Prentice	7	17	1
+0.6	Ryan Martin	3	13	1
+0.6	Scott A Sisson	3	30	1
+0.6	Shan Ba	1	9	0
+0.6	Snigdhansu Chatterjee	2	11	0
+0.6	Sokbae Lee	3	13	0
+0.6	Sonja Zehetmayer	1	13	0
+0.6	Steven E Lipshultz	1	11	0
+0.6	Sunghoon Kwon	1	12	0
+0.6	Surya T Tokdar	2	9	1
+0.6	Tianle Hu	1	11	0
+0.6	Tina Kold Jensen	1	10	0
+0.6	Ting Zhang	1	8	0
+0.6	Tore Ericsson	1	21	0
+0.6	Tze Leung Lai	8	11	2
+0.6	Ulrich Stadtmuller	3	10	0
+0.6	Ursula U Muller	2	12	0
+0.6	V Roshan Joseph	5	11	1
+0.6	Valen E Johnson	5	9	2
+0.6	Veronika Czellar	1	17	0
+0.6	Wai Keung Li	3	7	1
+0.6	Wei Zhao	1	12	0
+0.6	Wenxin Jiang	4	7	1
+0.6	Wing Hung Wong	5	17	2
+0.6	Xiangrong Yin	4	16	1
+0.6	Xin Gao	2	18	0
+0.6	Xingdong Feng	2	14	0
+0.6	Ya Xue	1	24	0
+0.6	Yanqing Sun	2	10	0
+0.6	Yihua Zhao	2	11	0
+0.6	Yuan Jiang	2	16	0
+0.6	Yue S Niu	1	13	0
+0.6	Yulia Gavrilov	1	10	0
+0.6	Yunzhang Zhu	1	12	0
+0.6	Zhezhen Jin	4	8	1
+0.55	A H Zwinderman	1	12	0
+0.55	Aad W van der Vaart	5	12	0
+0.55	Abhyuday Mandal	1	13	0
+0.55	Andrada E Ivanescu	1	19	0
+0.55	Andrew B Nobel	3	14	0
+0.55	Antonio Canale	1	12	0
+0.55	Art B Owen	6	14	0
+0.55	Ben Calderhead	1	27	0
+0.55	Bodhisattva Sen	7	32	1
+0.55	Boxin Tang	8	18	4
+0.55	C Devon Lin	3	13	0
+0.55	Cheolwoo Park	1	12	0
+0.55	Chong Tu	1	15	0
+0.55	Christian P Robert	10	31	1
+0.55	Christophe Crambes	1	10	0
+0.55	D R Cox	11	14	3
+0.55	David L Donoho	5	10	1
+0.55	Debbie J Dupuis	2	26	0
+0.55	Dixin Zhang	1	13	0
+0.55	Domenico Marinucci	4	13	3
+0.55	Dongyu Lin	1	17	0
+0.55	Douglas W Nychka	6	18	1
+0.55	E Marras	1	10	0
+0.55	Fei Zou	3	21	0
+0.55	Fred A Wright	3	21	0
+0.55	Gauri Sankar Datta	4	14	0
+0.55	Gilbert MacKenzie	1	20	0
+0.55	Haonan Wang	2	16	0
+0.55	Hongquan Xu	7	21	4
+0.55	Hongxia Yang	1	19	0
+0.55	Huazhen Lin	3	14	1
+0.55	Ian W McKeague	6	11	2
+0.55	J N K Rao	10	19	2
+0.55	Jae Keun Yoo	1	14	0
+0.55	Jamie L Bigelow	1	13	0
+0.55	Jan Hannig	4	20	2
+0.55	Jianhua Hu	5	15	1
+0.55	Jinfeng Xu	1	13	0
+0.55	Jing Xu	1	20	0
+0.55	Jose Scheinkman	1	16	0
+0.55	Jose T A S Ferreira	3	12	0
+0.55	Joseph E Lucas	2	15	1
+0.55	Kshitij Khare	2	19	0
+0.55	Lars Peter Hansen	1	16	0
+0.55	Li Chen	2	12	0
+0.55	Lianming Wang	1	17	0
+0.55	Louise M Ryan	6	10	1
+0.55	Lutz Dumbgen	5	19	0
+0.55	Lyle H Ungar	1	17	0
+0.55	Malay Ghosh	9	19	0
+0.55	Mark Girolami	1	27	0
+0.55	Martin Hendry	1	12	0
+0.55	Masao Ueki	2	12	0
+0.55	Mathieu Rosenbaum	1	16	0
+0.55	Megan Othus	1	21	0
+0.55	Min Qian	1	18	0
+0.55	Ming-Hui Chen	9	12	3
+0.55	Nanny Wermuth	5	10	4
+0.55	Noah Simon	1	12	0
+0.55	Norman R Swanson	1	11	0
+0.55	Pascal Massart	2	15	1
+0.55	Peter L Bartlett	2	12	1
+0.55	Rahul Mukerjee	6	23	3
+0.55	Ram C Tiwari	6	26	2
+0.55	Robert A Stine	2	12	0
+0.55	Robert L Strawderman	3	14	1
+0.55	Robert L Wolpert	1	15	0
+0.55	Sean OBrien	1	19	0
+0.55	Seunggeun Lee	1	21	0
+0.55	Shane T Jensen	3	14	1
+0.55	Sheng Luo	2	10	0
+0.55	Shiqing Ling	10	15	5
+0.55	Shyamal Das Peddada	5	24	1
+0.55	Siji Wang	1	10	0
+0.55	Thais C O Fonseca	2	19	0
+0.55	Tiefeng Jiang	1	13	0
+0.55	Tingjin Chu	1	16	0
+0.55	Tung Pham	2	15	0
+0.55	Vadim M Zipunnikov	1	10	0
+0.55	Valentina Corradi	1	11	0
+0.55	Walter Distaso	1	11	0
+0.55	Wenhua Jiang	1	11	0
+0.55	Woncheol Jang	1	12	0
+0.55	Xiaobo Ding	1	18	0
+0.55	Yong Zhou	6	15	1
+0.55	Young Kyung Lee	1	9	0
+0.55	Zhi Wei	1	13	0
+0.5	A C Davison	4	14	1
+0.5	A S Hedayat	7	7	4
+0.5	Alessandro Baldi Antognini	2	21	0
+0.5	Anatoli B Juditsky	4	16	1
+0.5	Athanasia Petsa	1	13	0
+0.5	Brian S Caffo	5	14	1
+0.5	Dan Nettleton	3	15	0
+0.5	David Siegmund	9	11	3
+0.5	E Andres Houseman	4	14	2
+0.5	Elvezio Ronchetti	7	25	4
+0.5	Finn Lindgren	1	26	0
+0.5	Genevera I Allen	1	16	0
+0.5	Gerard Kerkyacharian	4	19	3
+0.5	Guillaume Obozinski	1	15	0
+0.5	Guy P Nason	3	16	0
+0.5	Haibo Zhou	7	17	1
+0.5	Helene Massam	8	25	4
+0.5	Hosik Choi	1	18	0
+0.5	Hyonho Chun	2	14	0
+0.5	J Sunil Rao	5	14	3
+0.5	Jean-Marc Freyermuth	1	13	0
+0.5	Jens Perch Nielsen	8	14	3
+0.5	Jerome P Reiter	5	26	6
+0.5	Jian Zhang	2	13	0
+0.5	Johan Lindstrom	1	26	0
+0.5	Joyee Ghosh	1	18	0
+0.5	Judith Rousseau	7	16	1
+0.5	Jun Zhu	6	27	0
+0.5	Konstantinos Kalogeropoulos	1	10	0
+0.5	Kun Liang	2	15	0
+0.5	Liqiang Ni	4	10	2
+0.5	Louigi Addario-Berry	1	14	0
+0.5	Louis Ferre	1	23	0
+0.5	Lu Lin	1	11	0
+0.5	Luc Devroye	1	14	0
+0.5	M J Bayarri	4	28	2
+0.5	McLean Sloughter	1	16	0
+0.5	Mei-Jie Zhang	2	15	1
+0.5	Mike Baiocchi	1	9	0
+0.5	Min Kyung Kim	1	14	0
+0.5	Min Yang	6	16	2
+0.5	Minjing Tao	1	12	0
+0.5	Naomi Altman	1	14	0
+0.5	Naresh M Punjabi	2	12	1
+0.5	Nicolas Broutin	1	14	0
+0.5	Nora Fenske	1	17	0
+0.5	Olivier Bousquet	3	17	1
+0.5	Partha Lahiri	6	15	1
+0.5	Peng Zeng	2	17	1
+0.5	Peter Muller	10	23	2
+0.5	Qihua Wang	3	20	1
+0.5	R de Jonge	1	14	0
+0.5	Rahul Mazumder	1	11	0
+0.5	Rainer von Sachs	5	20	0
+0.5	Ryan Janicki	1	11	0
+0.5	Songqiao Wen	1	20	0
+0.5	Stefan Sperlich	4	15	0
+0.5	Stefano Favaro	2	12	0
+0.5	Steven Buyske	1	21	0
+0.5	Suojin Wang	5	16	1
+0.5	Tao Wang	1	23	0
+0.5	Tapabrata Maiti	10	27	5
+0.5	Thomas Verdebout	1	12	0
+0.5	Timothy E Hanson	3	27	2
+0.5	Torben Martinussen	4	16	2
+0.5	Torsten Hothorn	1	17	0
+0.5	Xiaofeng Shao	5	17	1
+0.5	Xiaohong Chen	4	25	1
+0.5	Yimei Li	3	12	0
+0.5	Ying Yuan	3	18	1
+0.5	Ying-Li Qin	2	23	0
+0.5	Yu Cheng	3	11	2
+0.5	Yulia R Gel	3	21	0
+0.5	Yunwen Yang	2	27	1
+0.45	Adrian Barbu	1	17	0
+0.45	Adrian Dobra	3	34	0
+0.45	Alex Lenkoski	1	26	0
+0.45	Amy H Herring	4	42	1
+0.45	Angelika Rohde	2	17	0
+0.45	Arnaud Durand	1	20	0
+0.45	Bani Mallick	9	34	0
+0.45	Biao Zhang	7	25	0
+0.45	Brent A Coull	7	19	3
+0.45	David Kraus	1	18	0
+0.45	Dominique Picard	5	32	3
+0.45	Fan Li	3	35	0
+0.45	Gabor Lugosi	4	20	0
+0.45	Goran Kauermann	6	13	1
+0.45	Haeran Cho	1	18	0
+0.45	Hee-Seok Oh	3	20	0
+0.45	Iain M Johnstone	9	14	3
+0.45	Ja-Yong Koo	3	23	0
+0.45	James W Taylor	1	19	0
+0.45	Jeffrey H Silber	5	14	2
+0.45	Jian Guo	1	18	0
+0.45	Jing Wang	1	18	0
+0.45	John H Maddocks	1	18	0
+0.45	Jon A Wellner	9	26	5
+0.45	Jooyoung Jeon	1	19	0
+0.45	Joshua D Habiger	1	26	0
+0.45	Josue G Martinez	1	18	0
+0.45	Ju-Hyun Park	2	33	1
+0.45	Kung-Sik Chan	9	24	1
+0.45	Lawrence Carin	3	42	0
+0.45	Maarten Jansen	2	17	1
+0.45	Marc Hoffmann	4	21	0
+0.45	Maria-Pia Victoria-Feser	5	33	2
+0.45	Mark F J Steel	5	25	2
+0.45	Martica Hall	1	19	0
+0.45	Massimiliano Pontil	1	27	0
+0.45	Mike West	6	24	3
+0.45	Montserrat Fuentes	2	25	0
+0.45	Nam Hee Choi	1	15	0
+0.45	Nicolas Verzelen	3	38	0
+0.45	Nils Chr Stenseth	3	19	0
+0.45	Peter T Kim	3	23	1
+0.45	Robert T Krafty	1	19	0
+0.45	Rui Paulo	4	30	2
+0.45	Soumendra N Lahiri	12	23	3
+0.45	Subharup Guha	4	30	1
+0.45	Susan A Murphy	5	27	2
+0.45	Tao Huang	2	23	0
+0.45	Tao Lu	1	33	0
+0.45	Viatcheslav B Melas	6	19	3
+0.45	Victor M Panaretos	2	18	0
+0.45	Wei Liu	3	27	1
+0.45	Wei Pan	2	21	0
+0.45	Wensong Wu	1	26	0
+0.45	William Li	1	15	0
+0.45	Xi Luo	1	22	0
+0.45	Yair Goldberg	1	21	0
+0.45	Yaniv Plan	2	22	0
+0.45	Yao-Ban Chan	3	28	0
+0.45	Yeonseung Chung	1	31	0
+0.45	Yi Li	7	35	2
+0.45	Yuexiao Dong	2	18	1
+0.45	Zhou Zhou	3	15	1
+0.4	Alexander Goldenshluger	6	22	1
+0.4	Anirban Bhattacharya	2	39	0
+0.4	Axel Munk	5	27	1
+0.4	Bala Rajaratnam	4	31	3
+0.4	Bernard W Silverman	6	30	6
+0.4	Brent A Johnson	4	26	1
+0.4	Brian J Reich	4	30	0
+0.4	Charles J Geyer	4	19	0
+0.4	David M Zucker	6	19	4
+0.4	Dean P Foster	3	27	2
+0.4	Debajyoti Sinha	6	23	1
+0.4	Elias Moreno	4	13	4
+0.4	Eric J Tchetgen	4	15	2
+0.4	F Javier Giron	2	14	1
+0.4	Fanny Villers	2	37	0
+0.4	Guilherme Rocha	2	16	0
+0.4	Hao Liu	2	24	0
+0.4	Heping Zhang	12	19	5
+0.4	Hernando C Ombao	5	25	2
+0.4	Howard D Bondell	4	23	1
+0.4	Huiyan Sang	3	38	1
+0.4	Jean D Opsomer	9	16	4
+0.4	Jianxin Pan	3	20	3
+0.4	Jing-Hao Xue	3	16	0
+0.4	Jonathan Tawn	8	20	6
+0.4	Kai Zhang	1	14	0
+0.4	Lawrence D Brown	10	40	3
+0.4	Lie Wang	3	27	1
+0.4	Lu-Hung Chen	1	17	0
+0.4	Marianna Pensky	4	26	1
+0.4	Martin Schlather	4	27	1
+0.4	Mathias Drton	8	17	6
+0.4	Michael I Jordan	5	44	1
+0.4	Nicolas Chopin	5	50	1
+0.4	Peter X-K Song	8	51	0
+0.4	Peter Z G Qian	9	59	7
+0.4	Petros Dellaportas	6	17	0
+0.4	Qing Mai	1	25	0
+0.4	Qingxia Chen	3	17	0
+0.4	Richard Samworth	7	32	3
+0.4	SEONGHO Wu	1	19	0
+0.4	Sara Martino	1	44	0
+0.4	Shahar Mendelson	3	24	2
+0.4	Sindhu Srinivas	1	14	0
+0.4	Stephan F Huckemann	2	28	0
+0.4	Stuart R Lipsitz	4	24	0
+0.4	Theofanis Sapatinas	6	33	2
+0.4	Thomas S Richardson	6	23	3
+0.4	Vadim Grinshtein	2	20	1
+0.4	Wing K Fung	2	16	1
+0.4	Xiaoping Xu	2	24	0
+0.4	Xin Tong	1	20	0
+0.4	Xingwei Tong	1	20	0
+0.4	Ying Sun	1	17	0
+0.4	Ying Wei	4	25	2
+0.4	Zhiyi Chi	3	31	0
+0.4	Zongwu Cai	3	22	2
+0.35	Andrea Rotnitzky	11	21	1
+0.35	Carlos M Carvalho	5	43	3
+0.35	Chunming Zhang	6	38	2
+0.35	Daniela M Witten	3	28	1
+0.35	David Ruppert	8	15	2
+0.35	Denis Heng-Yan Leung	4	23	2
+0.35	Felix Abramovich	3	25	3
+0.35	George Casella	12	24	5
+0.35	Grace Y Yi	5	27	2
+0.35	Guillaume Lecue	2	30	0
+0.35	Hannes Leeb	3	29	2
+0.35	Hannu Oja	7	22	2
+0.35	Hongxiao Zhu	1	32	0
+0.35	Howell Tong	6	15	0
+0.35	Hui Li	3	24	0
+0.35	James O Berger	9	44	7
+0.35	James X Hu	1	21	0
+0.35	Jeffrey D Hart	5	20	1
+0.35	John D Storey	5	18	5
+0.35	Jun S Liu	9	21	1
+0.35	Kathryn Roeder	3	30	0
+0.35	Kun Chen	2	26	0
+0.35	Lan Xue	2	23	0
+0.35	Li Wang	2	23	0
+0.35	Marten H Wegkamp	6	40	3
+0.35	Merlise A Clyde	3	43	1
+0.35	Ming-Yen Cheng	4	25	1
+0.35	Minya Xu	2	31	0
+0.35	Nancy Ruonan Zhang	5	36	2
+0.35	Ning Hao	1	34	0
+0.35	Noureddine El Karoui	5	17	5
+0.35	Pengfei Li	5	37	2
+0.35	Ramses H Mena	4	17	2
+0.35	Ronghua Luo	1	33	0
+0.35	Ruth Heller	3	21	0
+0.35	Shaojun Guo	3	40	0
+0.35	Tao Yu	2	26	1
+0.35	Tatyana Krivobokova	4	21	2
+0.35	Thomas Kneib	3	34	0
+0.35	Weili Lin	4	26	1
+0.35	Xin Chen	2	27	0
+0.35	Yi Lin	10	22	3
+0.35	Yijian Huang	5	22	2
+0.35	Yuhong Yang	5	29	2
+0.35	Zhenghui Feng	1	28	0
+0.3	Andrew T A Wood	8	24	6
+0.3	Anindya Roy	6	19	3
+0.3	Armin Schwartzman	3	25	1
+0.3	Bin Nan	6	28	2
+0.3	Bo Kai	3	22	0
+0.3	Bo Li	5	36	2
+0.3	Daniel Yekutieli	4	24	2
+0.3	Debashis Paul	4	24	1
+0.3	Fengrong Wei	1	32	0
+0.3	Florentina Bunea	5	41	3
+0.3	Helmut Finner	4	30	1
+0.3	Hemant Ishwaran	7	19	4
+0.3	Hongyu Zhao	3	39	0
+0.3	Hsin-Cheng Huang	6	29	3
+0.3	Hulin Wu	5	51	6
+0.3	James G Scott	4	50	4
+0.3	Jessica Minnier	1	16	0
+0.3	Junhui Wang	3	25	1
+0.3	Ke Yu	1	21	0
+0.3	Lajos Horvath	5	30	1
+0.3	Lifeng Wang	2	37	0
+0.3	Limin Peng	8	28	3
+0.3	Markus Roters	2	30	1
+0.3	N Reid	5	13	6
+0.3	Nengfeng Zhou	2	28	0
+0.3	Nicholas G Polson	6	37	2
+0.3	Pang Du	1	28	0
+0.3	Philip J Brown	3	42	1
+0.3	Sylvain Arlot	2	19	2
+0.3	Thomas C M Lee	4	34	0
+0.3	Thomas H Scheike	4	27	2
+0.3	Thorsten Dickhaus	2	30	1
+0.3	Tong Zhang	5	26	0
+0.3	Veerabhadran Baladandayuthapani	2	28	0
+0.3	Weiping Zhang	2	32	1
+0.3	Wensheng Guo	6	31	2
+0.3	Xingye Qiao	1	23	0
+0.3	Xinwei Deng	3	27	0
+0.3	Yingying Li	1	21	0
+0.3	Yongdai Kim	9	32	1
+0.25	Andrew O Finley	3	45	2
+0.25	Annie Qu	9	51	3
+0.25	Arijit Chakrabarti	1	46	0
+0.25	Arthur Cohen	4	31	4
+0.25	D A S Fraser	5	13	7
+0.25	Faming Liang	6	24	6
+0.25	Florian Frommlet	1	46	0
+0.25	George Michailidis	7	41	1
+0.25	Gilles Blanchard	4	35	2
+0.25	Harold B Sackrowitz	4	31	4
+0.25	Ian L Dryden	6	25	7
+0.25	J H van Zanten	4	24	2
+0.25	Jacob Bien	3	38	0
+0.25	Jerome H Friedman	3	23	0
+0.25	Jialiang Li	1	32	0
+0.25	Karim Lounici	3	52	0
+0.25	Kehui Chen	2	22	0
+0.25	Lan Wang	8	72	0
+0.25	Malgorzata Bogdan	1	46	0
+0.25	Markus Kalisch	2	34	0
+0.25	Peihua Qiu	7	21	2
+0.25	Philippe Rigollet	3	35	2
+0.25	Robertas Gabrys	3	30	1
+0.25	Siegfried Hormann	2	32	1
+0.25	Simon N Wood	6	21	10
+0.25	Subhashis Ghosal	8	26	4
+0.25	Sungkyu Jung	2	28	0
+0.25	Tatiyana V Apanasovich	3	26	1
+0.25	Tso-Jung Yen	1	34	0
+0.25	Vladimir Koltchinskii	6	41	3
+0.25	Wenbin Lu	6	41	2
+0.25	Wolfgang Karl Hardle	8	32	1
+0.25	Xinyu Zhang	2	27	0
+0.2	Edsel A Pena	4	35	1
+0.2	Ery Arias-Castro	5	31	3
+0.2	Feifang Hu	7	18	10
+0.2	Haavard Rue	4	71	4
+0.2	Jae Kwang Kim	9	30	11
+0.2	Jayanta K Ghosh	2	48	0
+0.2	Jiahua Chen	9	51	6
+0.2	Jian Zou	2	23	1
+0.2	Jiancheng Jiang	7	35	2
+0.2	Jianhui Zhou	4	49	0
+0.2	Jie Peng	2	32	0
+0.2	Jun Shao	6	39	0
+0.2	Jun-Iowa Li	1	38	0
+0.2	Kani Chen	8	41	2
+0.2	Mark G Low	12	21	3
+0.2	Neil Bathia	3	35	1
+0.2	Paul Fearnhead	10	44	6
+0.2	Piotr Fryzlewicz	9	42	6
+0.2	Richard Nickl	3	39	3
+0.2	Stijn Vansteelandt	7	30	5
+0.2	Sudipto Banerjee	8	49	6
+0.2	X Jessie Jeng	2	27	0
+0.2	Xia Cui	2	25	0
+0.2	Xiang Liu	2	27	0
+0.2	Yi-Hau Chen	5	19	2
+0.2	Yingying Fan	4	42	1
+0.2	Yiyun Zhang	1	26	0
+0.2	Yongtao Guan	15	43	11
+0.2	Zhiqiang Tan	11	46	8
+0.2	Zhongyi Zhu	4	36	1
+0.15	Ci-Ren Jiang	2	20	1
+0.15	Clifford Lam	4	66	1
+0.15	Damla Senturk	5	18	4
+0.15	Emmanuel J Candes	6	45	2
+0.15	Etienne Roquain	3	42	2
+0.15	Guosheng Yin	10	48	2
+0.15	Hajime Uno	3	21	1
+0.15	Huiliang Xie	2	30	0
+0.15	Huixia Judy Wang	8	51	3
+0.15	James R Robins	14	49	6
+0.15	Jeongyoun Ahn	4	29	3
+0.15	Jing Ning	5	35	0
+0.15	Lan Zhou	2	23	1
+0.15	Li-Xin Zhang	5	34	1
+0.15	Marloes H Maathuis	5	54	4
+0.15	Nils Lid Hjort	6	18	6
+0.15	Omiros Papaspiliopoulos	9	34	6
+0.15	Pascal Sarda	2	31	1
+0.15	Sahand Negahban	2	32	1
+0.15	Sam Efromovich	7	40	4
+0.15	Tyler J VanderWeele	6	32	3
+0.15	Victor Chernozhukov	5	38	3
+0.15	Wei Biao Wu	12	40	8
+0.0999999999999997	Alexandre Belloni	5	49	2
+0.0999999999999997	Ana-Maria Staicu	2	42	0
+0.0999999999999997	Bin Yu	8	44	2
+0.0999999999999997	Bing-Yi Jing	6	23	0
+0.0999999999999997	Gareth Roberts	14	43	10
+0.0999999999999997	Gerda Claeskens	14	51	7
+0.0999999999999997	Holger Dette	24	52	13
+0.0999999999999997	Hongzhe Li	5	82	0
+0.0999999999999997	Jean Jacod	6	12	6
+0.0999999999999997	Jinchi Lv	3	58	2
+0.0999999999999997	Michael J Todd	2	29	1
+0.0999999999999997	Peter J Bickel	10	64	3
+0.0999999999999997	Sara van de Geer	5	49	1
+0.0999999999999997	Scott D Solomon	2	22	0
+0.0999999999999997	Weidong Liu	6	60	3
+0.0999999999999997	William Kleiber	2	34	0
+0.0999999999999997	Xin-Bing Kong	2	23	0
+0.0999999999999997	Yan Sun	2	28	1
+0.0999999999999997	Zhi Liu	2	23	0
+0.0499999999999997	Bradley Efron	12	33	12
+0.0499999999999997	Changliang Zou	2	41	0
+0.0499999999999997	Cheng Yong Tang	5	73	1
+0.0499999999999997	Chong-Zhi Di	2	41	1
+0.0499999999999997	Christopher Genovese	8	38	6
+0.0499999999999997	Jeffrey S Morris	5	45	7
+0.0499999999999997	Kyusang Yu	2	28	1
+0.0499999999999997	Lukas Meier	3	37	0
+0.0499999999999997	Nilanjan Chatterjee	10	31	6
+0.0499999999999997	Ryan J Tibshirani	3	32	2
+0.0499999999999997	Scott Lorch	2	23	0
+0.0499999999999997	Stephen G Walker	10	15	9
+0.0499999999999997	Wenge Guo	2	39	0
+0.0499999999999997	Xuming He	17	80	6
+0.0499999999999997	Yang Feng	4	63	0
+0.0499999999999997	Yazhen Wang	4	28	3
+0	Abel Rodriguez	5	114	2
+0	Adam J Rothman	3	60	2
+0	Adrian E Raftery	9	51	8
+0	Alan E Gelfand	12	124	12
+0	Alexander Meister	5	30	2
+0	Alexandre B Tsybakov	15	124	16
+0	Alois Kneip	4	43	1
+0	Antonio Lijoi	10	39	8
+0	Arnab Maity	4	55	0
+0	Aurore Delaigle	15	93	20
+0	Bing Li	12	83	21
+0	Byeong U Park	9	34	6
+0	Chenlei Leng	9	122	5
+0	Chih-Ling Tsai	12	96	4
+0	Ciprian M Crainiceanu	12	68	8
+0	Cun-Hui Zhang	13	81	7
+0	Dan Yu Lin	15	60	11
+0	David Dunson	29	360	37
+0	Davy Paindaveine	9	45	13
+0	Donglin Zeng	22	104	11
+0	Dylan S Small	11	46	7
+0	Elizaveta Levina	7	79	7
+0	Enno Mammen	16	74	18
+0	Fang Yao	10	113	18
+0	Gareth M James	9	65	9
+0	Guang Cheng	4	66	3
+0	Hans-Georg Muller	30	189	41
+0	Hansheng Wang	11	168	8
+0	Hao Helen Zhang	9	124	4
+0	Harrison H Zhou	9	63	3
+0	Hongtu Zhu	16	58	10
+0	Hua Liang	15	151	5
+0	Hui Zou	12	124	14
+0	Igor Prunster	12	45	11
+0	J S Marron	12	76	19
+0	Jane-Ling Wang	11	54	9
+0	Jason P Fine	18	67	10
+0	Jeng-Min Chiou	6	46	4
+0	Ji Zhu	10	131	4
+0	Jian Huang	9	95	8
+0	Jianhua Z Huang	9	107	3
+0	Jianqing Fan	40	354	35
+0	Jiashun Jin	10	102	19
+0	Jing Qin	20	73	5
+0	Joel L Horowitz	7	65	5
+0	Jonathan E Taylor	11	49	7
+0	Joseph G Ibrahim	28	81	12
+0	Joseph P Romano	8	37	10
+0	L J Wei	13	55	19
+0	Larry Wasserman	17	79	7
+0	Lexin Li	8	68	2
+0	Liping Zhu	6	117	1
+0	Liugen Xue	5	35	5
+0	Lixing Zhu	20	177	29
+0	Lu Tian	13	81	13
+0	Marc G Genton	15	70	8
+0	Marc Hallin	14	35	14
+0	Martin J Wainwright	6	65	3
+0	Michael R Kosorok	15	65	12
+0	Michael Wolf	5	43	4
+0	Ming Yuan	13	86	4
+0	Naisyin Wang	8	49	9
+0	Nicolai Meinshausen	8	49	6
+0	Pai-Ling Li	2	30	1
+0	Paul R Rosenbaum	20	44	37
+0	Peter Buhlmann	12	79	8
+0	Peter Hall	82	282	46
+0	Peter Radchenko	5	48	4
+0	Ping-Shou Zhong	3	59	0
+0	Piotr Kokoszka	5	59	3
+0	Qiwei Yao	13	63	9
+0	R Dennis Cook	19	59	22
+0	Raymond J Carroll	40	256	30
+0	Robert J Tibshirani	13	94	4
+0	Rui Song	5	65	2
+0	Runze Li	16	155	24
+0	Sanat K Sarkar	5	50	4
+0	Shuangge Ma	6	85	2
+0	Song Xi Chen	14	135	9
+0	T Tony Cai	33	230	28
+0	Tailen Hsing	4	55	1
+0	Tianxi Cai	9	73	6
+0	Tilmann Gneiting	12	86	16
+0	Trevor J Hastie	10	36	4
+0	Wenguang Sun	4	41	4
+0	Wenyang Zhang	6	78	4
+0	Xiaotong Shen	10	86	14
+0	Xihong Lin	12	60	9
+0	Yacine Ait-Sahalia	11	34	10
+0	Yanyuan Ma	18	106	17
+0	Yehua Li	6	121	3
+0	Yichao Wu	6	106	2
+0	Yingcun Xia	9	80	4
+0	Yoav Benjamini	6	41	4
+0	Yu Shen	8	48	2
+0	Yufeng Liu	9	121	10

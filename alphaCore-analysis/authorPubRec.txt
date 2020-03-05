@@ -1,0 +1,3607 @@
+A Adam Ding	2	0	0
+A B Kristoffersen	1	0	0
+A Bottle	1	0	0
+A C Davison	4	14	1
+A Chatterjee	1	8	0
+A D Tsodikov	2	0	0
+A David Cummings	1	0	0
+A E Ades	1	0	0
+A Galichon	1	2	0
+A Grane	1	0	0
+A Guillin	1	5	0
+A H Zwinderman	1	12	0
+A J Hayter	2	4	0
+A J Lee	2	6	1
+A J Scott	3	6	1
+A James OMalley	1	2	0
+A Jara	1	15	0
+A Kong	1	0	0
+A Mallik	1	7	0
+A N Pettitt	4	14	3
+A Philip Dawid	1	0	0
+A Richard Entsuah	1	0	0
+A Ronald Gallant	1	0	0
+A Ruiz-Gazen	1	2	0
+A S Foulkes	1	0	0
+A S Hedayat	7	7	4
+A Touati	1	0	0
+A Trouve	1	0	0
+Aad van der Vaart	3	12	0
+Aad W van der Vaart	5	12	0
+Aaron King	1	1	0
+Aarti Singh	1	4	0
+Abba M Krieger	2	11	0
+Abbas Khalili	3	18	0
+Abdelhadi Akharif	1	0	0
+Abdelkader Mokkadem	1	1	0
+Abdessamad Saidi	1	0	0
+Abdus S Wahed	2	2	1
+Abel Rodriguez	5	114	2
+Abhishek Bhattacharya	1	6	0
+Abhyuday Mandal	1	13	0
+Adam Clements	1	0	0
+Adam J Rothman	3	60	2
+Adam N Glynn	1	0	0
+Adarsh Joshi	1	6	0
+Adelchi Azzalini	1	2	0
+Adelmo I Bertolde	1	8	0
+Adi F Gazdar	1	1	0
+Adin-Cristian Andrei	1	0	0
+Adonis Yatchew	1	0	0
+Adrian Baddeley	2	0	0
+Adrian Barbu	1	17	0
+Adrian Dobra	3	34	0
+Adrian E Raftery	9	51	8
+Agnes Desolneux	1	0	0
+Agostino Nobile	1	0	0
+Agus Sudjianto	2	1	0
+Agustin Mayo-Iscar	3	8	0
+Aidan McDermott	1	0	0
+Aijun Zhang	1	0	0
+Aimee Zaas	1	9	0
+Aiyi Liu	2	2	0
+Aiyou Chen	3	1	0
+Ajay Jasra	2	15	1
+Ajit C Tamhane	2	0	0
+Akihiko Inoue	1	0	0
+Alain-Jacques Valleron	1	0	0
+Alan Agresti	1	1	0
+Alan E Gelfand	12	124	12
+Alan E Hubbard	2	6	1
+Alan Edelman	1	0	0
+Alan F Karr	1	3	0
+Alan H Welsh	5	4	1
+Alan Huang	1	2	0
+Alan J Cohen	1	0	0
+Alan M Zaslavsky	3	9	0
+Alan T K Wan	2	12	0
+Albert Cohen	1	0	0
+Albert Maydeu-Olivares	1	0	0
+Alberto Abadie	1	1	0
+Alberto Bernacchia	1	0	0
+Alberto Rodriguez-Casal	1	0	0
+Alberto Roverato	1	0	0
+Albrecht M Kellerer	1	0	0
+Aldo Solari	1	5	0
+Alec Stephenson	1	0	0
+Alejandro Cruz-Marcelo	1	9	0
+Alejandro Veen	1	0	0
+Alekh Agarwal	1	8	0
+Aleksandar Mijatovic	1	5	0
+Aleksey Min	1	15	0
+Aleksey S Polunchenko	1	0	0
+Alessandra Giovagnoli	1	7	0
+Alessandra Luati	1	0	0
+Alessandra Mattei	1	19	0
+Alessandro Baldi Antognini	2	21	0
+Alessandro Rinaldo	3	20	0
+Alessandro Tarozzi	1	4	0
+Alessandro Veneziani	1	2	0
+Alessio Farcomeni	2	3	0
+Alex Gammerman	1	0	0
+Alex Kiss	1	0	0
+Alex Lenkoski	1	26	0
+Alex Lewin	1	3	0
+Alexander Aue	1	2	0
+Alexander G Tartakovsky	1	0	0
+Alexander Gluhovsky	1	0	0
+Alexander Goldenshluger	6	22	1
+Alexander J McNeil	1	0	0
+Alexander J Smola	1	0	0
+Alexander Lindner	1	0	0
+Alexander M Spence	1	0	0
+Alexander Meister	5	30	2
+Alexander Samarov	1	0	0
+Alexandra M Schmidt	1	0	0
+Alexandra Ramos	1	2	0
+Alexandre B Tsybakov	15	124	16
+Alexandre Belloni	5	49	2
+Alexandre Pintore	1	2	0
+Alexandre Rodrigues	1	1	0
+Alexandros Beskos	2	3	0
+Alexis Diamond	1	1	0
+Alfio Marazzi	1	2	0
+Alfonso Gordaliza	3	6	1
+Alfonso Suarez-Llorens	1	0	0
+Alfred Hero	1	9	0
+Alfred Kume	3	6	1
+Alfredo Navarro	1	0	0
+Ali Ekici	1	2	0
+Ali M Mosammam	1	1	0
+Ali Shojaie	1	11	0
+Alice S Whittemore	1	0	0
+Alicia Carriquiry	1	0	0
+Aliye Atay-Kayis	1	3	0
+Allan R Sampson	2	0	0
+Allan Timmermann	2	6	0
+Alois Kneip	4	43	1
+Alvaro Sandroni	1	5	0
+Alysha M De Livera	1	3	0
+Amanda S Hering	1	11	0
+Amgen Research Group	1	0	0
+Amita Manatunga	1	0	0
+Amnon Neeman	2	0	0
+Amy H Herring	4	42	1
+Amy J Braverman	1	0	0
+Ana-Maria Staicu	2	42	0
+Ana Broemeling	1	0	0
+Ana Grohovac Rappold	2	0	0
+Ana J Villar	1	2	0
+Ana Justel	1	7	0
+Anand N Vidyashankar	2	2	0
+Ananias A Escalante	1	0	0
+Ananya Roy	1	3	0
+Anastasia Ivanova	1	0	0
+Anastasia Papavasiliou	1	8	0
+Anastasios A Tsiatis	10	10	1
+Anat Sakov	1	2	0
+Anatoli B Juditsky	4	16	1
+Anatoly Zhigljavsky	1	2	0
+Anders Rahbek	1	5	0
+Andrada E Ivanescu	1	19	0
+Andre Lucas	1	0	0
+Andrea Bergesio	2	3	0
+Andrea Cerioli	2	4	1
+Andrea Hennerfeind	1	0	0
+Andrea Rotnitzky	11	21	1
+Andreas Brezger	1	0	0
+Andreas Buja	2	7	0
+Andreas Futschik	1	0	0
+Andrei Y Yakovlev	2	0	0
+Andrej Pazman	1	0	0
+Andres Farall	1	0	0
+Andrew B Nobel	3	14	0
+Andrew Gelman	6	2	1
+Andrew J Patton	1	6	0
+Andrew L Rukhin	1	0	0
+Andrew M Stuart	3	7	0
+Andrew O Finley	3	45	2
+Andrew P Robinson	1	4	0
+Andrew R Barron	1	0	0
+Andrew S Allen	1	3	0
+Andrew T A Wood	8	24	6
+Andrew T Walden	1	0	0
+Andrew V Carter	3	0	0
+Andrew W Bergen	1	0	0
+Andrey Pepelyshev	6	13	0
+Andriy Norets	1	0	0
+Andrzej S Kozek	1	0	0
+Andy J Minn	1	6	0
+Anestis Antoniadis	3	2	0
+Angela Kempe	1	0	0
+Angela M Dean	2	0	0
+Angela Winnett	2	0	0
+Angelika Rohde	2	17	0
+Aniko Szabo	1	0	0
+Anil Aswani	1	12	0
+Anindya Bhadra	2	1	0
+Anindya Roy	6	19	3
+Anirban Bhattacharya	2	39	0
+Ann B Lee	1	8	0
+Anna Clara Monti	2	0	0
+Anna K Panorska	1	0	0
+Anna Maria Siega-Riz	2	21	0
+Anne-Catherine Favre	1	2	0
+Anne Gegout-Petit	1	5	0
+Annie Qu	9	51	3
+Anny Hui Xiang	1	0	0
+Anouar El Ghouch	1	2	0
+Antai Wang	1	0	0
+Anthony Brockwell	1	6	0
+Anthony C Atkinson	1	2	0
+Anthony C Hart	1	0	0
+Anthony Garratt	1	0	0
+Anthony OHagan	5	3	2
+Anthony R Olsen	1	0	0
+Anthony Reveillac	1	0	0
+Anthony W Ledford	2	2	0
+Anthony Y C Kuk	4	6	1
+Antoine Chambaz	2	0	1
+Anton Schick	3	0	0
+Antonella Capitanio	1	2	0
+Antonietta Mira	1	0	0
+Antonio Canale	1	12	0
+Antonio Cuevas	1	0	0
+Antonio Forcina	1	0	0
+Antonio Lijoi	10	39	8
+Anuj Srivastava	2	3	0
+Ao Yuan	2	14	0
+Apostolos Serletis	1	0	0
+Arash A Amini	1	9	0
+Ardo van den Hout	1	0	0
+Arijit Chakrabarti	1	46	0
+Arjun K Gupta	1	0	0
+Arkadi S Nemirovski	1	0	0
+Arkady B Khodursky	1	5	0
+Arleta Szkola	1	1	0
+Armelle Guillou	1	6	0
+Armin Schwartzman	3	25	1
+Arnab Maity	4	55	0
+Arnak Dalalyan	2	4	0
+Arnaud Doucet	5	17	1
+Arnaud Durand	1	20	0
+Arnaud Gloter	1	0	0
+Arne Kovac	2	5	0
+Arnold Janssen	1	0	0
+Arnoldo Frigessi	1	2	0
+Arnost Komarek	1	4	0
+Arseni Seregin	1	5	0
+Art B Owen	6	14	0
+Arthur Cohen	4	31	4
+Arthur L Dryver	1	0	0
+Arthur Pewsey	2	6	0
+Arthur Spirling	2	0	0
+Arthur van Soest	1	0	0
+Arthur Yu Lu	2	3	0
+Arup Bose	1	0	0
+Ashutosh Tewari	1	0	0
+Assaf Zeevi	3	2	1
+Athanasia Petsa	1	13	0
+Athanasios C Micheas	1	3	0
+Athanasios Kottas	2	28	0
+Atsushi Inoue	1	4	0
+Aurore Delaigle	15	93	20
+Avishai Mandelbaum	1	2	0
+Avital Cnaan	1	0	0
+Axel Bucher	1	2	0
+Axel Gandy	2	0	0
+Axel Munk	5	27	1
+Azadeh Alimadad	1	6	0
+Azeem M Shaikh	1	4	0
+B B Bhattacharyya	1	0	0
+B Clarke	1	4	0
+B Devlin	1	0	0
+B J K Kleijn	1	0	0
+B K Sinha	1	2	0
+B L De Stavola	1	0	0
+B M Brown	1	0	0
+B Nebiyou Bekele	1	0	0
+B Sigal	1	0	0
+B T Knapik	1	1	0
+Bahjat F Qaqish	3	0	1
+Baibing Li	1	2	0
+Baiqi Miao	1	0	0
+Baisuo Jin	1	0	0
+Bakhodir Ergashev	1	0	0
+Bala Rajaratnam	4	31	3
+Balgobin Nandram	1	2	0
+Bani Mallick	9	34	0
+Baojiang Chen	1	4	0
+Barbara Bogacka	1	0	0
+Barbara Klein	1	0	0
+Barbara Szyszkowicz	1	0	0
+Barry C Arnold	1	0	0
+Barry Falk	1	0	0
+Barry I Graubard	2	0	0
+Barry M Lesht	1	0	0
+Barry Rowlingson	2	9	0
+Bas J M Werker	3	7	1
+Beatrice Giglio	1	0	0
+Beatrice Laurent	3	2	1
+Beatrix Jones	1	0	0
+Beatriz Larraz	1	12	0
+Beatriz V M Mendes	1	0	0
+Bee Leng Lee	2	2	1
+Belkacem Abdous	1	3	0
+Ben B Hansen	3	2	0
+Ben Calderhead	1	27	0
+Ben Haaland	2	10	0
+Benedikt M Potscher	1	4	0
+Benjamin Williams	1	2	0
+Benjamin Yakir	5	10	0
+Benoit Cadre	2	0	0
+Benoit R Masse	1	14	0
+Bent Jorgensen	1	5	0
+Bent Nielsen	3	0	0
+Bernard Bercu	1	6	0
+Bernard Harris	1	0	0
+Bernard W Silverman	6	30	6
+Bernardo Colombo	1	0	0
+Bernd Fitzenberger	1	10	0
+Bernd Sturmfels	1	0	0
+Bernhard Scholkopf	1	0	0
+Bertrand Melenberg	1	0	0
+Bess Marcus	1	4	0
+Beth Andrews	2	1	0
+Beth Ann Griffin	1	0	0
+Bhaskar Bhattacharya	1	0	0
+Bhramar Mukherjee	1	0	0
+Biao Zhang	7	25	0
+Bichun Ouyang	1	4	0
+Billy Amzal	1	0	0
+Bin Nan	6	28	2
+Bin Yu	8	44	2
+Bin Zhu	1	11	0
+Bing-Yi Jing	6	23	0
+Bing Li	12	83	21
+Birgit I Witte	1	3	0
+Bitao Liu	1	16	0
+Bo Cai	1	1	0
+Bo Henry Lindqvist	3	12	1
+Bo Kai	3	22	0
+Bo Li	5	36	2
+Bo Yang	1	0	0
+Boaz Nadler	1	0	0
+Bob Zhong	1	7	0
+Bodhisattva Sen	7	32	1
+Bonifacio Salvador	1	0	0
+Bonnie Ghosh-Dastidar	1	0	0
+Boris Buchmann	2	1	0
+Boris Iglewicz	1	0	0
+Borus Jungbacker	1	0	0
+Bowei Xi	1	0	0
+Boxin Tang	8	18	4
+Brad McNeney	1	0	0
+Bradley Efron	12	33	12
+Bradley Jones	1	2	0
+Bradley P Carlin	4	9	0
+Bradley S Peterson	3	3	0
+Brendan P M McCabe	1	6	0
+Brent A Coull	7	19	3
+Brent A Johnson	4	26	1
+Brent Kreider	1	0	0
+Brent R Logan	1	0	0
+Bret Hanlon	1	0	0
+Brett Presnell	1	0	0
+Brian D M Tom	1	0	0
+Brian D Ripley	1	0	0
+Brian H Aukema	2	6	0
+Brian H Reck	1	1	0
+Brian J Reich	4	30	0
+Brian S Caffo	5	14	1
+Brian S Yandell	1	0	0
+Brian Williams	1	2	0
+Brisa N Sanchez	1	0	0
+Bruce E Hansen	1	0	0
+Bruce G Lindsay	12	16	1
+Bruce W Turnbull	2	2	0
+Brunero Liseo	1	2	0
+Bruno Remillard	2	0	0
+Bruno Sanso	4	13	0
+Bryan E Shepherd	5	5	1
+Bryan Langholz	2	0	0
+Burkhardt Seifert	2	2	0
+Byeong U Park	9	34	6
+Byron Ellis	1	3	0
+Byron J T Morgan	2	4	0
+Byron Schmuland	1	1	0
+C A Field	2	3	1
+C C Tan	1	0	0
+C D Barr	1	6	0
+C Devon Lin	3	13	0
+C F Jeff Wu	8	21	0
+C F Sirmans	2	0	0
+C G Wager	1	0	0
+C Goga	1	2	0
+C H Sim	1	0	0
+C Hendricks Brown	1	1	0
+C Houdre	2	0	0
+C J Brien	3	3	3
+C J Wild	2	6	1
+C Kiss	1	6	0
+C Lacour	1	6	0
+C Levy-Leduc	2	10	0
+C M Jack Wang	1	0	0
+C Messan Setodji	1	0	0
+C N Kuruwita	1	4	0
+C Paddy Farrington	3	4	0
+C S Wong	1	0	0
+C Semadeni	1	0	0
+C Shane Reese	1	0	0
+C Thomas Agnan	1	0	0
+C Tommasi	1	2	0
+C Wang	1	10	0
+C Y Wang	1	0	0
+C Yau	1	9	0
+Camelia S Sima	1	0	0
+Cari G Kaufman	1	9	0
+Carlo Gaetan	2	16	0
+Carlos Acuna	1	0	0
+Carlos Almeida	1	15	0
+Carlos E Pedreira	1	0	0
+Carlos M Carvalho	5	43	3
+Carlos Matran	4	8	0
+Carlos Vallarino	1	2	0
+Carlos Velasco	2	7	1
+Carmen Cadarso-Suarez	1	0	0
+Carmen Fernandez	1	3	0
+Caroline Beunckens	1	3	0
+Carolyn M Rutter	1	0	0
+Carsten H Botts	1	0	0
+Caspar M Ammann	1	3	0
+Casper J Albers	1	0	0
+Cassandra Arroyo	1	6	0
+Caterina May	1	2	0
+Catherine A Calder	1	0	0
+Catherine A Sugar	3	1	1
+Catherine Datto	1	4	0
+Catherine Loader	1	0	0
+Catherine Matias	2	8	1
+Catherine Schairer	1	0	0
+Catherine Vermandele	2	7	1
+Catia Scricciolo	1	2	0
+Catriona M Queen	1	0	0
+Cavan Reilly	1	0	0
+Cecile Durot	1	3	0
+Cecile Hardouin	1	0	0
+Celia Byrne	1	0	0
+Celine Vial	4	5	0
+Chad J Gwaltney	1	0	0
+Chad M Schafer	1	0	0
+Chandan Saha	1	0	0
+Chang-Yung Yu	1	0	0
+Chang Xuan Mao	3	1	2
+Changbao Wu	4	5	0
+Changchun Wang	1	0	0
+Changliang Zou	2	41	0
+Chao Yang	1	6	0
+Charles C Taylor	2	4	0
+Charles E McCulloch	2	4	1
+Charles H Hennekens	1	0	0
+Charles J Geyer	4	19	0
+Charles R G Guttmann	1	0	0
+Chen-Pin Wang	1	1	0
+Chen-Sheng Lin	1	0	0
+Cheng-Der Fuh	5	3	3
+Cheng Yong Tang	5	73	1
+Cheng Zhu	1	3	0
+Chengcheng Hu	1	0	0
+Chenlei Leng	9	122	5
+Cheolwoo Park	1	12	0
+Chi-Lun Cheng	1	0	0
+Chia-Hung Yen	1	0	0
+Chiara Sabatti	1	0	0
+Chien-Jen Chen	1	2	0
+Chien-Tai Lin	1	0	0
+Chih-Ling Tsai	12	96	4
+Chin-Hsu Lin	1	17	0
+Ching-Kang Ing	4	2	2
+Ching-Shui Cheng	7	8	3
+Ching-Ti Liu	1	0	0
+Ching-Zong Wei	1	0	0
+Chiung-Yu Huang	5	12	0
+Chloe Friguet	1	3	0
+Chong-Zhi Di	2	41	1
+Chong Gu	2	1	1
+Chong Tu	1	15	0
+Chris A J Klaasen	1	0	0
+Chris C Holmes	7	22	1
+Chris Daly	1	0	0
+Chris Hans	3	17	1
+Chris Muris	1	0	0
+Chris Sherlock	1	5	0
+Chris Skinner	3	4	0
+Christel Faes	2	0	0
+Christian Bressen Pipper	1	0	0
+Christian Francq	3	2	1
+Christian Genest	3	0	0
+Christian Hafner	1	0	0
+Christian Hennig	1	0	0
+Christian P Robert	10	31	1
+Christian Peter Klingenberg	1	9	0
+Christian Ritz	1	0	0
+Christian Schmidt	1	0	0
+Christiana Kartsonaki	1	4	0
+Christina Kendziorski	2	0	0
+Christine G Elsik	1	0	0
+Christine H Muller	2	0	0
+Christine Jacob	1	2	0
+Christine S Olver	1	0	0
+Christoph Rothe	1	0	0
+Christophe Abraham	1	0	0
+Christophe Ambroise	1	5	0
+Christophe Andrieu	2	0	0
+Christophe Crambes	1	10	0
+Christophe Giraud	1	7	0
+Christophe Ladroue	1	8	0
+Christopher A Bush	1	0	0
+Christopher A Carolan	1	0	0
+Christopher A T Ferro	1	0	0
+Christopher B Forrest	1	3	0
+Christopher G Small	1	0	0
+Christopher Genovese	8	38	6
+Christopher H Holloman	1	0	0
+Christopher J Nachtsheim	1	3	0
+Christopher J Paciorek	1	2	0
+Christopher Jennison	1	2	0
+Christopher K Carter	1	0	0
+Christopher K Wikle	3	5	1
+Christopher L Sanders	1	0	0
+Christopher M Quale	1	0	0
+Christopher Ma	1	0	0
+Christopher Meek	1	0	0
+Christopher Morrell	1	2	0
+Christopher R Bilder	1	0	0
+Christopher R Gjestvang	1	0	0
+Christopher Woods	1	9	0
+Chu-In Charles Lee	1	0	0
+Chuan Ju	1	0	0
+Chuanhai Liu	4	3	0
+Chuanhua Xing	1	6	0
+Chun-Lung Su	1	0	0
+Chun-Shu Chen	1	6	0
+Chun Li	2	1	1
+Chunfang Jin	1	0	0
+Chunfeng Huang	2	12	0
+Chung-Ming Kuan	1	5	0
+Chunjie Wu	1	2	0
+Chunlei Ke	1	3	0
+Chunling Liu	2	2	0
+Chunming Zhang	6	38	2
+Ci-Ren Jiang	2	20	1
+Cindy Long Yu	2	5	0
+Cinzia Carota	1	0	0
+Ciprian A Tudor	1	4	0
+Ciprian M Crainiceanu	12	68	8
+Claire E Pothier	1	2	0
+Claire Tomlin	1	12	0
+Claudia Czado	1	15	0
+Claudia Kirch	1	5	0
+Claudia Kluppelberg	1	0	0
+Claudia R Sahm	1	0	0
+Claudia Tarantola	1	0	0
+Claudia Tebaldi	1	6	0
+Clayton Scott	1	4	0
+Clifford Lam	4	66	1
+Clifford M Hurvich	4	0	0
+Clint Scovel	1	6	0
+Clive G Bowsher	2	2	0
+Colin Hall	1	4	0
+Colin M Beale	1	4	0
+Colin M Gallagher	2	6	0
+Conor Lawless	1	10	0
+Constantine E Frangakis	2	3	1
+Cosma Rohilla Shalizi	1	0	0
+Craig J Johns	1	0	0
+Craig W Hendrix	1	0	0
+Cristiano Varin	1	4	0
+Cristina Butucea	2	8	0
+Cristina Rueda	2	0	0
+Cristina Sotto	1	3	0
+Crystal J Scott	1	0	0
+Cun-Hui Zhang	13	81	7
+Curtis Tatsuoka	1	0	0
+Cynthia Rudin	1	4	0
+Cyr Emile MLan	1	0	0
+Cyrus Mehta	1	0	0
+D A S Fraser	5	13	7
+D Azriel	1	7	0
+D C Woods	1	0	0
+D Campbell	1	0	0
+D Chauveau	1	13	0
+D F Signorini	1	0	0
+D Haziza	1	4	0
+D J Fletcher	1	0	0
+D Kuang	2	0	0
+D M Farewell	1	3	0
+D M Titterington	3	16	0
+D Magirr	1	0	0
+D Mastropietro	1	9	0
+D Mikis Stasinopoulos	1	0	0
+D Nicolae	1	0	0
+D P Kroese	1	0	0
+D Pati	1	3	0
+D R Cox	11	14	3
+D S Choi	1	3	0
+D Sadykova	1	2	0
+D V Hinkley	1	0	0
+D Vogel	1	3	0
+D Walsh	1	4	0
+Dabao Zhang	1	0	0
+Dacheng Xiu	1	5	0
+Dag Johan Steinskog	1	0	0
+Dag Tjostheim	5	12	2
+Dai Feng	1	4	0
+Dale L Zimmerman	1	1	0
+Dalho Kim	1	0	0
+Damaraju Raghavarao	2	0	0
+Damla Senturk	5	18	4
+Dan Black	1	0	0
+Dan Cornford	1	0	0
+Dan Geiger	1	0	0
+Dan J Spitzner	2	0	0
+Dan Nettleton	3	15	0
+Dan Yu Lin	15	60	11
+Dandan Jiang	1	4	0
+Dandan Liu	1	9	0
+Daniel A Henderson	2	13	0
+Daniel B Neill	1	0	0
+Daniel B Rowe	1	2	0
+Daniel Commenges	1	5	0
+Daniel Cooley	2	11	0
+Daniel E Ho	1	7	0
+Daniel Egloff	1	0	0
+Daniel Gervini	4	10	2
+Daniel J Nordman	7	10	2
+Daniel J Sargent	1	7	0
+Daniel Krewski	1	0	0
+Daniel Merl	1	0	0
+Daniel Molefe	1	0	0
+Daniel Pena	4	5	0
+Daniel Q Naiman	1	0	0
+Daniel Rabinowitz	1	0	0
+Daniel Scharfstein	4	10	0
+Daniel Straumann	2	1	1
+Daniel Yekutieli	4	24	2
+Daniel Zantedeschi	1	2	0
+Daniela M Witten	3	28	1
+Daniell Toth	2	3	0
+Danilo Mercurio	1	0	0
+Dankmar Bohning	1	0	0
+Danny Pfeffermann	4	11	1
+Dariusz Ucinski	1	0	0
+Darren J Wilkinson	1	10	0
+Dave Higdon	1	2	0
+David A Harville	2	0	0
+David A Stephens	4	14	1
+David A van Dyk	3	1	0
+David B Dahl	2	4	0
+David B Hitchcock	1	0	0
+David B Matchar	1	0	0
+David B Wolfson	3	1	1
+David Banks	1	0	0
+David Bo Shen	1	7	0
+David Caplan	1	0	0
+David Causeur	1	3	0
+David Cavallini	1	0	0
+David Chan	1	3	0
+David Clayton	1	0	0
+David Conne	1	7	0
+David Daniel Smith	1	0	0
+David Draper	1	0	0
+David Dunson	29	360	37
+David E Tyler	2	5	0
+David F Layton	1	0	0
+David Faraggi	1	0	0
+David Firth	4	1	1
+David Harris	1	6	0
+David I Warton	1	4	0
+David J Evans	1	0	0
+David J Nott	3	5	0
+David J Schwab	1	0	0
+David Kraus	1	18	0
+David L Donoho	5	10	1
+David Lusseau	1	0	0
+David M Blei	1	9	0
+David M Higdon	1	0	0
+David M Holland	1	5	0
+David M Kaziska	2	3	0
+David M Mankoff	1	0	0
+David M Mason	2	0	0
+David M Ruth	1	5	0
+David M Steinberg	2	4	0
+David M Zucker	6	19	4
+David Neil Hayes	1	9	0
+David Oakes	2	2	0
+David Papp	1	0	0
+David Pollard	1	0	0
+David R Hunter	5	19	1
+David Rossell	1	0	0
+David Ruppert	8	15	2
+David S Matteson	1	6	0
+David S Stoffer	3	11	0
+David Siegmund	9	11	3
+David Sparrow	1	0	0
+David Spiegelhalter	1	0	0
+David T Jacho-Chavez	1	3	0
+David V Glidden	2	0	0
+David Vlahov	1	4	0
+David W MacFarlane	1	15	0
+David Wyncoll	1	4	0
+David Y Pee	1	0	0
+Davide Ferrari	2	5	1
+Davide La Vecchia	2	8	0
+Davy Paindaveine	9	45	13
+Dawei Xie	1	0	0
+Dawit Zerom	1	0	0
+Dawn B Woodard	1	4	0
+Dean A Follmann	4	11	0
+Dean P Foster	3	27	2
+Debajyoti Sinha	6	23	1
+Debashis Ghosh	1	0	0
+Debashis Mondal	1	0	0
+Debashis Paul	4	24	1
+Debbie J Dupuis	2	26	0
+Debopam Bhattacharya	1	0	0
+Deborah Burr	1	0	0
+Dechang Chen	1	0	0
+Dejun Tang	1	3	0
+Deli Wang	1	0	0
+Denis Belomestny	3	10	2
+Denis Heng-Yan Leung	4	23	2
+Denis Larocque	3	11	1
+Denise Babineau	1	0	0
+Dennis Cook	2	7	0
+Dennis D Boos	2	2	0
+Dennis D Cox	2	4	0
+Dennis K J Lin	4	11	1
+Dennis Prangle	1	23	0
+Dennis Young	1	0	0
+Derek A T Cummings	1	3	0
+Derek Bingham	4	11	1
+Desislava Nedyalkova	1	2	0
+Despina Vasileiou	1	4	0
+Deyuan Li	1	0	0
+Diana J Cole	1	0	0
+Diana L Miglioretti	1	0	0
+Diana M Sima	1	2	0
+Diane Lambert	1	0	0
+Diane M Makuc	1	0	0
+Dibyen Majumdar	2	0	0
+Didier Concordet	1	0	0
+Didier Guillemot	1	0	0
+Dietrich Braess	1	2	0
+Dimitris Fouskakis	1	0	0
+Dimitris N Politis	5	10	2
+Dimitris Rizopoulos	2	2	1
+Dinah Rosenberg	1	0	0
+Dinggang Shen	1	6	0
+Dinis Pestana	1	0	0
+Dipak K Dey	3	5	0
+Dixin Zhang	1	13	0
+Djalil Chafai	1	0	0
+Dmitry Beletsky	1	0	0
+Dmitry Panchenko	1	5	0
+Do-Hwan Park	1	0	0
+Dobrin Marchev	2	6	0
+Domenico Marinucci	4	13	3
+Dominic Dillane	1	0	0
+Dominic Schuhmacher	1	10	0
+Dominique Bontemps	1	5	0
+Dominique Chouaniere	1	0	0
+Dominique Picard	5	32	3
+Don Alderson	1	0	0
+Don L Stevens Jr	1	0	0
+Donald A Berry	3	2	1
+Donald A Pierce	2	2	0
+Donald B Rubin	6	7	3
+Donald Geman	1	0	0
+Donald S Burke	1	3	0
+Donatello Telesca	1	4	0
+Dong Chen	1	9	0
+Dong Han	2	0	0
+Dong Li	1	4	0
+Dong Wang	1	9	0
+Dongchu Sun	3	3	0
+Donghoh Kim	1	0	0
+Dongjun Chung	1	0	0
+Donglin Zeng	22	104	11
+Dongsheng Tu	1	5	0
+Dongyu Lin	1	17	0
+Donna Neuberg	1	0	0
+Donna P Ankerst	1	2	0
+Dorin Drignei	1	0	0
+Doug Nychka	1	6	0
+Douglas E Schaubel	2	0	0
+Douglas G Simpson	2	5	0
+Douglas N Midthune	1	0	0
+Douglas P Wiens	2	7	0
+Douglas W Nychka	6	18	1
+Dragi Anevski	2	3	1
+Duchwan Ryu	1	11	0
+Duncan K H Fong	1	0	0
+Dung-Tsa Chen	1	0	0
+Dursun A Bulutoglu	2	0	0
+Dylan S Small	11	46	7
+E A Catchpole	1	4	0
+E Andres Houseman	4	14	2
+E Benhin	1	0	0
+E Diday	1	0	0
+E Ferreira	1	0	0
+E L Lehmann	2	6	0
+E M Airoldi	1	3	0
+E Marras	1	10	0
+E Moulines	2	2	0
+E R Williams	1	0	0
+E S Venkatraman	1	3	0
+E Saksman	1	0	0
+Earl Lawrence	1	0	0
+Edgar Kublin	1	4	0
+Edsel A Pena	4	35	1
+Eduard Belitser	1	0	0
+Edward H Ip	1	3	0
+Edward I George	4	14	1
+Edward J Stanek III	1	0	0
+Edward L Ionides	2	1	0
+Edward L Korn	1	0	0
+Edward R B McCabe	1	0	0
+Edward W Frees	2	0	0
+Edwin S Iversen Jr	3	3	0
+Efang Kong	1	2	0
+Efi S Antoniou	1	3	0
+Efstathios Paparoditis	6	13	0
+Efthymios G Tsionas	1	0	0
+Egil Ferkingstad	1	9	0
+Ehab F Abd-Elfattah	1	0	0
+Eilon Solan	1	0	0
+Einar Andreas Rodland	1	0	0
+Eiran Z Gorodeski	1	6	0
+Eitan Greenshtein	2	9	0
+Elaine Zanutto	1	4	0
+Elena Kulinskaya	1	3	0
+Elena Stanghellini	1	3	0
+Elias Moreno	4	13	4
+Elinor Ytterstad	1	0	0
+Elizabeth A Stuart	1	0	0
+Elizabeth A Thompson	1	0	0
+Elizabeth H Slate	1	6	0
+Elizabeth S Allman	1	4	0
+Elizaveta Levina	7	79	7
+Ellen J MacKenzie	1	0	0
+elodie Nedelec	1	0	0
+Eloise E Kaizar	1	0	0
+Els Goetghebeur	4	7	0
+Elvezio Ronchetti	7	25	4
+Emiliano A Valdez	1	0	0
+Emilio Porcu	1	16	0
+Emilio Seijo	2	16	0
+Emily C Martin	1	0	0
+Emily L Kang	1	8	0
+Emma F Eastoe	1	4	0
+Emma J McCoy	1	0	0
+Emmanuel Gobet	1	2	0
+Emmanuel Guerre	1	0	0
+Emmanuel J Candes	6	45	2
+Emmanuel Lesaffre	2	7	0
+Emmanuel Yashchin	1	0	0
+Emmanuelle Varon	1	0	0
+Enno Mammen	16	74	18
+Enrique Castillo	1	0	0
+Enrique Schisterman	1	0	0
+Eric A Cator	1	0	0
+Eric Aldrich	1	6	0
+Eric B Laber	1	6	0
+Eric Bair	2	8	1
+Eric D Kolaczyk	3	0	0
+Eric J Feuer	3	0	0
+Eric J Tchetgen	4	15	2
+Eric Johnson	1	5	0
+eric Moulines	1	0	0
+Eric Moulines	5	6	0
+Eric Parent	1	0	0
+Eric V Slud	1	0	0
+Erica E M Moodie	2	4	0
+Erika Antal	1	0	0
+Erin E Peterson	2	0	0
+Ery Arias-Castro	5	31	3
+Esa Ollila	1	0	0
+Esben Budtz-Jorgensen	1	0	0
+Estate V Khmaladze	2	6	1
+Ethan B Anderes	3	9	2
+Etienne Josserand	1	2	0
+Etienne Roquain	3	42	2
+Eugene E Clothiaux	1	0	0
+Eugene H Blackstone	1	2	0
+Eugenia Buta	1	15	0
+Eugenio Regazzini	1	0	0
+Euijung Ryu	1	1	0
+Eunsik Park	1	0	0
+Eustasio del Barrio	1	0	0
+Eva B Vedel Jensen	2	3	1
+Eva Petkova	2	8	1
+Evarist Gine	2	12	0
+F Ballani	1	6	0
+F DuBois Bowman	1	0	0
+F F Gan	1	0	0
+F Ferraty	1	4	0
+F Gosselin	2	2	0
+F Javier Giron	2	14	1
+F Jay Breidt	7	2	1
+F Liu	1	4	0
+F Maaouia	1	0	0
+F Zhou	1	0	0
+F Zoe Moodie	1	2	0
+Fabienne Comte	2	8	0
+Fabio Corradi	1	0	0
+Fabio Trojani	2	5	1
+Fabrizia Mealli	3	29	1
+Fadoua Balabdaoui	4	17	1
+Faming Liang	6	24	6
+Fan Li	3	35	0
+Fang Fang	1	3	0
+Fang Yao	10	113	18
+Fanny Villers	2	37	0
+Fasheng Sun	2	10	0
+Fatemah Alqallaf	1	0	0
+Fatima Salgueiro	1	1	0
+Fauzia Paize	1	0	0
+Federico J OReilly	1	6	0
+Fei Wang	1	5	0
+Fei Zou	3	21	0
+Feifang Hu	7	18	10
+Feike C Drost	1	0	0
+Felix Abramovich	3	25	3
+Feng Guo	1	0	0
+Feng Liang	2	15	0
+Fengchang Lin	1	4	0
+Fengrong Wei	1	32	0
+Fernando A Quintana	2	0	0
+Fernando Antonio Da Silva Moura	1	3	0
+Finbarr OSullivan	3	0	0
+Finn Lindgren	1	26	0
+Flavio Ziegelmann	1	7	0
+Florentina Bunea	5	41	3
+Florian Frommlet	1	46	0
+Florin Vaida	2	11	1
+Forrest Spencer	1	0	0
+Francesca Chiaromonte	3	6	1
+Francesca Dominici	4	5	2
+Francesco Audrino	1	6	0
+Francesco Bartolucci	6	3	1
+Francesco Bravo	1	0	0
+Francis R Bach	1	7	0
+Francis X Diebold	1	0	0
+Francisco Martinez-Murillo	1	0	0
+Francois Perron	1	0	0
+Francois Roueff	3	2	0
+Frank Bretz	3	16	1
+Frank Critchley	2	6	0
+Frank G Ball	1	0	0
+Frank H van der Meulen	1	0	0
+Frank Miller	2	0	0
+Franz Merkl	1	0	0
+Fred A Wright	3	21	0
+Freda Cooner	1	3	0
+Frederi G Viens	1	4	0
+Frederic P Schoenberg	5	6	2
+Frederic Y Bois	1	0	0
+Frederick A Matsen	1	0	0
+Frederick K H Phoa	2	14	1
+Frederick Wong	1	0	0
+Fredrik A Dahl	1	6	0
+Friedrich K Port	1	5	0
+Fritz Scheuren	1	0	0
+Fugee Tsung	2	0	0
+Fulvia Pennoni	1	0	0
+Fulvio De Santis	1	0	0
+Fumiyasu Komaki	2	3	1
+Fuqing Gao	1	0	0
+Fusheng Su	1	0	0
+Fushing Hsieh	1	0	0
+G Alastair Young	6	5	2
+G Chauvet	1	4	0
+G D Richardson	1	0	0
+G E Tita	1	1	0
+G Hooker	1	0	0
+G K Essick	1	0	0
+G O Mohler	1	1	0
+G Tavecchia	1	4	0
+Gabor J Szekely	1	0	0
+Gabor Lugosi	4	20	0
+Gabriel A Rodriguez-Yam	1	0	0
+Gabriel Chandler	1	3	0
+Gabriel Kuhn	1	0	0
+Gabriel Lang	1	0	0
+Gael M Martin	1	6	0
+Galin L Jones	5	14	1
+Galit Shmueli	1	6	0
+Gang Li	3	4	0
+Ganggang Xu	1	1	0
+Gardar Johannesson	1	0	0
+Gareth Hughes	1	4	0
+Gareth M James	9	65	9
+Gareth Roberts	14	43	10
+Garrett M Fitzmaurice	3	0	0
+Garrick L Wallstrom	1	0	0
+Gary King	1	2	0
+Gary L Rosner	3	9	0
+Gary Lorden	1	0	0
+Gaurav Sharma	1	0	0
+Gauri Sankar Datta	4	14	0
+Gautam Tripathi	1	0	0
+Gavin Shaddick	1	6	0
+Gayle DeDe	1	0	0
+Geert Molenberghs	4	2	1
+Geert Verbeke	2	2	1
+Genevera I Allen	1	16	0
+Geoff K Nicholls	1	0	0
+Geoffrey S Ginsburg	1	9	0
+George C Newman	1	0	0
+George C Tseng	1	0	0
+George Casella	12	24	5
+George G Judge	2	3	0
+George Michailidis	7	41	1
+George Poyiadjis	1	8	0
+George R Terrell	1	0	0
+George Tauchen	1	9	0
+George V Moustakides	2	0	0
+Georgi K Golubev	2	6	0
+Gerard Biau	1	0	0
+Gerard J van den Berg	1	0	0
+Gerard J Van Den Berg	1	0	0
+Gerard Kerkyacharian	4	19	3
+Gerard Letac	3	6	0
+Gerda Claeskens	14	51	7
+Gerhard Dikta	1	0	0
+Gerhard Osius	1	0	0
+German Molina	1	11	0
+Gernot Wassmer	1	0	0
+Gersende Fort	1	0	0
+Gert Willems	2	8	1
+Getulio J A Amaral	2	10	1
+Geurt Jongbloed	3	2	1
+Gilad Lerman	1	0	0
+Gilbert J Cote	1	3	0
+Gilbert Mackenzie	1	0	0
+Gilbert MacKenzie	1	20	0
+Gilles Blanchard	4	35	2
+Gilles Durrieu	1	4	0
+Gilles R Ducharme	1	0	0
+Giorgio E Montanari	1	1	0
+Giovanni M Marchetti	1	4	0
+Giovanni Parmigiani	7	11	0
+Giovanni Peccati	1	6	0
+Giuseppe Porro	1	2	0
+Gleb A Koshevoy	1	0	0
+Glen A Satten	2	3	0
+Glen Meeden	1	0	0
+Glenn Heller	3	9	0
+Glenn Meyers	1	0	0
+Glenn Shafer	1	0	0
+Gong Tang	1	0	0
+Gonzalo Garcia-Donato	3	12	1
+Goran Kauermann	6	13	1
+Gordon B Dahl	1	0	0
+Gordon W Pledger	1	0	0
+Grace Chan	1	0	0
+Grace Chiu	1	0	0
+Grace E Kissling	1	0	0
+Grace L Yang	1	0	0
+Grace Wahba	2	0	0
+Grace Y Yi	5	27	2
+Graciela Boente	1	3	0
+Graham Kalton	1	3	0
+Greg Ridgeway	2	6	1
+Greg W Anderson	1	0	0
+Gregg E Dinse	1	0	0
+Gregory P Samsa	1	0	0
+Gretchen G Moisen	2	0	0
+Guadalupe Gomez	1	3	0
+Guang Cheng	4	66	3
+Guanghua Xiao	1	5	0
+Guangjin Pan	1	0	0
+Guanglei Hong	1	0	0
+Guangming Pan	1	0	0
+Guangyu Zhang	1	0	0
+Gudrun Freitag	1	0	0
+Guenther Walther	1	2	0
+Guido Consonni	4	2	0
+Guido W Imbens	1	0	0
+Guilherme Rocha	2	16	0
+Guillaume Lecue	2	30	0
+Guillaume Obozinski	1	15	0
+Guillemette Caulliez	1	0	0
+Gun Ho Jang	1	0	0
+Gunnar Taraldsen	2	3	1
+Gunnhildur Hognadottir Steinbakk	1	6	0
+Gunter Ritter	1	0	0
+Gunther Walther	1	4	0
+Guobing Lu	2	0	0
+Guodong Li	4	7	1
+Guohua Zou	2	8	0
+Guosheng Yin	10	48	2
+Guoying Li	1	0	0
+Guozhi Gao	1	2	0
+Gustavo Didier	1	0	0
+Guy Lebanon	1	0	0
+Guy P Nason	3	16	0
+Guy Thomas	1	0	0
+H-S Oh	1	5	0
+H Boistard	1	0	0
+H Haario	1	0	0
+H Hoijtink	1	0	0
+H Thijs	1	0	0
+Haakon Tjelmeland	3	5	0
+Haavard Rue	4	71	4
+Hae Kyung Im	1	0	0
+Haeran Cho	1	18	0
+Haibo Zhou	7	17	1
+Haihong Li	1	0	0
+Haipeng Shen	3	24	1
+Haiqun Lin	2	1	0
+Haitao Chu	3	6	1
+Haiyan Huang	1	0	0
+Hajime Uno	3	21	1
+Hajo Holzmann	3	8	0
+Hakbae Lee	1	3	0
+Halbert White	1	0	0
+Halina Frydman	1	0	0
+Hammou El Barmi	2	0	0
+Han-Joo Kim	1	0	0
+Han Han	1	0	0
+Han Hong	1	4	0
+Han Liu	1	0	0
+Hanfeng Chen	1	0	0
+Hani Doss	2	14	1
+Hanlee Ji	1	0	0
+Hannes Helgason	1	3	0
+Hannes Leeb	3	29	2
+Hannu Oja	7	22	2
+Hans-Georg Muller	30	189	41
+Hans Arnfinn Karlsen	1	0	0
+Hans C van Houwelingen	2	2	1
+Hans R Kunsch	1	7	0
+Hansheng Wang	11	168	8
+Hanwen Huang	1	0	0
+Hao Helen Zhang	9	124	4
+Hao Liu	2	24	0
+Hao Purdue Zhang	3	5	3
+Hao Wang	1	9	0
+Hao Yu	1	0	0
+Haobo Ren	1	2	0
+Haonan Wang	2	16	0
+Hari K Iyer	3	4	2
+Hari Mukerjee	2	0	0
+Harold B Sackrowitz	4	31	4
+Harrie Hendriks	1	0	0
+Harrison H Zhou	9	63	3
+Harry Joe	3	1	0
+Heather J Whitaker	2	4	0
+Heather Spencer Feigelson	1	5	0
+Hee-Seok Oh	3	20	0
+Hee-Young Kim	1	0	0
+Hegang H Chen	2	5	1
+Heidi W Ashih	1	0	0
+Hein Putter	1	0	0
+Helena Geys	1	0	0
+Helene Gehrmann	1	2	0
+Helene Massam	8	25	4
+Helga Wagner	1	3	0
+Helio S Migon	1	0	0
+Helmut Finner	4	30	1
+Helmut Schafer	1	2	0
+Hemant Ishwaran	7	19	4
+Hendrik P Lopuhaa	3	1	1
+Heng-Hui Lue	1	0	0
+Heng Peng	4	13	0
+Henghsiu Tsai	3	3	0
+Hengjian Cui	5	1	0
+Henk Kelderman	1	0	0
+Henry P Wynn	1	0	0
+Heping He	2	0	0
+Heping Zhang	12	19	5
+Herbert K H Lee	2	3	0
+Hernando C Ombao	5	25	2
+Herve Cardot	1	2	0
+Heung Wong	1	0	0
+Hidetoshi Shimodaira	1	0	0
+Hira L Koul	5	10	1
+Hock Peng Chan	4	0	0
+Holger Dette	24	52	13
+Holger Drees	1	2	0
+Holger Rootzen	1	2	0
+Holly Janes	1	2	0
+Hong-Bin Fang	1	0	0
+Hong-Tu Zhu	1	0	0
+Hong Ooi	1	0	0
+Hong Zhang	1	2	0
+Hong Zhu	1	0	0
+Hongjian Zhu	1	10	0
+Hongqi Xue	3	15	2
+Hongquan Xu	7	21	4
+Hongtu Zhu	16	58	10
+Hongwen Guo	1	0	0
+Hongxia Yang	1	19	0
+Hongxiao Zhu	1	32	0
+Hongyu An	1	2	0
+Hongyu Miao	1	14	0
+Hongyu Zhao	3	39	0
+Hongyuan Zha	1	3	0
+Hongzhe Li	5	82	0
+Hongzhi An	1	0	0
+Hormuzd A Katki	2	0	0
+Hosik Choi	1	18	0
+Hovav A Dror	1	4	0
+Howard D Bondell	4	23	1
+Howard Hu	1	0	0
+Howard L Weiner	1	0	0
+Howard M Sandler	1	0	0
+Howell Tong	6	15	0
+Hsiao-Yun Huang	1	0	0
+Hsin-Cheng Huang	6	29	3
+Hua-Hua Chang	1	0	0
+Hua Chen	1	2	0
+Hua Liang	15	151	5
+Hua Yun Chen	3	5	3
+Huajun Ye	1	6	0
+Huazhen Lin	3	14	1
+Hugh Miller	3	8	2
+Hui Jin	1	5	0
+Hui Li	3	24	0
+Hui Xie	1	0	0
+Hui Zou	12	124	14
+Huiliang Xie	2	30	0
+Huilin Li	1	11	0
+Huiling Le	4	12	1
+Huixia Judy Wang	8	51	3
+Huiyan Sang	3	38	1
+Hulin Wu	5	51	6
+Hung Hung	1	3	0
+Hyeyoung Lee	1	2	0
+Hyokyoung Grace Hong	1	6	0
+Hyon-Jung Kim	1	0	0
+Hyonho Chun	2	14	0
+Hyoung-Moon Kim	1	0	0
+Hyunsoon Cho	1	4	0
+I B J Goudie	1	0	0
+I D Currie	1	0	0
+I Dattner	1	5	0
+I Fernandez-Val	1	2	0
+Iain M Johnstone	9	14	3
+Ian Douglas	1	4	0
+Ian H Dinwoodie	1	4	0
+Ian H Jermyn	1	0	0
+Ian L Dryden	6	25	7
+Ian W McKeague	6	11	2
+Ib M Skovgaard	1	0	0
+Ibrahim Ahmad	1	4	0
+Igor Prunster	12	45	11
+Il Do Ha	1	3	0
+Ilenia Epifani	1	0	0
+Ilia Nouretdinov	1	0	0
+Ilkka Porsti	1	10	0
+Ilya Gluhovsky	1	0	0
+Ilya Molchanov	1	0	0
+Imre Csiszar	1	0	0
+In Hong Chang	1	7	0
+Inchi Hu	2	0	0
+Inge S Helland	1	0	0
+Ingeborg Waernbaum	1	9	0
+Ingelin Steinsland	1	0	0
+Ingo Steinwart	2	9	0
+Ingram Olkin	1	0	0
+Ingrid Daubechies	1	4	0
+Ingrid Van Keilegom	8	4	0
+Inmaculada B Aban	1	0	0
+Inna Chervoneva	1	0	0
+Insua Rios Insua	1	0	0
+Ioana Schiopu-Kratina	2	0	0
+Ioana Schiopu Kratina	1	0	0
+Ioannis Kontoyiannis	1	0	0
+Ioannis Kosmidis	2	1	1
+Ion G Grama	3	0	0
+Iping Tu	1	3	0
+Ira M Longini Jr	1	3	0
+Irene Gijbels	2	3	0
+Irini Moustaki	1	3	0
+Isabella Verdinelli	3	9	0
+Ismael Sanchez	1	0	0
+Isobel Claire Gormley	1	3	0
+Istvan Berkes	3	0	0
+Ivan Jeliazkov	1	0	0
+Ivan Mizera	3	4	0
+J-C Deville	2	6	0
+J-H Jeong	1	2	0
+J-M Marin	1	5	0
+J Andrew Royle	1	0	0
+J Ashbridge	1	0	0
+J B Jackson	1	0	0
+J C Gower	1	0	0
+J Carlos Escanciano	1	0	0
+J DArrigo	1	3	0
+J E Griffin	2	18	0
+J E Yukich	1	3	0
+J F Grotowski	1	0	0
+J Fortiana	1	0	0
+J H van Zanten	4	24	2
+J Jack Lee	1	12	0
+J Kunert	2	2	0
+J L Scealy	1	0	0
+J M C Santos Silva	1	0	0
+J M Quashnock	1	0	0
+J Michael Brick	2	3	0
+J N K Rao	10	19	2
+J P Gosling	1	2	0
+J Palomo	1	4	0
+J Q Shi	1	3	0
+J R Lockwood	1	2	0
+J S Marron	12	76	19
+J Sanderson	1	5	0
+J Sedransk	1	0	0
+J Simoens	1	0	0
+J Sunil Rao	5	14	3
+J T Gene Hwang	2	4	0
+J T Kvaloy	1	0	0
+J T Ormerod	1	0	0
+J Tamminen	1	0	0
+J Whitehead	1	0	0
+Ja-Yong Koo	3	23	0
+Jaakko Nevalainen	2	11	1
+Jaap H Abbring	2	0	0
+Jack Cuzick	1	0	0
+Jacob Bien	3	38	0
+Jacob von Bornemann Hjelmborg	1	5	0
+Jacqueline J Meulman	1	0	0
+Jacques Benichou	1	0	0
+Jae Keun Yoo	1	14	0
+Jae Kwang Kim	9	30	11
+Jaechoul Lee	1	0	0
+Jaeyong Lee	3	0	0
+Jafar A Khan	1	4	0
+Jai Won Choi	2	2	0
+Jake Bowers	1	0	0
+Jakob G Rasmussen	2	6	0
+James A Calvin	1	3	0
+James A Mingo	1	0	0
+James A Thomson	1	0	0
+James A Woods	1	1	0
+James Dignam	1	0	0
+James E Savarino	1	0	0
+James G Booth	2	0	0
+James G Scott	4	50	4
+James Gattiker	1	2	0
+James M Flegal	1	10	0
+James O Berger	9	44	7
+James O Ramsay	3	9	1
+James P Hobert	7	17	3
+James P Shine	1	11	0
+James R Robins	14	49	6
+James R Schott	2	0	0
+James S Hodges	2	0	0
+James V Zidek	2	6	0
+James W Taylor	1	19	0
+James X Hu	1	21	0
+James Y Dai	1	14	0
+Jamie L Bigelow	1	13	0
+Jamie Perin	2	5	0
+Jan Beyersmann	1	2	0
+Jan C Neddermeyer	1	0	0
+Jan De Neve	1	15	0
+Jan Draisma	1	3	0
+Jan F Bjornstad	1	0	0
+Jan G De Gooijer	1	0	0
+Jan Hannig	4	20	2
+Jan Johannes	1	2	0
+Jan R Magnus	3	0	0
+Jane-Ling Wang	11	54	9
+Jane M Booker	1	0	0
+Janet E Heffernan	1	4	0
+Janet N OSullivan	1	0	0
+Janet S Sinsheimer	2	0	0
+Jason A Duan	1	14	0
+Jason C Hsu	3	1	1
+Jason P Fine	18	67	10
+Jason R W Merrick	1	0	0
+Jason Roy	1	0	0
+Jason S McLachlan	1	2	0
+Javier Hidalgo	2	2	0
+Javier Rojo	1	0	0
+Jay Bartroff	1	0	0
+Jay M Ver Hoef	2	0	0
+Jayant V Deshpande	1	2	0
+Jayanta K Ghosh	2	48	0
+Jayanta Pal	1	2	0
+Jean-Claude Deville	1	0	0
+Jean-Francois Angers	1	4	0
+Jean-Francois Beaumont	2	0	0
+Jean-Francois Coeurjolly	1	1	0
+Jean-Francois Dupuy	1	0	0
+Jean-Francois Quessy	1	0	0
+Jean-Marc Bardet	1	4	0
+Jean-Marc Freyermuth	1	13	0
+Jean-Marie Cornuet	1	10	0
+Jean-Marie Rolin	1	0	0
+Jean-Michel Marin	2	20	0
+Jean-Michel Morel	1	0	0
+Jean-Michel Zakoian	3	2	1
+Jean-Pierre Ottoy	1	15	0
+Jean-Yves Audibert	3	12	1
+Jean-Yves Dauxois	1	0	0
+Jean D Opsomer	9	16	4
+Jean Diebolt	1	6	0
+Jean Jacob	1	0	0
+Jean Jacod	6	12	6
+Jeanne Kowalski	1	0	0
+Jeff Gill	2	9	1
+Jeff Racine	1	0	0
+Jeffrey Chang	1	7	0
+Jeffrey D Hart	5	20	1
+Jeffrey Fagan	1	0	0
+Jeffrey Grogger	1	0	0
+Jeffrey H Silber	5	14	2
+Jeffrey Lieberman	1	5	0
+Jeffrey S Morris	5	45	7
+Jeffrey S Rosenthal	3	6	0
+Jeffrey S Spence	1	0	0
+Jelena Bradic	1	0	0
+Jelle J Goeman	3	7	1
+Jeng-Min Chiou	6	46	4
+Jennifer A Hoeting	1	0	0
+Jennifer L Hill	1	0	0
+Jennifer L Wadsworth	2	14	0
+Jens-Peter Kreiss	2	7	0
+Jens Hainmueller	1	1	0
+Jens Perch Nielsen	8	14	3
+Jeongyoun Ahn	4	29	3
+Jerald F Lawless	4	12	0
+Jeremie Bigot	2	15	0
+Jeremy E Oakley	3	4	1
+Jeremy M G Taylor	3	14	0
+Jerome H Friedman	3	23	0
+Jerome Kalifa	1	0	0
+Jerome P Reiter	5	26	6
+Jerry M Davis	1	2	0
+Jerry Sacks	2	20	1
+Jerry W Tsai	1	0	0
+Jesper Madsen	2	0	0
+Jesper Moller	4	10	1
+Jesse Frey	1	2	0
+Jessica Minnier	1	16	0
+Jessica Tressou	1	0	0
+Jesus Lopez-Fidalgo	2	2	0
+Jesus Rios	1	0	0
+Ji-Ping Z Wang	2	1	1
+Ji Meng Loh	2	5	0
+Ji Zhu	10	131	4
+Jiahua Chen	9	51	6
+Jialiang Li	1	32	0
+Jian-Feng Yao	3	4	0
+Jian-Jian Ren	2	0	0
+Jian Guo	1	18	0
+Jian Huang	9	95	8
+Jian Kang	1	0	0
+Jian Shi	3	0	0
+Jian Tu	1	17	0
+Jian Zhang	2	13	0
+Jian Zou	2	23	1
+Jianan Peng	1	0	0
+Jiancang Zhuang	1	4	0
+Jiancheng Jiang	7	35	2
+Jianguo Sun	3	8	1
+Jianhua Hu	5	15	1
+Jianhua Z Huang	9	107	3
+Jianhui Zhou	4	49	0
+Jiannong Liu	1	0	0
+Jianqiang C Wang	1	2	0
+Jianqing Fan	40	354	35
+Jianrong Wu	1	2	0
+Jianwei Chen	3	6	0
+Jianwen Cai	11	17	0
+Jianxin Pan	3	20	3
+Jianxin Shi	1	0	0
+Jiashun Jin	10	102	19
+Jiawei Liu	1	0	0
+Jiayang Sun	1	0	0
+Jiazhu Pan	1	3	0
+Jichun Xie	1	7	0
+Jie Peng	2	32	0
+Jiguo Cao	2	5	1
+Jihong Chen	1	0	0
+Jim Kuelbs	1	2	0
+Jim Q Smith	1	7	0
+Jiming Jiang	6	7	0
+Jimmy Olsson	1	4	0
+Jimmy Ye	1	0	0
+Jin-Jian Hsieh	1	0	0
+Jin-Ting Zhang	2	0	1
+Jin Cao	1	1	0
+Jinbo Chen	1	0	0
+Jinchi Lv	3	58	2
+Jinfeng Xu	1	13	0
+Jing-Hao Xue	3	16	0
+Jing Cheng	3	9	1
+Jing Ning	5	35	0
+Jing Qian	1	6	0
+Jing Qin	20	73	5
+Jing Qiu	1	4	0
+Jing Wang	1	18	0
+Jing Xu	1	20	0
+Jinglai Shen	1	2	0
+Jingran Sun	1	0	0
+Jingrong Yang	1	0	0
+Jinnan Liu	1	2	0
+Jinzhu Jia	1	2	0
+Jiti Gao	5	16	1
+Jiying Yin	1	0	0
+Jo Eidsvik	1	0	0
+Joanne R Lupton	1	7	0
+Jochen Einbeck	1	2	0
+Joel A Dubin	1	0	0
+Joel L Horowitz	7	65	5
+Johan Lim	2	0	0
+Johan Lindstrom	1	26	0
+Johan Segers	4	3	0
+Johanna Neslehova	1	0	0
+Johanna Ziegel	3	6	2
+John A Cafeo	2	20	1
+John A D Aston	1	0	0
+John A Rhodes	1	4	0
+John Allen Logan	1	0	0
+John B Copas	3	7	0
+John Barnard	1	0	0
+John C Liechty	1	3	0
+John D Kalbfleisch	5	11	1
+John D Kloke	1	0	0
+John D Lafferty	3	16	0
+John D Storey	5	18	5
+John E Kolassa	2	0	0
+John Ehrlinger	1	5	0
+John F Widmann	1	0	0
+John Geweke	1	0	0
+John H Gilmore	1	6	0
+John H J Einmahl	6	12	4
+John H Maddocks	1	18	0
+John Haslett	1	0	0
+John J Hanfelt	4	3	0
+John L Eltinge	1	0	0
+John L Spouge	1	0	0
+John M MacDonald	1	7	0
+John M Neuhaus	2	4	1
+John OQuigley	1	0	0
+John P Buonaccorsi	2	9	0
+John P Klein	2	0	0
+John P Morgan	4	5	3
+John R Crawford	1	0	0
+John Rice	1	6	0
+John Robinson	3	3	0
+John S Preisser	2	5	0
+John Staudenmayer	3	8	1
+John Stufken	5	9	0
+John T Chen	1	0	0
+John T Kent	3	7	0
+John Thomas White	1	4	0
+John V Pepper	1	0	0
+John W Durban	1	0	0
+John W McDonald	1	1	0
+Jolene Birmingham	1	0	0
+Jon A Wellner	9	26	5
+Jon D McAuliffe	2	11	0
+Jonathan C Wakefield	1	0	0
+Jonathan D Norton	1	0	0
+Jonathan E Taylor	11	49	7
+Jonathan J Wylie	1	0	0
+Jonathan Myles	1	0	0
+Jonathan Powell	1	0	0
+Jonathan R Stroud	4	15	1
+Jonathan Rougier	1	2	0
+Jonathan Tawn	8	20	6
+Jonathan Tyrer	1	0	0
+Jonathan Weinberg	1	10	0
+Jong S Kim	1	0	0
+Jong Soo Lee	1	4	0
+Joonwook Park	1	0	0
+Jooyoung Jeon	1	19	0
+Jordi Valero	1	1	0
+Jorg Breitung	1	4	0
+Jorg Drechsler	1	4	0
+Jorg Polzehl	1	0	0
+Jorge Mateu	1	16	0
+Jorn Tenhofen	1	4	0
+Jose A F Machado	1	0	0
+Jose M Bernardo	1	0	0
+Jose Manuel Pavia	1	12	0
+Jose Manuel Pavia-Miralles	1	0	0
+Jose Maria Montero	1	12	0
+Jose Maria Sarabia	1	0	0
+Jose Pinheiro	1	7	0
+Jose R Berrendero	1	0	0
+Jose Scheinkman	1	16	0
+Jose T A S Ferreira	3	12	0
+Josef Dick	2	2	0
+Joseph B Kadane	3	0	0
+Joseph B Lang	2	0	0
+Joseph E Lucas	2	15	1
+Joseph G Ibrahim	28	81	12
+Joseph L Schafer	2	0	0
+Joseph Neeman	1	9	0
+Joseph P Costantino	1	3	0
+Joseph P Romano	8	37	10
+Joseph R Nevins	1	7	0
+Joseph W Hogan	2	0	0
+Joseph W McKean	1	0	0
+Joshua D Habiger	1	26	0
+Joshua M Tebbs	3	0	0
+Josue G Martinez	1	18	0
+Jouni Kuha	1	3	0
+Joyee Ghosh	1	18	0
+Ju-Hyun Park	2	33	1
+Juan-Juan Cai	1	3	0
+Juan A Cuesta-Albertos	3	5	0
+Juan Du	1	7	0
+Juan Romo	1	1	0
+Juanjuan Fan	1	0	0
+Judith J Lok	1	0	0
+Judith Rousseau	7	16	1
+Juhee Lee	1	0	0
+Juhyun Park	2	0	0
+Julia Y Lin	1	11	0
+Julian Besag	1	0	0
+Julian Wolfson	1	7	0
+Julian Z Wang	1	0	0
+Juliet Popper Shaffer	1	0	0
+Julio M Singer	1	0	0
+Jun-Iowa Li	1	38	0
+Jun-Z Li	1	0	0
+Jun Li	2	9	0
+Jun S Liu	9	21	1
+Jun Shao	6	39	0
+Jun Sheng	1	0	0
+Jun Xie	1	0	0
+Jun Yan	3	6	2
+Jun Zhu	6	27	0
+Junchang Ju	1	0	0
+Jung-Ying Tzeng	1	0	0
+Junhui Wang	3	25	1
+Junichi Hirukawa	1	0	0
+Junni L Zhang	2	5	0
+Junqing Yuan	1	0	0
+Junyi Xie	1	2	0
+Junyuan Wang	1	0	0
+Junzhou Huang	1	7	0
+Jurgen Dippon	1	0	0
+Jussi Klemela	1	0	0
+Justine Shults	1	0	0
+Jyh-Shyang Wu	2	0	0
+Jyoti Zalkikar	1	5	0
+Jyrki Mottonen	1	0	0
+K B Kulasekera	2	5	1
+K F Lam	2	2	1
+K K Berthelsen	1	5	0
+K L Verosub	1	0	0
+K Shafie	1	0	0
+K Strassburger	1	0	0
+Ka Yee Yeung	1	1	0
+Kai-Sheng Song	1	0	0
+Kai-Tai Fang	3	6	1
+Kai F Yu	1	0	0
+Kai Tai Fang	1	0	0
+Kai UNKNOWN Yu	1	0	0
+Kai W Ng	1	0	0
+Kai Zhang	1	14	0
+Kalatu Davies	1	0	0
+Kalyan Das	1	0	0
+Kam-Chuen Yuen	1	0	0
+Kam-Wah Tsui	1	10	0
+Kanchan Mukherjee	2	0	0
+Kani Chen	8	41	2
+Kannan Natarajan	1	0	0
+Kanta Naito	1	0	0
+Kanti V Mardia	4	6	0
+Kaoru Fueda	1	2	0
+Karen Bandeen-Roche	2	6	0
+Karen Marder	1	0	0
+Karen T Tashima	1	0	0
+Kari Lock Morgan	1	0	0
+Karim Anaya-Izquierdo	2	4	0
+Karim Lounici	3	52	0
+Karim Oualkacha	1	5	0
+Karin S Dorman	2	0	0
+Karina Laneri	1	0	0
+Karine Tribouley	1	13	0
+Karl-Anton Dorph-Petersen	2	3	1
+Karl Rohe	1	3	0
+Kaspar Rufibach	1	7	0
+Katherine B Ensor	1	9	0
+Kathrin Bissantz	1	0	0
+Kathryn Prewitt	1	0	0
+Kathryn Roeder	3	30	0
+Katsumi Shimotsu	2	0	0
+Kaushik Ghosh	1	0	0
+Kay F Pilz	1	0	0
+Ke Xu	1	0	0
+Ke Yang	1	0	0
+Ke Yu	1	21	0
+Ke Zhu	1	9	0
+Keaven M Anderson	1	0	0
+Kee-Hoon Kang	1	0	0
+Kefei Zhou	1	0	0
+Keh-Shin Lii	3	0	0
+Kehui Chen	2	22	0
+Keith J Worsley	5	2	2
+Keith Knight	1	0	0
+Keith M Muller	1	3	0
+Kelli Talaska	1	3	0
+Keming Yu	1	0	0
+Kenji Fukumizu	2	7	0
+Kenneth A Krohn	1	0	0
+Kenneth F Raffa	2	6	0
+Kenneth Falconer	1	3	0
+Kenneth Lange	1	0	0
+Kenneth Lindsay	1	0	0
+Kenneth M Rice	2	3	1
+Kenneth Westrick	1	6	0
+Kenny Q Ye	2	0	1
+Kent E Holsinger	1	0	0
+Ker-Ai Lee	1	8	0
+Ker-Chau Li	2	0	0
+Kerby Shedden	1	0	0
+Kerrie Mengersen	1	4	0
+Kesar Singh	3	7	1
+Keunbaik Lee	1	7	0
+Kevin K Dobbin	1	0	0
+Kevin Lee	1	0	0
+Kevin Quinn	1	0	0
+Kevin W Dodd	1	0	0
+Kevyn Collins-Thompson	1	0	0
+Keyur H Desai	1	10	0
+Khoan T Dinh	1	0	0
+Khurram Nadeem	1	1	0
+Kilani Ghoudi	1	0	0
+Kim E Andersen	1	0	0
+Kim J Krishnan	1	10	0
+Kim Kenobi	1	6	0
+Kim P Huynh	1	3	0
+Kim Parsons	1	0	0
+Kingshuk Roy Choudhury	2	0	0
+Kirti R Shah	1	0	0
+Kjell Doksum	1	10	0
+Kjell Nygren	1	0	0
+Klaus von Wilpert	1	4	0
+Knashawn H Morales	1	2	0
+Knut Heggland	1	2	0
+Koji Tanaka	1	0	0
+Konstantinos Fokianos	2	5	0
+Konstantinos Kalogeropoulos	1	10	0
+Kosuke Imai	4	9	1
+Krista Fischer	1	0	0
+Krista J Gile	1	1	0
+Kristin Berry	1	0	0
+Kristin Larson	1	6	0
+Kristin N Javaras	2	0	0
+Kristin P Lennox	1	0	0
+Kristine E Lee	1	0	0
+Krzysztof Latuszynski	1	4	0
+Kshitij Khare	2	19	0
+Kun Chen	2	26	0
+Kun Liang	2	15	0
+Kung-Sik Chan	9	24	1
+Kung-Yee Liang	1	2	0
+Kwang Woo Ahn	1	0	0
+Kyounghwa Bae	1	0	0
+Kyungchul Song	1	3	0
+Kyusang Yu	2	28	1
+L Billard	1	0	0
+L Cavalier	1	0	0
+L Garry Adams	1	4	0
+L Giraitis	1	0	0
+L J Wei	13	55	19
+L Reboul	1	0	0
+Lai Wei	1	0	0
+Lajmi Lakhal-Chaieb	1	8	0
+Lajmi Lakhal Chaieb	1	3	0
+Lajos Horvath	5	30	1
+Lan Huang	2	4	1
+Lan Kong	1	0	0
+Lan Ma Nygren	1	0	0
+Lan Wang	8	72	0
+Lan Xue	2	23	0
+Lan Zhang	2	2	1
+Lan Zhou	2	23	1
+Lancelot F James	5	3	1
+Lang Wu	1	0	0
+Lanh T Tran	1	0	0
+Larry Goldstein	1	0	0
+Larry Shepp	1	1	0
+Larry Wasserman	17	79	7
+Lars Peter Hansen	1	16	0
+Laura M Sangalli	1	2	0
+Laura Temime	1	0	0
+Laura Ventura	1	6	0
+Laurens de Haan	5	3	0
+Laurent Bordes	1	0	0
+Laurent Briollais	1	4	0
+Laurent Rouviere	1	0	0
+Lawrence C McCandless	1	3	0
+Lawrence Carin	3	42	0
+Lawrence D Brown	10	40	3
+Lawrence Joseph	1	0	0
+Leah J Welty	1	0	0
+Leah Jager	1	4	0
+Leen Slaets	1	11	0
+Lehel Csato	1	0	0
+Lei Nie	1	2	0
+Leif Boysen	1	0	0
+Leila Mohammadi	1	0	0
+Leilei Zeng	1	0	0
+Lenka Mach	1	0	0
+Leo Breiman	1	0	0
+Leon J Gleser	1	0	0
+Leonard A Stefanski	4	9	0
+Leonardo Grilli	1	3	0
+Leopold Simar	1	0	0
+Leslie Cope	1	0	0
+Lexin Li	8	68	2
+Li-Chun Zhang	1	0	0
+Li-Shan Huang	2	4	1
+Li-Xin Zhang	5	34	1
+Li Chen	2	12	0
+Li Hsu	3	8	1
+Li Ma	2	14	1
+Li Wang	2	23	0
+Liam Smeeth	1	4	0
+Lianfen Qian	1	4	0
+Liang Peng	8	12	2
+Lianming Wang	1	17	0
+Lidong E	1	3	0
+Lie Wang	3	27	1
+Lieven Clement	1	15	0
+Lifeng Wang	2	37	0
+Ligia Henriques Rodrigues	1	0	0
+Lihong Qi	1	0	0
+Lihong Wang	1	0	0
+Lijian Yang	4	5	1
+Lijuan Deng	1	0	0
+Liliana Forzani	2	13	0
+Limin Peng	8	28	3
+Limin X Clegg	1	0	0
+Lin-An Chen	1	0	0
+Lin Liu	1	0	0
+Lin Lu	1	4	0
+Lin S Chen	1	2	0
+Lincheng Zhao	1	2	0
+Linda H Zhao	2	1	1
+Linda O Mearns	1	6	0
+Lingling Li	1	0	0
+Lingyun Liu	1	0	0
+Lingzhi Zhou	1	0	0
+Lingzhou Xue	1	6	0
+Linxu Liu	1	14	0
+Lionel Cucala	1	10	0
+Lionel Moisan	1	0	0
+Liping Zhu	6	117	1
+Liqiang Ni	4	10	2
+Liqun Wang	1	0	0
+Lisa M Chung	1	2	0
+Lisha Chen	1	0	0
+Liugen Xue	5	35	5
+Liuquan Sun	5	21	2
+Livio Finos	1	3	0
+Lixing Zhu	20	177	29
+Longhai Li	1	3	0
+Lop-Hing Ho	1	0	0
+Lorenzo Fattorini	1	0	0
+Lorenzo Trippa	1	10	0
+Lori E Dodd	2	0	0
+Loriano Mancini	2	1	0
+Lorraine N Clark	1	0	0
+Louigi Addario-Berry	1	14	0
+Louis-Paul Rivest	3	7	1
+Louis Ferre	1	23	0
+Louise M Ryan	6	10	1
+Loukia Meligkotsidou	1	0	0
+Lowell Taylor	1	0	0
+Lu-Hung Chen	1	17	0
+Lu Lin	1	11	0
+Lu Ren	1	9	0
+Lu Tian	13	81	13
+Lu Wang	2	10	0
+Luc Devroye	1	14	0
+Luc Pronzato	1	0	0
+Luca La Rocca	1	2	0
+Lucia Castellanos Perez-Bolde	1	0	0
+Lucrezia Reichlin	1	0	0
+Ludwig Fahrmeir	3	4	0
+Lue Ping Zhao	1	7	0
+Luis A Garcia-Escudero	3	6	1
+Luis Artiles	2	8	1
+Luis E Nieto-Barajas	2	13	0
+Luis R Pericchi	1	0	0
+Luisa Scaccia	1	0	0
+Lukas Meier	3	37	0
+Luke A Prendergast	1	0	0
+Luke Bornn	1	6	0
+Luke Tierney	1	4	0
+Luping Zhao	1	6	0
+Lurdes Y T Inoue	3	6	0
+Lutz Dumbgen	5	19	0
+Lutz Kilian	1	4	0
+Lyle Broemeling	1	0	0
+Lyle H Ungar	1	17	0
+Lynda D Lisabeth	1	0	0
+Lynn M Johnson	1	11	0
+Lynn M R Ybarra	1	3	0
+Lynne Stokes	1	0	0
+Lyudmila Sakhanenko	1	0	0
+M-O Boldi	1	4	0
+M A Black	1	0	0
+M A Goldwasser	1	2	0
+M Angeles Carnero	1	0	0
+M Anthony Schork	1	0	0
+M B Short	1	1	0
+M Bevanda	1	6	0
+M Blanca Palacios	1	1	0
+M Brent McHenry	1	6	0
+M C Donohue	1	12	0
+M C Jones	8	10	3
+M C Pun	1	0	0
+M Durban	1	0	0
+M Elizabeth Halloran	4	10	1
+M Giovanna Ranalli	2	1	0
+M H Clark	2	3	0
+M Hashem Pesaran	2	0	0
+M Hazelton	1	0	0
+M Ivette Gomes	2	0	0
+M J Bayarri	4	28	2
+M J Faddy	1	0	0
+M J Silvapulle	1	0	0
+M L Lakhal-Chaieb	1	0	0
+M Laine	1	0	0
+M Lehtinen	1	0	0
+M Lina Martinez	1	2	0
+M Luz Calle	1	3	0
+M Meise	1	5	0
+M Mushfiqur Rashid	1	0	0
+M P Wand	4	9	0
+M Papathomas	1	4	0
+M Perone Pacifico	1	3	0
+M Ribatet	1	13	0
+M Rosenblum	1	8	0
+M S Srivastava	1	0	0
+M S Taqqu	2	2	0
+M Studer	1	2	0
+M W Jones	1	5	0
+M Zagoraiou	1	14	0
+Maarten J L F Cruyff	1	0	0
+Maarten Jansen	2	17	1
+Madalin Gutua	2	8	1
+Madeleine Cule	1	20	0
+Maela Kloareg	1	3	0
+Maengseok Noh	1	6	0
+Magalie Fromont	1	3	0
+Magnar Lillegaard	1	0	0
+Magnus Ekstrom	1	0	0
+Mahboobeh Safaeian	1	4	0
+Mahlet G Tadesse	2	4	1
+Mai Zhou	1	4	0
+Maja Miloslavsky	1	0	0
+Majid Mojirsheibani	1	3	0
+Makram Talih	1	0	0
+Malay Ghosh	9	19	0
+Malgorzata Bogdan	1	46	0
+Malka Gorfine	3	8	1
+Man-Wai Ho	1	3	0
+Man Yu Wong	3	2	0
+Manabu Kuroki	4	8	0
+Manfred Jaeger	1	1	0
+Manfred Opper	1	0	0
+Marc A Suchard	2	0	0
+Marc Aerts	2	0	0
+Marc C Kennedy	1	17	0
+Marc Coram	1	1	0
+Marc Fredette	1	0	0
+Marc G Genton	15	70	8
+Marc Hallin	14	35	14
+Marc Hoffmann	4	21	0
+Marc Raimondo	3	3	1
+Marcel Voia	1	3	0
+Marcel Wolbers	1	0	0
+Marcela Svarc	1	7	0
+Marcelo C Medeiros	1	0	0
+Marcelo J Moreira	1	0	0
+Marco A R Ferreira	3	11	0
+Marco Carone	1	0	0
+Marco Di Marzio	1	0	0
+Marco Lippi	1	0	0
+Marco Minozzo	1	0	0
+Marco Perone-Pacifico	2	6	0
+Marco Riani	1	2	0
+Marek Omelka	1	0	0
+Margaret R Karagas	1	0	0
+Margaret Sullivan Pepe	4	6	0
+Maria-Pia Victoria-Feser	5	33	2
+Maria De Iorio	2	4	0
+Maria Dolores Martinez Miranda	1	5	0
+Maria Elvira Mancino	1	5	0
+Maria Jose Lombardia	1	6	0
+Maria L Rizzo	1	0	0
+Maria Maddalena Barbieri	1	0	0
+Maria Rightley	1	2	0
+Maria Teresa Gallegos	1	0	0
+Marian Anghel	1	3	0
+Marian Grendar	1	3	0
+Mariane Pelletier	1	1	0
+Marianna Pensky	4	26	1
+Marianthi Markatou	1	0	0
+Marie-Pierre Preziosi	1	0	0
+Marie Davidian	2	1	0
+Mariela Sued	1	5	0
+Marina Vannucci	4	4	1
+Mario Forni	1	0	0
+Mario Mateo	1	2	0
+Marius Ooms	1	0	0
+Mark A Beaumont	1	10	0
+Mark A van de Wiel	1	0	0
+Mark A Weaver	1	6	0
+Mark C K Yang	2	6	0
+Mark Culp	1	0	0
+Mark E Cowen	1	0	0
+Mark F J Steel	5	25	2
+Mark Fitzgerald	1	0	0
+Mark G Low	12	21	3
+Mark Girolami	1	27	0
+Mark J Schervish	2	11	0
+Mark J van der Laan	5	6	1
+Mark M Meerschaert	1	0	0
+Mark Muzi	1	0	0
+Mark Podolskij	1	5	0
+Mark Rutherford	1	0	0
+Mark S Handcock	3	0	0
+Mark V Bravington	1	5	0
+Mark van der Laan	4	10	0
+Markus Frolich	2	0	0
+Markus Kalisch	2	34	0
+Markus Kiderlen	1	0	0
+Markus Leippold	1	0	0
+Markus Reiss	4	9	0
+Markus Roters	2	30	1
+Marloes H Maathuis	5	54	4
+Marsel Kvesic	1	0	0
+Marshall M Joffe	2	5	0
+Marten H Wegkamp	6	40	3
+Martha E Nunn	1	0	0
+Martica Hall	1	19	0
+Martin A Lindquist	1	6	0
+Martin A Tanner	1	3	0
+Martin B Hansen	1	0	0
+Martin H Felix-Medina	1	0	0
+Martin Hendry	1	12	0
+Martin Hillebrand	1	0	0
+Martin J Wainwright	6	65	3
+Martin Kulldorff	2	0	0
+Martin Posch	3	13	0
+Martin S Zand	1	0	0
+Martin Schlather	4	27	1
+Martin Schumacher	2	6	0
+Martin Styner	1	5	0
+Martin T Wells	2	0	0
+Mary Beth Landrum	1	0	0
+Mary C Meyer	1	0	0
+Mary E Thompson	1	9	0
+Mary Ellen Bock	1	0	0
+Mary J Emond	1	0	0
+Mary Sara McPeek	1	2	0
+Mary W Redman	1	2	0
+Marzia Marcheselli	1	0	0
+Masami Miyakawa	1	0	0
+Masanobu Taniguchi	1	0	0
+Masao Ueki	2	12	0
+Masashi Sugiyama	1	3	0
+Masayuki Henmi	2	1	1
+Masoud Asgharian	3	1	1
+Massimiliano Pontil	1	27	0
+Mathias Drton	8	17	6
+Mathias Vetter	2	10	0
+Mathieu Rosenbaum	1	16	0
+Mathilde Mougeot	1	13	0
+Matias D Cattaneo	1	0	0
+Matias Salibian-Barrera	4	8	0
+Matteo Bottai	1	0	0
+Matthew A Taddy	2	9	0
+Matthew Calder	1	1	0
+Matthew D Shapiro	1	0	0
+Matthew J Beal	1	9	0
+Matthew J Salganik	2	3	1
+Matthew P S Gander	1	3	0
+Matthew Reimherr	1	2	0
+Matthew T Harrison	1	0	0
+Matthew Walker	1	2	0
+Matthieu Lerasle	1	2	0
+Maureen Clerc	1	0	0
+Mauro Piccioni	1	0	0
+Mausumi Bose	1	0	0
+Max D Morris	1	0	0
+Maxwell King	1	6	0
+Mayer Alvo	1	0	0
+Mayetri Gupta	2	3	0
+Mayte Suarez-Farinas	1	0	0
+Mayukh Samanta	1	0	0
+McLean Sloughter	1	16	0
+Mechelle Lewis	1	16	0
+Mee Young Park	1	2	0
+Meeyoung Hong	1	7	0
+Megan Othus	1	21	0
+Megha Patel	1	0	0
+Mei-Cheng Wang	5	0	0
+Mei-Chiung Shih	4	5	1
+Mei-Jie Zhang	2	15	1
+Melanie Labarre	1	0	0
+Melanie Schienle	1	0	0
+Melissa A Bingham	1	3	0
+Melvin J Hinich	1	0	0
+Mendel Fygenson	1	5	0
+Meng Mao	1	8	0
+Menggang Yu	3	8	1
+Menno Bouma	1	0	0
+Mercedes Pascual	1	0	0
+Merlise A Clyde	3	43	1
+Merrill W Liechty	1	3	0
+Meta Voelker	1	0	0
+Mette Gerster	1	5	0
+Mette Langaas	1	9	0
+Mevin B Hooten	1	3	0
+Mi-Ja Woo	1	0	0
+Mi-Ok Kim	2	16	0
+Micha Mandel	3	7	0
+Michael A Benjamin	1	0	0
+Michael A Fligner	1	0	0
+Michael A Newton	3	6	0
+Michael A Stephens	1	6	0
+Michael Braun	1	0	0
+Michael C Minnotte	1	0	0
+Michael D Larsen	1	0	0
+Michael D Perlman	2	5	0
+Michael E Sobel	1	0	0
+Michael Evans	1	0	0
+Michael Ferris	1	0	0
+Michael G Akritas	6	8	1
+Michael G B Blum	1	7	0
+Michael G Hudgens	5	30	1
+Michael G Kenward	3	2	1
+Michael Goldstein	2	2	0
+Michael H Albert	1	0	0
+Michael H Neumann	2	0	0
+Michael Hurd	1	0	0
+Michael I Jordan	5	44	1
+Michael J Daniels	5	24	0
+Michael J Racz	1	0	0
+Michael J Todd	2	29	1
+Michael Jansson	1	0	0
+Michael K Pitt	2	3	0
+Michael Kosoy	1	0	0
+Michael L Anderson	1	4	0
+Michael L Stein	7	4	3
+Michael Lavine	3	4	0
+Michael LeBlanc	1	0	0
+Michael Lechner	1	0	0
+Michael Levine	3	28	0
+Michael McAleer	1	0	0
+Michael Nussbaum	2	7	0
+Michael O Ball	1	0	0
+Michael P Fay	1	0	0
+Michael P Jones	1	0	0
+Michael Parzen	1	0	0
+Michael Peress	2	0	0
+Michael Pierrynowski	1	0	0
+Michael R Elliott	3	14	1
+Michael R Kosorok	15	65	12
+Michael S Kramer	1	3	0
+Michael S Lauer	2	8	0
+Michael S Rendall	1	0	0
+Michael S Smith	4	20	2
+Michael Saunders	1	0	0
+Michael Schweinberger	1	7	0
+Michael Sherman	4	10	3
+Michael Sorensen	1	0	0
+Michael Stewart	1	20	0
+Michael W Robbins	1	2	0
+Michael Wolf	5	43	4
+Michael Woodroofe	3	4	2
+Michail Sverchkov	1	5	0
+Michal Benko	1	8	0
+Michal Kulich	1	0	0
+Michel Grzebyk	1	0	0
+Michel Wedel	1	1	0
+Michele Follen	1	0	0
+Michele Guindani	3	14	0
+Michele Morara	1	0	0
+Michelle Liou	1	0	0
+Michelle Stanton	1	0	0
+Miguel A Delgado	2	7	1
+Miguel A Fernandez	2	0	0
+Mihaela Aslan	1	3	0
+Mike Baiocchi	1	9	0
+Mike West	6	24	3
+Mikhail Belkin	2	2	1
+Miklos Csorgo	1	0	0
+Mikyoung Jun	1	0	0
+Miles S Kimball	1	0	0
+Min-Qian Liu	2	10	0
+Min Chen	1	0	0
+Min Hee Kim	1	6	0
+Min Kyung Kim	1	14	0
+Min Qian	1	18	0
+Min Tsao	1	0	0
+Min Yang	6	16	2
+Min Zhang	1	0	0
+Min Zhu	1	6	0
+Ming-Hui Chen	9	12	3
+Ming-Tien Tsai	1	5	0
+Ming-Yen Cheng	4	25	1
+Ming Dai	2	0	0
+Ming Li	2	2	0
+Ming Lin	2	7	0
+Ming T Lin	1	0	0
+Ming Yuan	13	86	4
+Ming Zhou	1	11	0
+Minge Xie	5	12	1
+Minggen Lu	2	4	1
+Mingjin Wang	1	2	0
+Mingyao Ai	3	23	1
+Mingyuan Zhang	1	1	0
+Minhua Chen	1	9	0
+Minjing Tao	1	12	0
+Minjung Kyung	1	10	0
+Minou Bina	1	0	0
+Minya Xu	2	31	0
+Miro R Powojowski	1	0	0
+Miron L Straf	1	0	0
+Miroslav Siman	2	3	0
+Mitchell H Gail	1	0	0
+Mitchell J Small	1	2	0
+Mitchell S V Elkind	1	2	0
+Mithat Gonen	1	0	0
+Mogens Bladt	1	0	0
+Mohamad A Khaled	1	7	0
+Mohamed Yusuf Hassan	1	0	0
+Mohammad Hosseini-Nasab	1	3	0
+Mohsen Mohammadzadeh	1	1	0
+Mohsen Pourahmadi	3	17	1
+Moises Goldszmidt	1	4	0
+Molin Wang	2	3	0
+Molly Gong	1	0	0
+Mong-Na Lo Huang	1	0	0
+Monica Cano	1	0	0
+Monica Musio	1	4	0
+Montserrat Fuentes	2	25	0
+Moreno Bevilacqua	1	16	0
+Morris L Eaton	1	3	0
+Mortaza Jamshidian	1	0	0
+Moshe Pollak	2	0	0
+Moshe Shaked	1	0	0
+Moulinath Banerjee	7	20	2
+Mounia N Hocine	1	4	0
+Mounir Mesbah	1	0	0
+Mu Zhu	3	0	0
+Murali Haran	1	2	0
+Murray K Clayton	1	0	0
+Murray Rosenblatt	1	0	0
+Myoung-jae Lee	1	0	0
+Myriam Vimond	1	3	0
+Myron Katzoff	1	7	0
+Myung Hwan Seo	1	6	0
+Myunghee Cho Paik	1	3	0
+N Balakrishnan	1	3	0
+N Beerenwinkel	1	2	0
+N Chamandy	1	2	0
+N Ganesh	1	3	0
+N Lange	1	0	0
+N Papadatos	1	0	0
+N Raj Rao	1	0	0
+N Rao Chaganty	2	1	0
+N Reid	5	13	6
+N Sartori	1	0	0
+N X Lin	1	3	0
+Nader Ebrahimi	2	0	0
+Naijun Sha	1	0	0
+Nail K Bakirov	1	0	0
+Naiping Liu	1	14	0
+Naisyin Wang	8	49	9
+Nam Hee Choi	1	15	0
+Nan-Jung Hsu	1	0	0
+Nan Hu	1	7	0
+Nan Lin	1	0	0
+Nan Shao	1	0	0
+Nancy D Turner	1	7	0
+Nancy Flournoy	1	2	0
+Nancy L Geller	1	0	0
+Nancy Ruonan Zhang	5	36	2
+Nanny Wermuth	5	10	4
+Naomi Altman	1	14	0
+Narayan Shivapurkar	1	1	0
+Naresh M Punjabi	2	12	1
+Natalie Blades	1	0	0
+Natalie Neumeyer	4	0	0
+Natalie Shlomo	1	1	0
+Natesh Pillai	1	12	0
+Nathaniel Schenker	3	0	0
+Neal O Jeffries	1	0	0
+Neil A Butler	5	0	5
+Neil Bathia	3	35	1
+Neil I Fox	1	0	0
+Nema Dean	1	0	0
+Nengfeng Zhou	2	28	0
+Ngai Hang Chan	5	8	0
+Nial Friel	5	20	0
+Niall Fitzgerald	1	0	0
+Niall M Adams	1	0	0
+Niansheng Tang	3	15	0
+Nicholas A Heard	1	0	0
+Nicholas G Polson	6	37	2
+Nicholas P Jewell	5	6	0
+Nicky Best	1	3	0
+Nicolai Bissantz	4	7	1
+Nicolai Meinshausen	8	49	6
+Nicolas Broutin	1	14	0
+Nicolas Chopin	5	50	1
+Nicolas Hengartner	1	0	0
+Nicolas Privault	1	0	0
+Nicolas Vayatis	2	6	0
+Nicolas Verzelen	3	38	0
+Nicolas Vieille	1	0	0
+Nicole A Lazar	2	0	0
+Nicole H Augustin	1	4	0
+Nicole Kramer	1	3	0
+Nicoleta Serban	1	0	0
+Nidhan Choudhuri	2	2	1
+Niels G Becker	1	0	0
+Niko A Kaciroti	1	0	0
+Nikolai Leonenko	1	0	0
+Nikolai Strigul	1	0	0
+Nikolaos Demiris	1	3	0
+Nikolay M Yanev	1	0	0
+Nikos Tzavidis	1	0	0
+Nilanjan Chatterjee	10	31	6
+Nils Chr Stenseth	3	19	0
+Nils Lid Hjort	6	18	6
+Ning Hao	1	34	0
+Nivedita V Nadkarni	1	5	0
+Noah Gans	1	2	0
+Noah Simon	1	12	0
+Noel Cressie	4	15	0
+Noel Veraverbeke	1	0	0
+Noelle I Samia	2	2	1
+Nora Fenske	1	17	0
+Nora Muler	1	5	0
+Noreen M Clark	1	0	0
+Norman E Breslow	2	0	0
+Norman R Swanson	1	11	0
+Noureddine El Karoui	5	17	5
+Nozer D Singpurwalla	2	0	0
+Odile Pons	1	0	0
+Ofer Harel	1	0	0
+Ofer Zeitouni	2	3	0
+Offer Lieberman	1	0	0
+Ola Hossjer	3	0	1
+Olaf Wittich	1	0	0
+Ole E Barndorff-Nielsen	1	0	0
+Ole F Christensen	1	0	0
+Oleg V Lepski	2	3	0
+Olga Y Savchuk	1	0	0
+Oliver B Linton	4	2	0
+Olivia Grigg	1	0	0
+Olivier Bousquet	3	17	1
+Olivier Cappe	2	0	0
+Olivier Catoni	1	0	0
+Olivier Ledoit	1	10	0
+Olivier Thas	1	15	0
+Olivier Wintenberger	1	4	0
+Ollivier Hyrien	1	0	0
+Omer Ozturk	1	2	0
+Omiros Papaspiliopoulos	9	34	6
+Ori Davidov	1	4	0
+Ori Rosen	2	11	0
+Oscar A Mitnik	1	0	0
+Otilia Boldea	1	0	0
+Owen D Lyne	1	0	0
+P Baldi	2	13	1
+P C Trandafir	1	2	0
+P Druilhet	2	6	1
+P F Craigmile	1	0	0
+P G Blackwell	1	0	0
+P Giudici	1	0	0
+P H C Eilers	1	0	0
+P J Brantingham	1	1	0
+P L Kam	1	0	0
+P Laurie Davies	3	7	0
+P McDonnell	1	2	0
+P P de Wolf	1	0	0
+P V Larsen	1	2	0
+P Vieu	1	4	0
+P Y Lai	2	0	0
+Pai-Ling Li	2	30	1
+Pamela W Duncan	1	0	0
+Pang Du	1	28	0
+Paola Bortot	2	3	0
+Paolo Vidoni	1	4	0
+Paolo Zaffaroni	1	0	0
+Partha Lahiri	6	15	1
+Pascal Lavergne	1	0	0
+Pascal Massart	2	15	1
+Pascal Sarda	2	31	1
+Pascal Wild	1	0	0
+Patricia A Cassano	1	0	0
+Patricia Reynaud-Bouret	1	0	0
+Patrick J Wolfe	2	3	0
+Patrick L Gurian	1	2	0
+Patrick Royston	1	0	0
+Patrick S Carmack	1	0	0
+Patrik Waldmann	1	21	0
+Paul Damien	2	3	0
+Paul E Anderson	1	7	0
+Paul Fearnhead	10	44	6
+Paul Gustafson	2	7	1
+Paul H Kvam	1	0	0
+Paul J Rathouz	3	6	0
+Paul Kabaila	1	6	0
+Paul Kidwell	1	0	0
+Paul L Speckman	2	1	1
+Paul M Thompson	1	0	0
+Paul Malliavin	1	5	0
+Paul Marriott	3	5	1
+Paul Meier	1	0	0
+Paul Patterson	1	3	0
+Paul R Rosenbaum	20	44	37
+Paul S Albert	2	2	0
+Paul S Clarke	1	0	0
+Paul Schneider	1	5	0
+Paul Smith	1	6	0
+Paul Tseng	1	0	0
+Paul Wiegert	1	0	0
+Paula Diehr	1	0	0
+Pauliina Ilmonen	1	10	0
+Paulo Goncalves	1	0	0
+Paulo J Ribeiro Jr	1	0	0
+Pavel Cizek	1	3	0
+Pedro Cesaralvarez-Esteban	1	0	0
+Pedro Delicado	1	0	0
+Pedro Galeano	1	0	0
+Pedro Luis do Nascimento Silva	1	3	0
+Pedro Puig	2	0	1
+Pei-Lu Chiu	1	0	0
+Pei-Sheng Lin	2	3	1
+Pei Fen Kuan	1	0	0
+Pei Wang	1	2	0
+Peide Shi	2	17	0
+Peihua Qiu	7	21	2
+Peishien Wu	1	3	0
+Peng Chen	1	0	0
+Peng Ding	1	6	0
+Peng Huang	1	0	0
+Peng Wang	1	6	0
+Peng Zeng	2	17	1
+Peng Zhang	1	0	0
+Peng Zhao	1	10	0
+Pengfei Li	5	37	2
+Pengjie Dai	1	3	0
+Per Aslak Mykland	5	8	2
+Per Kragh Andersen	1	0	0
+Perla E Reyes	1	0	0
+Perry de Valpine	1	0	0
+Persi Diaconis	2	0	0
+Peter A Lachenbruch	1	0	0
+Peter B Gilbert	4	16	0
+Peter Bauer	1	13	0
+Peter Boatwright	1	0	0
+Peter Bouman	1	0	0
+Peter Buhlmann	12	79	8
+Peter C B Phillips	3	9	0
+Peter Clifford	1	0	0
+Peter Craig	1	0	0
+Peter D Grunwald	3	9	0
+Peter D Hoff	6	0	1
+Peter D Sasieni	3	0	0
+Peter E Jupp	6	0	0
+Peter F Thall	1	0	0
+Peter G M van der Heijden	1	0	0
+Peter Goos	1	2	0
+Peter Guttorp	1	0	0
+Peter H Westfall	2	5	0
+Peter Hall	82	282	46
+Peter J Bickel	10	64	3
+Peter J Brockwell	1	0	0
+Peter J Diggle	6	10	0
+Peter J Green	1	0	0
+Peter L Bartlett	2	12	1
+Peter Lenk	1	1	0
+Peter M Robinson	4	5	0
+Peter M Steiner	2	3	0
+Peter McCullagh	4	0	0
+Peter Muller	10	23	2
+Peter Radchenko	5	48	4
+Peter Spirtes	2	2	0
+Peter T Kim	3	23	1
+Peter W F Smith	2	1	0
+Peter X-K Song	8	51	0
+Peter Z G Qian	9	59	7
+Petros Dellaportas	6	17	0
+Petruta C Caragea	1	2	0
+Petter Wiberg	1	0	0
+Peyman Milanfar	1	0	0
+Philip B Stark	1	0	0
+Philip D ONeill	1	3	0
+Philip E Cheng	1	0	0
+Philip J Brown	3	42	1
+Philip Preuss	1	5	0
+Philip S Hammond	1	0	0
+Philip T Reiss	3	8	1
+Philip W Davidson	1	2	0
+Philippa Musoke	1	7	0
+Philippe Fraysse	1	6	0
+Philippe Huber	1	0	0
+Philippe Naveau	2	11	0
+Philippe Rigollet	3	35	2
+Philippe Soulier	2	4	0
+Phillip L Chapman	1	3	0
+Phillip S Kott	2	3	0
+Pi-Wen Tsai	1	1	0
+Piercesare Secchi	1	2	0
+Piero Veronese	1	0	0
+Pierpaolo De Blasi	1	6	0
+Pierre-Jerome Bergeron	1	2	0
+Pierre-Yves Boelle	1	0	0
+Pierre Del Moral	2	9	1
+Pierre Priouret	1	0	0
+Pierre Vandekerkhove	1	0	0
+Piet Groeneboom	4	13	2
+Pilar L Iglesias	1	0	0
+Ping-Shou Zhong	3	59	0
+Ping Ma	2	10	1
+Piotr Fryzlewicz	9	42	6
+Piotr Graczyk	1	0	0
+Piotr Kokoszka	5	59	3
+Prabir Burman	2	0	0
+Pradeep Ravikumar	2	8	0
+Prakash V Bhave	1	2	0
+Pranab K Sen	2	5	0
+Prasad A Naik	2	23	0
+Pritam Ranjan	1	0	0
+Probal Chaudhuri	1	0	0
+Pulak Ghosh	2	5	0
+Qi-Man Shao	6	10	0
+Qi Li	2	4	0
+Qi Long	1	0	0
+Qi Tang	1	1	0
+Qian M Zhou	1	9	0
+Qiang Xu	2	7	0
+Qiang Zhang	1	0	0
+Qiansheng Cheng	1	0	0
+Qihua Wang	3	20	1
+Qing Liu	2	0	0
+Qing Mai	1	25	0
+Qing Zhou	2	7	0
+Qingxia Chen	3	17	0
+QiQi Lu	1	2	0
+Qiwei Yao	13	63	9
+Qiying Wang	3	9	0
+Qizhai Li	1	0	0
+Quan Hong	1	3	0
+Quanhong Lei	1	5	0
+Quanli Wang	1	7	0
+R A Bailey	6	3	3
+R Averkamp	2	0	0
+R Ayesha Ali	1	2	0
+R Balasubramanian	1	0	0
+R de Jonge	1	14	0
+R Dennis Cook	19	59	22
+R Fluss	1	0	0
+R J Buchanan	1	5	0
+R J Parthasarathy	1	4	0
+R King	3	7	1
+R L Eubank	1	5	0
+R M Balan	1	0	0
+R M Dudley	1	2	0
+R M Fewster	1	0	0
+R M Kuiper	1	0	0
+R Overholser	1	12	0
+R R Ramsahai	1	3	0
+R Reeves	3	6	2
+R Todd Ogden	3	12	1
+R Turner	1	0	0
+R Xu	1	12	0
+Rabi Bhattacharya	2	0	0
+Rachel MacKay Altman	1	0	0
+Radford M Neal	1	0	0
+Radu V Craiu	3	6	1
+Rafael A Irizarry	1	0	0
+Rafael Weissbach	1	0	0
+Rafal Kulik	1	0	0
+Rahul Mazumder	1	11	0
+Rahul Mukerjee	6	23	3
+Rainer Dahlhaus	3	15	0
+Rainer von Sachs	5	20	0
+Rajeev Ayyagari	1	0	0
+Rajesh Talluri	1	10	0
+Rajita Sinha	1	4	0
+Ralf Krahe	1	3	0
+Ralf van der Lans	1	1	0
+Ralph D Snyder	1	3	0
+Ram C Tiwari	6	26	2
+Ramani S Pilla	2	3	0
+Ramesh C Dhiman	1	0	0
+Ramon Oller	1	3	0
+Ramon van den Akker	1	0	0
+Ramon van Handel	1	4	0
+Ramses H Mena	4	17	2
+Randal Douc	5	11	2
+Randall D Tobias	1	3	0
+Randy R Sitter	3	10	1
+Ranjan Maitra	1	4	0
+Raphael Gottardo	1	1	0
+Raquel Prado	1	0	0
+Rasmus Waagepetersen	3	12	0
+Raul Jimenez	1	3	0
+Ravi Varadhan	1	4	0
+Ray Chambers	1	0	0
+Raymond J Carroll	40	256	30
+Raymond L Chambers	1	0	0
+Re-Jin Guo	1	0	0
+Rebecca A Betensky	3	2	0
+Rebecca A Hubbard	1	0	0
+Recai M Yucel	1	0	0
+Refik Soyer	1	0	0
+Reg Kulperger	1	0	0
+Regina Y Liu	2	9	0
+Reinhard Furrer	1	10	0
+Remy Cottet	2	0	0
+Renata Nemeth	1	2	0
+Renato Monteiro	1	2	0
+Rene Belder	1	0	0
+Renee X de Menezes	1	0	0
+Renjun Ma	2	4	1
+Reto Knutti	1	0	0
+Reza Pakyari	1	0	0
+Ricardo Fraiman	2	7	0
+Ricardo Olea	1	11	0
+Ricardo T Lemos	2	9	0
+Richard A Davis	5	4	0
+Richard A Levine	3	0	0
+Richard A Lockhart	3	6	0
+Richard A Olshen	2	0	0
+Richard Arratia	1	0	0
+Richard C Steed	1	8	0
+Richard Charnigo	1	0	0
+Richard D Gill	3	3	1
+Richard E Chandler	1	12	0
+Richard F Gunst	1	0	0
+Richard Herrick	1	6	0
+Richard Huggins	2	8	0
+Richard J Boys	1	10	0
+Richard J Cook	3	12	0
+Richard J Gardner	1	0	0
+Richard J Rendleman Jr	1	1	0
+Richard J Swartz	1	0	0
+Richard K Crump	2	0	0
+Richard L Smith	1	6	0
+Richard L Tweedie	1	0	0
+Richard M Bittman	1	2	0
+Richard N Ross	1	1	0
+Richard Nickl	3	39	3
+Richard P Waterman	1	0	0
+Richard Routledge	1	0	0
+Richard Royall	1	0	0
+Richard Samworth	7	32	3
+Richard Scheines	1	0	0
+Richard T Burnett	1	0	0
+Richard Tiller	1	0	0
+Rick Chappell	1	0	0
+Rik Pieters	1	1	0
+Rina Foygel	1	1	0
+Rob J Hyndman	2	3	0
+Robert A Connolly	1	1	0
+Robert A Koyak	1	5	0
+Robert A Rigby	1	0	0
+Robert A Rosenheck	2	0	0
+Robert A Stine	2	12	0
+Robert A Wolfe	2	5	0
+Robert B Gramacy	2	4	1
+Robert B Lund	3	5	0
+Robert B Scharpf	2	5	0
+Robert D Nowak	3	4	0
+Robert E Kass	2	0	0
+Robert E McCulloch	1	0	0
+Robert E Schapire	2	4	0
+Robert E Weiss	3	0	0
+Robert F Dougherty	1	11	0
+Robert Gentleman	1	0	0
+Robert Greevy	1	0	0
+Robert H Shumway	3	0	0
+Robert J Boik	1	0	0
+Robert J Kohn	4	4	2
+Robert J Petrunia	1	3	0
+Robert J Tibshirani	13	94	4
+Robert Jarrow	1	0	0
+Robert Kwiecien	1	0	0
+Robert L Mason	1	0	0
+Robert L Paige	1	3	0
+Robert L Strawderman	3	14	1
+Robert L Winkler	1	12	0
+Robert L Wolpert	1	15	0
+Robert M Dorazio	1	0	0
+Robert M Elashoff	1	4	0
+Robert M Merion	1	0	0
+Robert Nau	1	0	0
+Robert T Krafty	1	19	0
+Robert W Haley	1	0	0
+Robert W Platt	1	3	0
+Robertas Gabrys	3	30	1
+Robin Henderson	2	3	0
+Roch Roy	1	0	0
+Roderick J A Little	4	0	0
+Roee Gutman	1	0	0
+Roger D Peng	1	1	0
+Roger E Bumgarner	1	1	0
+Roger Koenker	6	6	2
+Rohit S Deo	2	2	0
+Roland Fried	3	5	0
+Roland Meeks	1	0	0
+Roland Speicher	1	0	0
+Rolf Sundberg	1	0	0
+Roman Holenstein	1	0	0
+Roman Liska	1	4	0
+Ron Brookmeyer	1	0	0
+Ron C Mittelhammer	1	0	0
+Ron Stewart	1	0	0
+Ronald A DeVore	1	0	0
+Ronald Christensen	1	2	0
+Ronald E Gangnon	1	0	0
+Ronald H Randles	1	0	0
+Ronald Klein	1	0	0
+Ronald Neath	1	2	0
+Ronald S Brookmeyer	1	4	0
+Ronald W Butler	3	3	0
+Rong Chen	4	7	0
+Rong Tang	1	6	0
+Ronghua Luo	1	33	0
+Rongling Wu	2	12	0
+Rongning Wu	1	3	0
+Roopesh Ranjan	1	0	0
+Rory J Todhunter	1	0	0
+Ross Corkrey	1	0	0
+Ross Iaci	1	9	0
+Ross L Prentice	7	17	1
+Ruben H Zamar	5	8	0
+Rudolf Beran	1	0	0
+Rudolf Grubel	1	0	0
+Rudolf Riedi	1	0	0
+Ruey S Tsay	3	6	0
+Ruggero Bellio	1	2	0
+Rui Feng	1	0	0
+Rui Paulo	4	30	2
+Rui Song	5	65	2
+Ruixue Liu	1	0	0
+Runchu Zhang	1	7	0
+Runlong Tang	1	3	0
+Runze Li	16	155	24
+Ruoqing Zhu	1	7	0
+Ruosha Li	1	0	0
+Russ Hauser	1	3	0
+Russell D Gray	1	0	0
+Rusty Tchernis	1	0	0
+Ruth Etzioni	1	2	0
+Ruth G Shaw	1	0	0
+Ruth Heller	3	21	0
+Ryan J Tibshirani	3	32	2
+Ryan Janicki	1	11	0
+Ryan Lekivetz	1	3	0
+Ryan Martin	3	13	1
+Ryan T Elmore	2	0	0
+Ryo Yoshida	1	2	0
+S A Padoan	1	13	0
+S Allassonniere	1	0	0
+S C Kou	4	1	0
+S Chen	1	1	0
+S Conti	1	2	0
+S Correa	1	4	0
+S Kang	1	5	0
+S L Zabell	1	0	0
+S Land	1	10	0
+S Lynne Stokes	1	0	0
+S P Preston	1	9	0
+S S J Wang	1	6	0
+Sabine Van Huffel	1	2	0
+Sadanori Konishi	1	0	0
+Sahand Negahban	2	32	1
+Saharon Rosset	2	10	1
+Sallie Keller-McNulty	1	0	0
+Sally C Morton	1	0	0
+Sally W Thurston	1	3	0
+Sally Wood	1	7	0
+Sam Behseta	1	0	0
+Sam Efromovich	7	40	4
+Samir Ben Hariz	1	0	0
+Samir Soneji	1	2	0
+Samiran Sinha	2	5	0
+Samuel Copt	1	1	0
+Samuel Muller	1	0	0
+Samuel S Wu	2	6	0
+Sanat K Sarkar	5	50	4
+Sander Greenland	1	0	0
+Sandra A Garcet-Rodriguez	1	0	0
+Sandra Freitag-Wolf	1	0	0
+Sandy Clarke	1	7	0
+Sanford Weisberg	1	3	0
+Sangeeta Khare	1	4	0
+Sangjun Lee	1	3	0
+Sanjay Chaudhuri	3	18	0
+Sanjib Basu	2	1	1
+Sanjoy K Sinha	1	0	0
+Sara A van de Geer	2	3	0
+Sara D Lawhon	1	4	0
+Sara Geneletti	1	0	0
+Sara Lopez-Pintado	1	1	0
+Sara Martino	1	44	0
+Sara Sjostedt-de Luna	1	0	0
+Sara Taskinen	1	0	0
+Sara van de Geer	5	49	1
+Sarah B Streett	1	0	0
+Sarah J Ratcliffe	1	0	0
+Sarat C Dass	1	0	0
+Sarjinder Singh	1	0	0
+Sastry G Pantula	1	0	0
+Satoshi Kuriki	1	0	0
+Saul Shiffman	1	0	0
+Savas Papadopoulos	1	0	0
+Scotland C Leman	1	4	0
+Scott A Sisson	3	30	1
+Scott B Cantor	1	0	0
+Scott D Solomon	2	22	0
+Scott Gilbert	1	0	0
+Scott H Holan	2	11	0
+Scott L Schwartz	1	6	0
+Scott L Zeger	3	7	0
+Scott Lindroth	1	9	0
+Scott Lorch	2	23	0
+Scott M Berry	1	0	0
+Sean D Campbell	1	0	0
+Sean OBrien	1	19	0
+Sebastian Irle	1	2	0
+Sebastien Gadat	1	15	0
+Sebastien J-P A Haneuse	1	0	0
+Sebastien Van Bellegem	2	13	0
+Seiya Imoto	1	0	0
+Seok-Oh Jeong	2	0	0
+SEONGHO Wu	1	19	0
+Seonjoo Lee	1	16	0
+Sergey Sheetlin	1	0	0
+Sergey Zeltyn	1	2	0
+Sergio Bacallado	1	0	0
+Sergiy Sidenko	1	2	0
+Seth Sanders	1	0	0
+Seth Sullivant	4	10	0
+Seu Keow Cheng	4	1	1
+Seunggeun Lee	1	21	0
+Shahar Mendelson	3	24	2
+Shakeeb Khan	1	0	0
+Shan Ba	1	9	0
+Shane T Jensen	3	14	1
+Shanshan Wang	1	6	0
+Shao-Wei Cheng	1	1	0
+Shaojun Guo	3	40	0
+Shaoli Wang	2	12	0
+Sharad Borle	1	0	0
+Sharon-Lise T Normand	1	0	0
+Sharon L Hedley	1	5	0
+Sharon L Lohr	4	6	0
+Shaun R Seaman	1	0	0
+Shein-Chung Chow	1	0	0
+Sheng Luo	2	10	0
+ShengLi Tzeng	1	0	0
+Shibao Feng	1	5	0
+Shie-Shien Yang	1	0	0
+Shijie Tang	1	10	0
+Shili Lin	1	4	0
+Shinsuke Koyama	1	0	0
+Shinto Eguchi	4	8	1
+Shiqing Ling	10	15	5
+Shogo Kato	2	2	0
+Shoichi Sasabuchi	1	0	0
+Shu-Chuan Chen	2	0	0
+Shuangge Ma	6	85	2
+Shuanglin Zhang	1	0	0
+Shubhankar Ray	2	19	0
+Shuheng Zhou	1	1	0
+Shulamith T Gross	1	7	0
+Shun-Yi Chen	1	0	0
+Shurong Zheng	1	4	0
+Shuyuan He	1	0	0
+Shyamal Das Peddada	5	24	1
+Sibel Sirakaya	1	0	0
+Siddhartha Chib	3	0	0
+Siegfried Hormann	2	32	1
+Siem Jan Koopman	2	0	0
+Siew Leng Teng	1	0	0
+Siji Wang	1	10	0
+Sijian Wang	1	4	0
+Sikyum Lee	1	6	0
+Silke W W Rolles	1	0	0
+Silvia Centanni	1	0	0
+Silvia Goncalves	1	0	0
+Silvia Liverani	1	7	0
+Silvia Shimakura	1	0	0
+Simon C Shaw	1	0	0
+Simon Cauchemez	1	0	0
+Simon Guillotte	1	0	0
+Simon J Godsill	2	0	0
+Simon J Sheather	1	0	0
+Simon N Wood	6	21	10
+Simone Pigolotti	1	0	0
+Simone Vantini	1	2	0
+Sin-Ho Jung	1	0	0
+Sinae Kim	1	5	0
+Sindhu Srinivas	1	14	0
+Sining Chen	3	8	0
+Sioban D Harlow	1	0	0
+Sittisak Leelahanon	1	4	0
+Siu Hung Cheung	2	7	0
+Siu Kei Sun	1	2	0
+Snigdhansu Chatterjee	2	11	0
+Sock-Cheng Lewin-Koh	1	0	0
+Sofia Andersson	1	0	0
+Sofia C Olhede	2	0	0
+Sokbae Lee	3	13	0
+Soma S Dhavala	1	4	0
+Somnath Datta	1	0	0
+Song Xi Chen	14	135	9
+Song Yang	1	0	0
+Song Zhang	1	0	0
+Songhe Cai	1	0	0
+Songnian Chen	2	0	0
+Songqiao Wen	1	20	0
+Sonia Petrone	1	0	0
+Sonja Greven	2	11	0
+Sonja Zehetmayer	1	13	0
+Sophie Baillargeon	1	0	0
+Sophie Dabo-Niang	1	3	0
+Sophie Schbath	1	0	0
+Soren Hojsgaard	1	4	0
+Soren Tolver Jensen	2	0	0
+Soumendra N Lahiri	12	23	3
+Soumik Pal	1	5	0
+Sounak Chakraborty	1	0	0
+Sourav Chatterjee	3	7	0
+Spiridon Penev	1	0	0
+Stan Hurn	1	0	0
+Stanislav Volgushev	2	2	0
+Steen A Andersson	1	0	0
+Stefan Sperlich	4	15	0
+Stefan Van Aelst	5	16	1
+Stefanie Biedermann	3	0	0
+Stefanie Titoff	1	5	0
+Stefano Cabras	1	6	0
+Stefano Favaro	2	12	0
+Stefano M Iacus	1	2	0
+Steffanie A Strathdee	1	4	0
+Steffen L Lauritzen	3	8	1
+Steffen Unkel	1	0	0
+Steinar Engen	1	0	0
+Stephan Clemencon	1	6	0
+Stephan F Huckemann	2	28	0
+Stephane Mallat	2	0	0
+Stephane Mottelet	1	0	0
+Stephanie M Engel	1	15	0
+Stephen Bruce Vardeman	2	3	0
+Stephen E Feinberg	1	7	0
+Stephen E Fienberg	1	1	0
+Stephen G Walker	10	15	9
+Stephen H Shore	1	11	0
+Stephen L Rathbun	1	0	0
+Stephen Lagakos	3	0	0
+Stephen M S Lee	7	4	0
+Stephen M Stigler	1	0	0
+Stephen Ogle	1	0	0
+Stephen P Brooks	1	0	0
+Stephen Portnoy	1	0	0
+Stephen W Raudenbush	1	0	0
+Steve Brooks	5	5	3
+Steve Butler	1	0	0
+Steve Hanneke	1	3	0
+Steven Bate	1	12	0
+Steven Buyske	1	21	0
+Steven D Mark	1	0	0
+Steven de Rooij	1	8	0
+Steven E Lipshultz	1	11	0
+Steven E Stern	1	5	0
+Steven J Novick	1	0	0
+Steven K Thompson	2	0	0
+Steven L Gortmaker	1	6	0
+Steven L Scott	1	0	0
+Steven M Bortnick	2	0	0
+Steven M Goodreau	1	0	0
+Steven N Evans	1	0	0
+Steven N MacEachern	6	14	1
+Steven P Lalley	1	1	0
+Stijn Vansteelandt	7	30	5
+Stuart Barber	1	0	0
+Stuart Coles	2	3	0
+Stuart R Lipsitz	4	24	0
+Stuart Wagenius	1	0	0
+Su-Chun Cheng	1	7	0
+Subal C Kumbhakar	1	0	0
+Subharup Guha	4	30	1
+Subhash R Lele	1	1	0
+Subhashis Ghosal	8	26	4
+Sucharita Gopal	1	0	0
+Sudipto Banerjee	8	49	6
+Sue Min Lai	1	0	0
+Suhasini Subba Rao	4	5	2
+Sujay Datta	1	4	0
+Sujit K Ghosh	1	2	0
+Sujit K Sahu	1	5	0
+Sumeetpal S Singh	1	8	0
+Sunduz Kelecs	3	0	0
+Sung-Cheol Yun	1	0	0
+Sung-Ho Kim	1	1	0
+Sungduk Kim	2	2	0
+Sunghoon Kwon	1	12	0
+Sungkyu Jung	2	28	0
+Sungyoung Auh	1	0	0
+Suojin Wang	5	16	1
+Surajit Ray	3	0	0
+Surya T Tokdar	2	9	1
+Susan A Gauthier	1	0	0
+Susan A Murphy	5	27	2
+Susan Lozier	2	0	0
+Susan Murray	1	0	0
+Susan P Holmes	1	0	0
+Susana Rubin-Bleuer	1	0	0
+Susanne M Schennach	2	1	1
+Susanne Rosthoj	1	0	0
+Suyun Huang	1	3	0
+Suzette Blanchard	1	0	0
+Sveinung Erland	1	0	0
+Swati Biswas	1	4	0
+Syed N U A Kirmani	1	0	0
+Sylvain Arlot	2	19	2
+Sylvain Sardy	1	0	0
+Sylvia Fruhwirth-Schnatter	1	3	0
+Sylvia Richardson	2	3	0
+Sylvie Goetgeluk	1	1	0
+Sylvie Huet	3	7	0
+Szymon Borak	1	9	0
+T C Chang	1	0	0
+T D Downs	1	0	0
+T J Heaton	1	4	0
+T Jaki	1	0	0
+T N Sriram	2	9	0
+T Schweder	1	2	0
+T Tony Cai	33	230	28
+Ta-Hsin Li	5	3	0
+Tadeusz Inglot	1	0	0
+Tae Yoon Kim	1	0	0
+Taeyoung Park	1	0	0
+Tailen Hsing	4	55	1
+Takeshi Tsukamoto	1	0	0
+Takis Merkouris	3	3	0
+Tamas Rudas	1	2	0
+Tanya Henneman	1	0	0
+Tanzy Love	1	0	0
+Tao Huang	2	23	0
+Tao Lin	2	2	0
+Tao Lu	1	33	0
+Tao Shi	2	3	0
+Tao Wang	1	23	0
+Tao Yu	2	26	1
+Tapabrata Maiti	10	27	5
+Tatiyana V Apanasovich	3	26	1
+Tatsuki Koyama	1	0	0
+Tatyana Krivobokova	4	21	2
+Ted Chang	2	3	0
+Teng Zhang	1	0	0
+Terence P Speed	1	2	0
+Terence Tao	1	2	0
+Teresa Ledwina	1	0	0
+Teresa T Pereira	1	0	0
+Terje Myklebust	1	0	0
+Tetsuhisa Miwa	1	0	0
+Thaddeus Tarpey	2	8	1
+Thais C O Fonseca	2	19	0
+Thanh Mai Pham Ngoc	1	8	0
+Theo Gasser	5	3	1
+Theodore Karrison	1	0	0
+Theofanis Sapatinas	6	33	2
+Thierry Duchesne	1	0	0
+Thomas A Gerds	1	6	0
+Thomas A Louis	4	5	0
+Thomas A Mazzuchi	1	0	0
+Thomas A Severini	4	3	1
+Thomas Brendan Murphy	1	3	0
+Thomas C M Lee	4	34	0
+Thomas D Cook	1	0	0
+Thomas E Nichols	1	0	0
+Thomas Ferguson	1	0	0
+Thomas H Scheike	4	27	2
+Thomas Hofmann	1	0	0
+Thomas J DiCiccio	5	5	2
+Thomas J Santner	1	0	0
+Thomas Kneib	3	34	0
+Thomas Lumley	1	2	0
+Thomas M Stoker	1	0	0
+Thomas Mathew	2	0	0
+Thomas Michael Dubinin	1	0	0
+Thomas Mikosch	2	1	1
+Thomas P Hettmansperger	1	3	0
+Thomas R Ten Have	4	22	2
+Thomas S Richardson	6	23	3
+Thomas S Shively	1	0	0
+Thomas T Ten Have	1	0	0
+Thomas Verdebout	1	12	0
+Thomas W Sager	1	0	0
+Thorsten Dickhaus	2	30	1
+Thorsten Pauls	1	0	0
+Thorsten Wagner	1	0	0
+Thuan Nguyen	2	7	0
+Tian Cai	1	0	0
+Tian Zheng	2	3	1
+Tianle Hu	1	11	0
+Tianxi Cai	9	73	6
+Tiefeng Jiang	1	13	0
+Tiejun Tong	2	0	0
+Tigran Markaryan	1	0	0
+Tilmann Gneiting	12	86	16
+Tim Holland-Letz	2	13	1
+Tim van Erven	1	8	0
+Timothy D Johnson	1	0	0
+Timothy E Hanson	3	27	2
+Timothy G F Kittel	1	0	0
+Tina Kold Jensen	1	10	0
+Ting Zhang	1	8	0
+Tingjin Chu	1	16	0
+Tirthankar Dasgupta	1	0	0
+Tobias Ryden	4	0	0
+Todd A Kuffner	1	2	0
+Todd Graves	1	0	0
+Tom Britton	2	0	0
+Tom M W Nye	1	2	0
+Tomohiro Ando	2	4	1
+Tong Zhang	5	26	0
+Tor D Tosteson	1	0	0
+Tor D Wager	1	0	0
+Torben Martinussen	4	16	2
+Tore Ericsson	1	21	0
+Torsten Hothorn	1	17	0
+Toshiaki Watanabe	1	0	0
+Tracy L Nolen	1	11	0
+Trevor J Hastie	10	36	4
+Trevor J Sweeting	2	2	1
+Trevor Park	1	2	0
+Tristan Zajonc	1	2	0
+Trivellore E Raghunathan	5	19	1
+Truc T Nguyen	1	0	0
+Tso-Jung Yen	1	34	0
+Tsung-Shan Tsou	1	0	0
+Tsz Ho Yim	1	0	0
+Tuan Nguyen	1	1	0
+Tucker McElroy	2	0	0
+Tung Pham	2	15	0
+Tyler H McCormick	1	3	0
+Tyler J Vanderweele	2	5	1
+Tyler J VanderWeele	6	32	3
+Tze Leung Lai	8	11	2
+Tzee-Ming Huang	2	0	0
+Udaya B Kogalur	1	6	0
+Ulrich Stadtmuller	3	10	0
+Ulrike von Luxburg	1	0	0
+Ursula Gather	2	3	1
+Ursula U Muller	2	12	0
+Usha Govindarajulu	1	5	0
+Uta Pigorsch	1	2	0
+Uwe Einmahl	1	0	0
+V A Reisen	1	0	0
+V De Gruttola	1	0	0
+V Delouille	1	0	0
+V G S Vasdekis	1	4	0
+V Joseph Hotz	1	0	0
+V Roshan Joseph	5	11	1
+V S Mandrekar	1	7	0
+Vadim Grinshtein	2	20	1
+Vadim M Zipunnikov	1	10	0
+Valen E Johnson	5	9	2
+Valentin Patilea	2	0	0
+Valentina Corradi	1	11	0
+Valentina Leucari	1	0	0
+Valentine Genon-Catalot	1	2	0
+Van L Parsons	2	7	0
+Vanessa Didelez	2	0	0
+Vanja Dukic	2	4	0
+Veerabhadran Baladandayuthapani	2	28	0
+Venkata K Jandhyala	1	8	0
+Vern T Farewell	1	0	0
+Veronica J Berrocal	2	8	0
+Veronika Czellar	1	17	0
+Veronika Gontscharuk	1	0	0
+Veronika Zarnitsyna	1	3	0
+Vessela K Stoimenova	1	0	0
+Viatcheslav B Melas	6	19	3
+Vic Patrangenaru	3	0	0
+Victor Chernozhukov	5	38	3
+Victor J Yohai	6	10	0
+Victor M Panaretos	2	18	0
+Victor Shrira	1	0	0
+Victorino M Ramos	1	0	0
+Vijayan N Nair	3	0	0
+Viktor Todorov	2	9	0
+Viktor Tsyrennikov	1	0	0
+Vincent J Carey	2	1	1
+Vincent Magnotta	1	4	0
+Vincent T Mule Jr	1	7	0
+Vippal Savani	1	0	0
+Visa Koivunen	1	0	0
+Viswanath Devanarayan	1	0	0
+Vivekananda Roy	1	4	0
+Vladimir Koltchinskii	6	41	3
+Vladimir N Kulikov	2	1	1
+Vladimir S Troynikov	1	0	0
+Vladimir Spokoiny	7	8	1
+Vladimir Vovk	2	0	0
+Vladislav Kargin	1	3	0
+Volkmar Liebscher	1	0	0
+Volodymyr Melnykov	1	4	0
+W J Hall	1	0	0
+W L Xu	1	4	0
+W Ryan Diver	1	5	0
+W Tinsson	1	7	0
+Wai-Cheung Ip	1	0	0
+Wai Keung Li	3	7	1
+Wai Sum Chan	3	7	0
+Walter Distaso	1	11	0
+Walter F Mascarenhas	1	4	0
+Walter Racugno	1	6	0
+Walter T Federer	1	0	0
+Wang Zhou	3	0	0
+Wanli Min	1	6	0
+Wanzhu Tu	1	3	0
+Warren Strauss	1	0	0
+Wayne A Fuller	6	4	1
+Wayne A Woodward	1	0	0
+Wayne C Levy	1	2	0
+Wayne S DeSarbo	1	0	0
+Wee-Jing Ng	1	0	0
+Wei-Liem Loh	4	1	0
+Wei-Ming Lee	1	5	0
+Wei Biao Wu	12	40	8
+Wei Gao	1	2	0
+Wei Lin	1	2	0
+Wei Liu	3	27	1
+Wei Pan	2	21	0
+Wei Yan	1	6	0
+Wei Yann Tsai	5	15	3
+Wei Zhao	1	12	0
+Wei Zheng	1	7	0
+Wei Zhu	1	0	0
+Weidong Liu	6	60	3
+Weihua Cao	1	1	0
+Weijing Wang	4	0	1
+Weili Lin	4	26	1
+Weining Zhou	1	0	0
+Weiping Zhang	2	32	1
+Weiwei Wang	2	0	0
+Weixin Yao	1	0	0
+Weixing Song	1	1	0
+Weizhen Wang	3	6	0
+Wen-Han Hwang	1	0	0
+Wen-Lin Lai	1	3	0
+Wenbin Lu	6	41	2
+Wendy Meiring	1	0	0
+Weng Kee Wong	1	9	0
+Wenge Guo	2	39	0
+Wenguang Sun	4	41	4
+Wenhua Jiang	1	11	0
+Wenjing Yang	1	0	0
+Wenqing He	1	4	0
+Wensheng Guo	6	31	2
+Wensheng Zhu	1	3	0
+Wensong Wu	1	26	0
+Wentao Feng	1	3	0
+Wenwen Tao	1	16	0
+Wenxin Jiang	4	7	1
+Wenxin Mao	1	0	0
+Wenxuan Zhong	1	9	0
+Wenyang Zhang	6	78	4
+Wenyaw Chan	1	0	0
+Wenzheng Huang	2	0	0
+Wenzhi Li	1	0	0
+Werner Brannath	2	4	0
+Werner G Muller	1	0	0
+Werner Stahel	1	0	0
+Wesley O Johnson	2	10	0
+Wessel N van Wieringen	1	0	0
+Wicher P Bergsma	1	2	0
+Wilbert C M Kallenberg	1	0	0
+Wilfredo Palma	1	11	0
+Willa W Chen	5	1	1
+Willem R van Zwet	1	0	0
+William Byerley	1	0	0
+William E Strawderman	5	7	1
+William F Rosenberger	3	1	1
+William H Swallow	1	0	0
+William Kleiber	2	34	0
+William Li	1	15	0
+William R Schucany	1	0	0
+William R Shadish	2	3	0
+William T M Dunsmuir	1	0	0
+William W Davis	1	0	0
+Wilson W Lu	1	0	0
+Winfried Stute	4	3	1
+Wing Hung Wong	5	17	2
+Wing K Fung	2	16	1
+Witold Bednorz	1	4	0
+Wojciech Olszewski	1	5	0
+Wolfgang Bischoff	2	0	0
+Wolfgang Dahmen	1	0	0
+Wolfgang Karl Hardle	8	32	1
+Wolfgang Polonik	2	8	1
+Wolfgang S Jank	3	6	0
+Wolfgang Wefelmeyer	3	0	0
+Woncheol Jang	1	12	0
+X Fang	1	0	0
+X Jessie Jeng	2	27	0
+X Joan Hu	1	0	0
+Xavier de Luna	1	9	0
+Xi Luo	1	22	0
+Xi Zhou	1	0	0
+Xia Cui	2	25	0
+Xianchao Xie	1	2	0
+Xiang-Yang Lou	1	0	0
+Xiang Liu	2	27	0
+Xiangrong Yin	4	16	1
+Xianyang Zhang	1	8	0
+Xianzheng Huang	1	0	0
+Xiao-Gang Su	1	0	0
+Xiao-Hua Zhou	4	17	0
+Xiao-Li Meng	4	7	1
+Xiao Wang	3	3	1
+Xiaobo Ding	1	18	0
+Xiaochun Li	1	0	0
+Xiaodong Luo	4	12	0
+Xiaofeng Shao	5	17	1
+Xiaofeng Tan	1	0	0
+Xiaogang Wang	2	0	0
+Xiaohong Chen	4	25	1
+Xiaohui Wang	1	9	0
+Xiaojing Wang	1	6	0
+Xiaomin Lu	1	0	0
+Xiaoming Huo	3	2	0
+Xiaoping Jin	1	0	0
+Xiaoping Xu	2	24	0
+Xiaotong Shen	10	86	14
+Xiaowei Wang	2	6	1
+Xiaoyan Shi	2	7	0
+Xihong Lin	12	60	9
+Xin-Bing Kong	2	23	0
+Xin Chen	2	27	0
+Xin Gao	2	18	0
+Xin Li	1	0	0
+Xin Liu	1	0	0
+Xin Qi	1	4	0
+Xin Tong	1	20	0
+Xingdong Feng	2	14	0
+Xingqiu Zhao	3	3	0
+Xingwei Tong	1	20	0
+Xingye Qiao	1	23	0
+Xinlei Wang	3	5	0
+Xinwei Deng	3	27	0
+Xinxin Yu	1	7	0
+Xinyi Xu	2	6	1
+Xinyu Zhang	2	27	0
+Xinyuan Song	1	7	0
+Xiudong Lei	1	2	0
+Xiuzhen Cheng	1	0	0
+Xu-Feng Niu	1	0	0
+Xu He	1	2	0
+Xu Xu	1	4	0
+XuanLong Nguyen	1	3	0
+Xue Wang	1	3	0
+Xuefeng Liu	1	4	0
+Xuegong Zhang	1	0	0
+Xuelei Ni	1	2	0
+Xueli Liu	1	0	0
+Xuemei Huang	1	16	0
+Xueqin Wang	1	0	0
+Xuming He	17	80	6
+Y Amit	1	0	0
+Y Boissy	1	0	0
+Y Munoz Maldonado	1	5	0
+Y Rinott	1	7	0
+Ya Xue	1	24	0
+Yaacov Ritov	3	10	0
+Yacine Ait-Sahalia	11	34	10
+Yair Goldberg	1	21	0
+Yajun Mei	2	3	1
+Yaming Yu	1	0	0
+Yan Lan	1	3	0
+Yan Li	3	7	0
+Yan Sun	2	28	1
+Yan Yu	2	1	0
+Yan Zhang	1	3	0
+Yanan Fan	1	0	0
+Yanbing Zheng	1	3	0
+Yang Feng	4	63	0
+Yang Yang	1	3	0
+Yaning Yang	1	0	0
+Yaniv Plan	2	22	0
+Yannick Baraud	4	7	0
+Yannis G Yatracos	1	0	0
+Yannis Jemiai	1	0	0
+Yanping Yi	1	6	0
+Yanqin Fan	2	0	0
+Yanqing Sun	2	10	0
+Yanyuan Ma	18	106	17
+Yao-Ban Chan	3	28	0
+Yashen Chen	1	2	0
+Yasheng Chen	1	4	0
+Yasuhiro Omori	1	0	0
+Yasumasa Matsuda	3	10	1
+Yasuo Amemiya	4	6	0
+Yazhen Wang	4	28	3
+Ye Shen	1	6	0
+Yee Whye Teh	1	9	0
+Yehua Li	6	121	3
+Yeonseung Chung	1	31	0
+Yevgen Tymofyeyev	1	2	0
+Yi-Hau Chen	5	19	2
+Yi-Kuan Tseng	1	0	0
+Yi Chai	1	13	0
+Yi Cheng	3	6	1
+Yi Li	7	35	2
+Yi Lin	10	22	3
+Yi Liu	1	2	0
+Yi Lu	1	0	0
+Yichao Wu	6	106	2
+Yifan Huang	1	0	0
+Yihua Zhao	2	11	0
+Yihui Luan	1	0	0
+Yijian Huang	5	22	2
+Yijun Zuo	6	0	3
+Yimei Li	3	12	0
+Yimeng Lu	1	5	0
+Ying-Li Qin	2	23	0
+Ying Bai	1	0	0
+Ying Chen	2	2	0
+Ying Guo	1	0	0
+Ying Huang	1	2	0
+Ying Hung	3	7	1
+Ying Kuen Cheung	3	0	3
+Ying Sun	1	17	0
+Ying Wei	4	25	2
+Ying Yuan	3	18	1
+Ying Zhang	6	7	3
+Ying Zhou	1	4	0
+Yingcun Xia	9	80	4
+Yingqi Zhao	1	5	0
+YingQing Chen	5	12	1
+Yingxing Li	2	11	0
+Yingye Zheng	3	9	1
+Yingying Fan	4	42	1
+Yingying Li	1	21	0
+Yishay Mansour	1	0	0
+Yiyuan She	2	12	0
+Yiyun Zhang	1	26	0
+Yoav Benjamini	6	41	4
+Yoav Freund	1	0	0
+Yoichi Miyata	1	0	0
+Yoichi Nishiyama	1	0	0
+Yong Chen	1	2	0
+Yong Kong	1	0	0
+Yong Wang	1	1	0
+Yong Zhou	6	15	1
+Yongcheng Qi	1	3	0
+Yongcheol Shin	1	0	0
+Yongdai Kim	9	32	1
+Yonghee Lee	1	0	0
+Yongho Jeon	2	0	0
+Yongseok Park	1	3	0
+Yongtao Guan	15	43	11
+Yongwu Shao	1	3	0
+Yongzhao Shao	1	0	0
+Yonil Park	1	0	0
+Yoonkyung Lee	2	2	1
+Yoshihiro Yajima	2	11	0
+You-Gan Wang	5	5	3
+You-Jun Yang	1	0	0
+Youjuan Li	1	1	0
+Youlan Rao	1	2	0
+Young-Ju Kim	1	0	0
+Young Kyung Lee	1	9	0
+Young Truong	1	16	0
+Youngjo Lee	3	9	0
+Youngki Shin	1	6	0
+Yousung Park	1	0	0
+Youyi Shu	1	0	0
+Yu-Jen Cheng	1	9	0
+Yu Cheng	3	11	2
+Yu Chuan Tai	1	2	0
+Yu Golubev	1	0	0
+Yu Shen	8	48	2
+Yu Tang	1	2	0
+Yu Zhang	1	0	0
+Yu Zhu	2	7	0
+Yuan Ji	1	10	0
+Yuan Jiang	2	16	0
+Yuan Li	1	0	0
+Yuan Liao	1	0	0
+Yuanjia Wang	1	0	0
+Yuanqing Ye	1	0	0
+Yuanyuan Lin	1	4	0
+Yuchung J Wang	2	3	0
+Yue S Niu	1	13	0
+Yuedong Wang	5	9	1
+Yueh-Yun Chi	1	3	0
+Yuexiao Dong	2	18	1
+Yufeng Liu	9	121	10
+Yufeng Tu	1	0	0
+Yuguo Chen	4	9	1
+Yuh-Shan Jou	1	5	0
+Yuhong Yang	5	29	2
+Yuhyun Park	1	4	0
+Yuichi Kitamura	1	0	0
+Yujun Wu	1	2	0
+Yukio Kasahara	1	0	0
+Yukun Liu	1	4	0
+Yulia Gavrilov	1	10	0
+Yulia R Gel	3	21	0
+Yulia V Marchenko	1	2	0
+Yun Ju Sung	1	0	0
+Yun Sam Chong	1	10	0
+Yunling Du	1	0	0
+Yunming Mu	1	5	0
+Yunwei Cui	1	3	0
+Yunwen Yang	2	27	1
+Yunxiao He	1	0	0
+Yunzhang Zhu	1	12	0
+Yuping Dong	1	2	0
+Yuri Golubev	1	2	0
+Yuval Nardi	1	0	0
+Yuwon Kim	1	3	0
+Yuzhi Cai	1	4	0
+Yuzo Maruyama	2	7	1
+Yve Aragon	1	0	0
+Yves F Atchade	2	1	0
+Yves G Berger	3	5	3
+Yves Tille	4	2	2
+Yvo Pokern	2	7	0
+Yvonne H S Ho	2	0	0
+Yvonne Pittelkow	1	0	0
+Z Harchaoui	1	10	0
+Z I Botev	1	0	0
+Z L Wang	1	0	0
+Zahra Montazeri	1	3	0
+Zaiying Huang	1	0	0
+Zbigniew Szkutnik	1	0	0
+Zehua Chen	1	5	0
+Zengri Wang	1	0	0
+Zhangsheng Yu	1	5	0
+Zhaohui Su	1	0	0
+Zhaohui Zou	1	0	0
+Zhaosong Lu	1	2	0
+Zhen Liu	1	5	0
+Zhen Pang	1	4	0
+Zheng Su	1	4	0
+Zheng Yuan	1	2	0
+Zhenghui Feng	1	28	0
+Zhengjun Zhang	1	0	0
+Zhengyan Lin	1	2	0
+Zhengyuan Zhu	1	0	0
+Zhezhen Jin	4	8	1
+Zhi Geng	5	10	0
+Zhi Liu	2	23	0
+Zhi Wei	1	13	0
+Zhibiao Zhao	3	7	2
+Zhidong Bai	1	4	0
+Zhigang Zhang	2	11	1
+Zhigen Zhao	1	4	0
+Zhiguo Li	1	4	0
+Zhihong Cai	2	3	0
+Zhihua Su	2	5	1
+Zhijian Chen	1	3	0
+Zhijie Xiao	5	2	2
+Zhijin Wu	1	0	0
+Zhiliang Ying	8	8	2
+Zhiqiang Tan	11	46	8
+Zhishen Ye	1	0	0
+Zhishui Hu	1	0	0
+Zhiwei Zhang	1	2	0
+Zhiyi Chi	3	31	0
+Zhiyi Zhang	1	1	0
+Zhong Guan	1	0	0
+Zhonghua Gu	1	2	0
+Zhongyi Zhu	4	36	1
+Zhou Zhou	3	15	1
+Ziding Feng	1	1	0
+Zinoviy Landsman	1	0	0
+Zonghui Hu	3	4	0
+Zongming Ma	1	2	0
+Zongwu Cai	3	22	2
+Zsolt Talata	1	0	0
+Zudi Lu	4	7	2
+Zuoheng Wang	1	2	0
+Zuoqin Wang	1	2	0
