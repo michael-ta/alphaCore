@@ -29,6 +29,8 @@ mahalanobis.origin <- function(data, sigma) {
         sv <- svd(sigma)
         sigma.inv <- sv$v %*% diag(1/sv$d) %*% t(sv$u)
         warning("Inverse of sigma computed by SVD")
+        distance <- apply(data, 1, FUN=function(x){sqrt(sum((x-0) ^ 2))})
+        return(distance)
     }
     apply(data, 1, function(x) x %*% sigma.inv %*% matrix(x))
 }

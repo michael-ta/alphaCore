@@ -65,8 +65,8 @@ labelfn <- paste("./data/label", network, "txt", sep=".")
 if (! file.exists(labelfn)) {
     data.labels <- NA
 } else {
-    data.labels <- read.csv(labelfn, header=F)
-    data.labels <- as.character(data.labels$V1)
+    data.labels <- read.csv(labelfn, header=F, sep="\t", 
+                            colClasses="character")
     data.labels <- NA
 }
 
